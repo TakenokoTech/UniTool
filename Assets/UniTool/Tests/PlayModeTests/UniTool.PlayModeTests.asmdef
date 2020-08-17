@@ -1,8 +1,7 @@
-﻿{
+{
     "name": "UniTool.PlayModeTests",
     "references": [
         "UnityEngine.TestRunner",
-        "UnityEditor.TestRunner",
         "UniTool"
     ],
     "includePlatforms": [],
