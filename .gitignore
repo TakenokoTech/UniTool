@@ -77,8 +77,13 @@ crashlytics-build.properties
 Assets/Plugins/Editor/JetBrains*
 
 # ========================= #
-# Test  #
+# Test                      #
 # ========================= #
 test-results/
 /[Aa]ssets/Init*.unity
 /[Aa]ssets/Init*.unity.meta
+
+# ========================= #
+# Package                   #
+# ========================= #
+Dist/

@@ -15,7 +15,7 @@ namespace UniTool.Scripts.Editor
         {
             var version = Environment.GetEnvironmentVariable("UNITY_PACKAGE_VERSION");
             var fileName = string.IsNullOrEmpty(version) ? "UniTool.unitypackage" : $"UniTool.{version}.unitypackage";
-            var exportPath = "./Build/" + fileName;
+            var exportPath = "Dist/" + fileName;
             
             var path = Path.Combine(Application.dataPath, Root);
             var assets = Directory.EnumerateFiles(path, "*", SearchOption.AllDirectories)
