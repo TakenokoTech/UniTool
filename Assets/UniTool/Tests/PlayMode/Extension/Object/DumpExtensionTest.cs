@@ -3,7 +3,7 @@ using UniTool.Scripts.Runtime.Extension.Object;
 
 namespace UniTool.Tests.PlayMode.Extension.Object
 {
-    public class ObjectExtensionTest
+    public class DumpExtensionTest
     {
         [Test]
         public void Class()

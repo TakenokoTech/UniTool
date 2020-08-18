@@ -3,7 +3,7 @@ using System.Reflection;
 
 namespace UniTool.Scripts.Runtime.Extension.Object
 {
-    public static class DumpObjectExtension
+    public static class DumpExtension
     {
         public static string Dump<T>(this T obj)
         {
