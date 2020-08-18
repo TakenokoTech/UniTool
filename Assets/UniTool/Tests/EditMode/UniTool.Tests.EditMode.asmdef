@@ -1,5 +1,5 @@
 {
-    "name": "UniTool.EditModeTests",
+    "name": "UniTool.Tests.EditMode",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
