@@ -38,7 +38,7 @@ jobs:
           buildMethod: UniTool.Scripts.Editor.UnityPackageExporter.Export
 
       # Output
-      - uses: actions/upload-artifact@v1
+      - uses: actions/upload-artifact@v2
         with:
           name: UniTool.unitypackage
           path: Dist/UniTool.unitypackage
