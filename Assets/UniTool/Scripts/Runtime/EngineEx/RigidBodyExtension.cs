@@ -1,7 +1,7 @@
-using UniTool.Scripts.Runtime.Extension.Object;
+using UniTool.Scripts.Runtime.ObjectEx;
 using UnityEngine;
 
-namespace UniTool.Scripts.Runtime.GameObject
+namespace UniTool.Scripts.Runtime.EngineEx
 {
     public static class RigidBodyExtension
     {

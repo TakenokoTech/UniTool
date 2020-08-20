@@ -1,8 +1,7 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace UniTool.Scripts.Runtime.Extension.Enumerable
+namespace UniTool.Scripts.Runtime.EnumerableEx
 {
     public static class EnumerableExtension
     {

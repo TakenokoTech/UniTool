@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using UniTool.Scripts.Runtime.Extension.Enumerable;
+using UniTool.Scripts.Runtime.EnumerableEx;
 
-namespace UniTool.Tests.PlayMode.Extension.Enumerable
+namespace UniTool.Tests.PlayMode.EnumerableEx
 {
     public class EnumerableExtensionTest
     {

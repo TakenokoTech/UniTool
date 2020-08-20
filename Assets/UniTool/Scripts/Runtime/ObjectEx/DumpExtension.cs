@@ -1,7 +1,7 @@
 using System.Linq;
 using System.Reflection;
 
-namespace UniTool.Scripts.Runtime.Extension.Object
+namespace UniTool.Scripts.Runtime.ObjectEx
 {
     public static class DumpExtension
     {
