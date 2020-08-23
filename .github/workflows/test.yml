@@ -29,7 +29,16 @@ jobs:
         uses: webbertakken/unity-test-runner@v1.3
         with:
           unityVersion: 2019.3.7f1
-          customParameters: -enableCodeCoverage 
+          customParameters: -enableCodeCoverage
+          testMode: playmode
+                
+      # Test
+      - name: Run tests
+        uses: webbertakken/unity-test-runner@v1.3
+        with:
+          unityVersion: 2019.3.7f1
+          customParameters: -enableCodeCoverage
+          testMode: editmode
 
       # Output
       - uses: actions/upload-artifact@v1
@@ -41,10 +50,21 @@ jobs:
       - uses: actions/upload-artifact@v1
         with:
           name: CodeCoverage
-          path: .
+          path: CodeCoverage
           
       - uses: IgnusG/jest-report-action@v2.3.3
         with:
           access-token: ${{ secrets.GITHUB_TOKEN }}
           junit-file: artifacts/playmode-results.xml
       
+      - name: Coverage Report
+        uses: codecov/codecov-action@v1
+        with:
+          flags: unittests
+          file: ./CodeCoverage/workspace-opencov/EditMode/TestCoverageResults_0000.xml
+          
+      - name: Coverage Report
+        uses: codecov/codecov-action@v1
+        with:
+          flags: unittests
+          file: ./CodeCoverage/workspace-opencov/PlayMode/TestCoverageResults_0000.xml
