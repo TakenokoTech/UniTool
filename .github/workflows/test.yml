@@ -51,18 +51,15 @@ jobs:
         with:
           name: CodeCoverage
           path: CodeCoverage
-          
-      - uses: IgnusG/jest-report-action@v2.3.3
-        with:
-          access-token: ${{ secrets.GITHUB_TOKEN }}
-          junit-file: artifacts/playmode-results.xml
       
+      # Coverage
       - name: Coverage Report
         uses: codecov/codecov-action@v1
         with:
           flags: unittests
           file: ./CodeCoverage/workspace-opencov/EditMode/TestCoverageResults_0000.xml
           
+      # Coverage
       - name: Coverage Report
         uses: codecov/codecov-action@v1
         with:
