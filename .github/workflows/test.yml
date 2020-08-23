@@ -1,0 +1,58 @@
+name: Actions 😎
+
+on:
+  pull_request: {}
+  push: { branches: [master, develop] }
+
+env:
+  UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+
+jobs:
+  build:
+    name: Test UniTool project ✨
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          lfs: true
+
+      # Cache
+      - uses: actions/cache@v1.1.0
+        with:
+          path: Library
+          key: Library
+
+      # Test
+      - name: Run tests
+        uses: webbertakken/unity-test-runner@v1.6
+        with:
+          unityVersion: 2019.3.7f1
+          customParameters: -enableCodeCoverage
+
+      # Output
+      - uses: actions/upload-artifact@v1
+        with:
+          name: TestResults
+          path: artifacts
+         
+      # Output
+      - uses: actions/upload-artifact@v1
+        with:
+          name: CodeCoverage
+          path: CodeCoverage
+      
+      # Coverage
+      - name: Coverage Report
+        uses: codecov/codecov-action@v1
+        with:
+          flags: unittests
+          file: ./CodeCoverage/workspace-opencov/EditMode/TestCoverageResults_0000.xml
+          
+      # Coverage
+      - name: Coverage Report
+        uses: codecov/codecov-action@v1
+        with:
+          flags: unittests
+          file: ./CodeCoverage/workspace-opencov/PlayMode/TestCoverageResults_0000.xml
