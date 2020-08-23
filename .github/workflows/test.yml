@@ -40,5 +40,10 @@ jobs:
       - uses: actions/upload-artifact@v1
         with:
           name: CodeCoverage
-          path: /
+          path: .
+          
+      - uses: IgnusG/jest-report-action@v{ current version }
+        with:
+          access-token: ${{ secrets.GITHUB_TOKEN }}
+          junit-file: artifacts/playmode-results
       
