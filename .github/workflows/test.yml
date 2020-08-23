@@ -45,5 +45,5 @@ jobs:
       - uses: IgnusG/jest-report-action@v2.3.3
         with:
           access-token: ${{ secrets.GITHUB_TOKEN }}
-          junit-file: artifacts/playmode-results
+          junit-file: artifacts/playmode-results.xml
       
