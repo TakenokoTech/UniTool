@@ -26,19 +26,10 @@ jobs:
 
       # Test
       - name: Run tests
-        uses: webbertakken/unity-test-runner@v1.3
+        uses: webbertakken/unity-test-runner@v1.6
         with:
           unityVersion: 2019.3.7f1
           customParameters: -enableCodeCoverage
-          testMode: playmode
-                
-      # Test
-      - name: Run tests
-        uses: webbertakken/unity-test-runner@v1.3
-        with:
-          unityVersion: 2019.3.7f1
-          customParameters: -enableCodeCoverage
-          testMode: editmode
 
       # Output
       - uses: actions/upload-artifact@v1
