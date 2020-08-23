@@ -29,6 +29,7 @@ jobs:
         uses: webbertakken/unity-test-runner@v1.3
         with:
           unityVersion: 2019.3.7f1
+          customParameters: -enableCodeCoverage 
 
       # Output
       - uses: actions/upload-artifact@v1
