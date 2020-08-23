@@ -1,5 +1,5 @@
 {
-    "name": "UniTool.PlayModeTests",
+    "name": "UniTool.Tests.PlayMode",
     "references": [
         "UnityEngine.TestRunner",
         "UniTool"

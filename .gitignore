@@ -80,5 +80,6 @@ Assets/Plugins/Editor/JetBrains*
 # Test  #
 # ========================= #
 test-results/
+CodeCoverage/
 /[Aa]ssets/Init*.unity
 /[Aa]ssets/Init*.unity.meta
