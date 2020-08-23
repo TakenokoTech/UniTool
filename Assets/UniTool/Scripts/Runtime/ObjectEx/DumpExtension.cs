@@ -19,13 +19,24 @@ namespace UniTool.Scripts.Runtime.ObjectEx
                 .GetType()
                 .GetProperties(BindingFlags.Instance | BindingFlags.Public)
                 .Where(c => c.CanRead)
-                .Select(c => string.Format(format, c.Name, c.GetValue(obj, null))));
-             
-            if ("".Equals(properties) && "".Equals(fields)) return "{}";
-            if ("".Equals(fields)) return "{" + properties + "}";
-            if ("".Equals(properties)) return "{" + fields + "}";
-             
-            return "{" + string.Join(separator, fields, properties) + "}";
+                .Select(c => string.Format(format, c.Name, c.GetValue(obj))));
+
+            if ("".Equals(properties) && "".Equals(fields))
+            {
+                return "{}";
+            }
+            else if ("".Equals(fields))
+            {
+                return "{" + properties + "}";
+            }
+            else if ("".Equals(properties))
+            {
+                return "{" + fields + "}";
+            }
+            else
+            {
+                return "{" + string.Join(separator, fields, properties) + "}";
+            }
         }
     }
 }

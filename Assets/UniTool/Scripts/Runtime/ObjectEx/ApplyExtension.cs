@@ -13,8 +13,8 @@ namespace UniTool.Scripts.Runtime.ObjectEx
             block(ref obj);
             return obj;
         }
-        
-        public delegate void ApplyClassBlock<in T>(T self) where T: class;
-        public delegate void ApplyStructBlock<T>(ref T self) where T: struct;
     }
+    
+    public delegate void ApplyClassBlock<in T>(T self) where T: class;
+    public delegate void ApplyStructBlock<T>(ref T self) where T: struct;
 }
