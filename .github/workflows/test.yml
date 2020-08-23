@@ -9,7 +9,7 @@ env:
 
 jobs:
   build:
-    name: Build UniTool project ✨
+    name: Test UniTool project ✨
     runs-on: ubuntu-latest
     steps:
       # Checkout
@@ -34,7 +34,7 @@ jobs:
       - uses: actions/upload-artifact@v1
         with:
           name: TestResults
-          path: test-results
+          path: /github/workspace/artifacts
          
       # Output
       - uses: actions/upload-artifact@v1
