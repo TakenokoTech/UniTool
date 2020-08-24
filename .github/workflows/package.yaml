@@ -40,4 +40,4 @@ jobs:
       # Output
       - uses: actions/upload-artifact@v2
         with:
-          path: Dist/UniTool.unitypackage
+          path: Dist
