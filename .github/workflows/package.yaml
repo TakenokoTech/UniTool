@@ -1,4 +1,4 @@
-name: Actions 😎
+name: Packaging
 
 on:
   pull_request: {}
@@ -9,7 +9,7 @@ env:
 
 jobs:
   build:
-    name: Build UnityPackage ✨
+    name: Build UniTool UnityPackage
     runs-on: ubuntu-latest
     steps:
       # Checkout

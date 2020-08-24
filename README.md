@@ -1,6 +1,7 @@
 # UniTool
 
-![Actions 😎](https://github.com/TakenokoTech/UniTool/workflows/Actions%20%F0%9F%98%8E/badge.svg?branch=develop&event=gollum)
+![Build](https://github.com/TakenokoTech/UniTool/workflows/Build/badge.svg)
+![TestCov](https://github.com/TakenokoTech/UniTool/workflows/TestCov/badge.svg)
 [![codecov](https://codecov.io/gh/TakenokoTech/UniTool/branch/develop/graph/badge.svg)](https://codecov.io/gh/TakenokoTech/UniTool)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/TakenokoTech/UniTool/blob/master/LICENSE)
 

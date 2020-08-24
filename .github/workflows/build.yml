@@ -1,4 +1,4 @@
-name: Actions 😎
+name: Build
 
 on:
   pull_request: {}
@@ -9,7 +9,7 @@ env:
 
 jobs:
   build:
-    name: Build UniTool project ✨
+    name: Build UniTool project
     runs-on: ubuntu-latest
     steps:
       # Checkout
