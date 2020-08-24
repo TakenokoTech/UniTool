@@ -1,4 +1,4 @@
-name: Actions 😎
+name: TestCov
 
 on:
   pull_request: {}
