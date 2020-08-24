@@ -17,7 +17,10 @@ namespace UniTool.Scripts.Editor
         {
             var exportPath = GetExportPath();
             var assets = GetAssets();
+            
+            Debug.Log("Export below files" + Environment.NewLine + string.Join(Environment.NewLine, assets));
             ExportPackage(exportPath, assets);
+            Debug.Log("Export complete: " + Path.GetFullPath(exportPath));
         }
         
         public static string GetExportPath()
@@ -37,14 +40,13 @@ namespace UniTool.Scripts.Editor
             return assets;
         }
         
-        public static void ExportPackage(string exportPath, string[] assets)
+        public static string ExportPackage(string exportPath, string[] assets)
         {
-            Debug.Log("Export below files" + Environment.NewLine + string.Join(Environment.NewLine, assets));
             var dir = new FileInfo(exportPath).Directory;
             if (dir != null && !dir.Exists) dir.Create();
             AssetDatabase.ExportPackage(assets, exportPath, ExportPackageOptions.Default);
             File.AppendAllText($"{DistDir}/version", "0.0.1");
-            Debug.Log("Export complete: " + Path.GetFullPath(exportPath));
+            return Path.GetFullPath(exportPath);
         }
     }
 }
