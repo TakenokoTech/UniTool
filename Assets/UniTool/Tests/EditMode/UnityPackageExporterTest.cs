@@ -38,5 +38,12 @@ namespace UniTool.Tests.EditMode
             var path = UnityPackageExporter.ExportPackage("Temp/test", new[]{ "Assets/UniTool/Scenes/SampleScene.unity" });
             Assert.False(path.Equals(""));
         }
+        
+        [Test] 
+        public void ExportVersionTest()
+        {
+            var path = UnityPackageExporter.ExportVersion("Temp/test");
+            Assert.False(path.Equals(""));
+        }
     }
 }
