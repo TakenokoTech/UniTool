@@ -15,3 +15,6 @@
 -logfile - \
 -testResults ./test-results/editmode-results.xml
 # -logfile ./test-results/editmode.log \
+
+# xsltproc Script/nunit-to-junit.xsl ./test-results/playmode-results.xml > ./test-results/playmode-results-junit.xml
+# xsltproc Script/nunit-to-junit.xsl ./test-results/editmode-results.xml > ./test-results/editmode-results-junit.xml
