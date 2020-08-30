@@ -13,7 +13,6 @@ fail("fdescribe left in tests") if `grep -r fdescribe specs/ `.length > 1
 fail("fit left in tests") if `grep -r fit specs/ `.length > 1
 
 `find . | grep ".*-results.xml"`.split("\n").each do |path|
-    info(path)
     junit.parse(path)
     junit.report
 end
