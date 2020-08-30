@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace UniTool.Scripts.Editor
 {
-    public class UnityPackageExporter : UnityEditor.Editor
+    public static class UnityPackageExporter
     {
         private const string Root = "UniTool";
         private const string DistDir = "Dist";

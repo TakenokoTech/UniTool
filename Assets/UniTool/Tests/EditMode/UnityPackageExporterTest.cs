@@ -1,7 +1,6 @@
 using System.Linq;
 using NUnit.Framework;
 using UniTool.Scripts.Editor;
-using UnityEngine;
 
 namespace UniTool.Tests.EditMode
 {
