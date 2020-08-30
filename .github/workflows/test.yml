@@ -17,6 +17,19 @@ jobs:
         uses: actions/checkout@v2
         with:
           lfs: true
+      
+      # Setup Ruby
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '2.7'
+          architecture: 'x64'
+      
+      # Install Denger
+      - name: Install Danger
+        run: |
+          sudo apt-get install xsltproc
+          gem install danger
+          gem install danger-junit
 
       # Cache
       - uses: actions/cache@v1.1.0
@@ -30,6 +43,12 @@ jobs:
         with:
           unityVersion: 2019.3.7f1
           customParameters: -enableCodeCoverage
+      
+      # Run Danger
+      - run: danger
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # Output
       - uses: actions/upload-artifact@v1
