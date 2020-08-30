@@ -9,8 +9,8 @@ warn("PR is classed as Work in Progress") if github.pr_title.include? "[WIP]"
 warn("Big PR") if git.lines_of_code > 500
 
 # Convert Test Report
-system("xsltproc Script/nunit-to-junit.xsl artifacts/playmode-results.xml > artifacts/playmode-results-junit.xml")
-system("xsltproc Script/nunit-to-junit.xsl artifacts/editmode-results.xml > artifacts/editmode-results-junit.xml")
+system("sudo xsltproc Script/nunit-to-junit.xsl artifacts/playmode-results.xml > artifacts/playmode-results-junit.xml")
+system("sudo xsltproc Script/nunit-to-junit.xsl artifacts/editmode-results.xml > artifacts/editmode-results-junit.xml")
 
 # Denger
 `find . | grep ".*-results-junit.xml"`.split("\n").each do |path|
