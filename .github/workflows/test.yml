@@ -30,6 +30,18 @@ jobs:
         with:
           unityVersion: 2019.3.7f1
           customParameters: -enableCodeCoverage
+          
+      # Setup Ruby
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '2.7'
+          architecture: 'x64'
+      
+      # Denger
+      - name: Install Danger
+        run: |
+          gem install danger
+          gem install danger-junit
 
       # Output
       - uses: actions/upload-artifact@v1
