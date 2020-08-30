@@ -27,7 +27,7 @@ jobs:
       # Install Denger
       - name: Install Danger
         run: |
-          apt-get install xsltproc
+          sudo apt-get install xsltproc
           gem install danger
           gem install danger-junit
 
