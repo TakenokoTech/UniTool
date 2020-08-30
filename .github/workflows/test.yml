@@ -27,6 +27,7 @@ jobs:
       # Install Denger
       - name: Install Danger
         run: |
+          brew install libxslt
           gem install danger
           gem install danger-junit
 
