@@ -37,11 +37,16 @@ jobs:
           ruby-version: '2.7'
           architecture: 'x64'
       
-      # Denger
+      # Install Denger
       - name: Install Danger
         run: |
           gem install danger
           gem install danger-junit
+      
+      # Run Danger
+      - run: danger
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # Output
       - uses: actions/upload-artifact@v1
