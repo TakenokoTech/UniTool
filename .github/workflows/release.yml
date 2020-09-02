@@ -43,8 +43,6 @@ jobs:
       # Get Tag
       - id: get-tag
         uses: olegtarasov/get-tag@v2
-        with:
-          tagRegex: "v(.*)"
           
       # Upload Release Asset
       - id: upload-release-asset 
