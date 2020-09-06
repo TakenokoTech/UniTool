@@ -1,13 +1,12 @@
-using System;
 using UnityEngine;
 
 namespace UniTool.Scripts.Runtime.X
 {
     public class LookAtTarget : MonoBehaviour
     {
-        [SerializeField] private Transform target;
-        [SerializeField] private Vector3 offsetPosition;
-        [SerializeField] private Vector3 offsetRotation;
+        [SerializeField] public Transform target;
+        [SerializeField] private Vector3 offsetPosition = Vector3.zero;
+        [SerializeField] private Vector3 offsetRotation = Vector3.zero;
 
         private void Update()
         {
