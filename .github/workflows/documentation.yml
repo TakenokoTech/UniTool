@@ -10,7 +10,7 @@ env:
 jobs:
   build:
     name: Docs UniTool project
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       # Checkout
       - name: Checkout repository
@@ -21,7 +21,7 @@ jobs:
       # Install DocFx
       - name: Install
         run: |
-          choco install -y docfx
+          brew install docfx
       
       # Cache
       - uses: actions/cache@v1.1.0
