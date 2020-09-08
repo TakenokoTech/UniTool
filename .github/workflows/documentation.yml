@@ -1,0 +1,31 @@
+name: TestCov
+
+on:
+  pull_request: {}
+  push: { branches: [master] }
+
+jobs:
+  build:
+    name: Test UniTool project
+    runs-on: windows-latest
+    steps:
+      # Checkout
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          lfs: true
+          
+       # Install DocFx
+      - run: choco install -y docfx
+      
+      # Build
+      - name: Build
+        run: |
+          docfx docs/docfx.json
+      
+      # Upload
+      - name: Upload site artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: docs
+          path: docs
