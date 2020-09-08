@@ -16,7 +16,9 @@ jobs:
           lfs: true
           
        # Install DocFx
-      - run: choco install -y docfx
+      - name: Install
+        run: |
+          choco install -y docfx
       
       # Build
       - name: Build
@@ -28,4 +30,4 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: docs
-          path: docs
+          path: docs/_site
