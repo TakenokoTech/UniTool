@@ -4,6 +4,9 @@ on:
   pull_request: {}
   push: { branches: [master] }
 
+env:
+  UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+
 jobs:
   build:
     name: Docs UniTool project
@@ -15,10 +18,22 @@ jobs:
         with:
           lfs: true
           
-       # Install DocFx
+      # Install DocFx
       - name: Install
         run: |
           choco install -y docfx
+      
+      # Cache
+      - uses: actions/cache@v1.1.0
+        with:
+          path: Library
+          key: Library
+
+      # Test
+      - name: Run tests
+        uses: webbertakken/unity-test-runner@v1.3
+        with:
+          unityVersion: 2019.3.7f1
       
       # Build
       - name: Build
