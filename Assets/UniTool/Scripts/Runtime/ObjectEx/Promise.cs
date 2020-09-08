@@ -27,6 +27,9 @@ namespace UniTool.Scripts.Runtime.ObjectEx
     }
     **/
     
+    /// <summary>
+    /// 非同期処理の最終的な完了処理もしくは失敗、およびその結果の値
+    /// </summary>
     public class Promise<T>
     {
         public readonly T Value;
