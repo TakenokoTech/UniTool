@@ -1,4 +1,4 @@
-name: TestCov
+name: Docs
 
 on:
   pull_request: {}
@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    name: Test UniTool project
+    name: Docs UniTool project
     runs-on: windows-latest
     steps:
       # Checkout
