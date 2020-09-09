@@ -50,7 +50,7 @@ jobs:
       - name: Deploy to netlify
         run: |
           npm install netlify-cli
-          npx netlify-cli deploy --dir=.docs/_site --message="update UniTool."　2> deploy.log
+          npx netlify-cli deploy --dir=.docs/_site --message="update UniTool."　1> deploy.log
           set DEPLOY_URL=`findstr "Website Draft URL" deploy.log`
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
