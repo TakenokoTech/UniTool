@@ -27,6 +27,8 @@ jobs:
       - name: Build
         run: |
           cd .docs
+          mklink ../UniTool.csproj src/UniTool.csproj
+          mklink /D ../Assets src/Assets
           docfx metadata
           docfx build
       
