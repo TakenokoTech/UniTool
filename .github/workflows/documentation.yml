@@ -27,8 +27,7 @@ jobs:
       - name: Build
         run: |
           cd .docs
-          docfx metadata
-          docfx docfx.json
+          docfx build
       
       # Upload
       - name: Upload site artifact
