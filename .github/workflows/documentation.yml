@@ -49,9 +49,20 @@ jobs:
       # Deploy Netlify
       - name: Deploy to netlify
         run: |
-          cat ${{ github.event }}
           npm install netlify-cli
-          npx netlify-cli deploy --dir=.docs/_site --message="update UniTool."
+          npx netlify-cli deploy --dir=.docs/_site --message="update UniTool."　2> deploy.log
+          set DEPLOY_URL=`findstr "Website Draft URL" deploy.log`
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          
+      # Comment
+      - uses: actions/github-script@0.8.0
+        with:
+          script: |
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: 'Deploy Completed.\n ${{ DEPLOY_URL }}'
+            })
