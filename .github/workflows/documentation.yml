@@ -49,8 +49,9 @@ jobs:
       # Deploy Netlify
       - name: Deploy to netlify
         run: |
+          cat ${{ github.event }}
           npm install netlify-cli
-          npx netlify-cli deploy --dir=.docs/_site --message="${{github.event.head_commit.message}}\n${{github.event.head_commit.url}}"
+          npx netlify-cli deploy --dir=.docs/_site --message="update UniTool."
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
