@@ -27,6 +27,7 @@ jobs:
       - name: Build
         run: |
           cd .docs
+          docfx metadata
           docfx build
       
       # Upload
