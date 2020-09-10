@@ -1,0 +1,81 @@
+name: Docs
+
+on:
+  pull_request: {}
+  push: { branches: [master] }
+
+env:
+  UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+
+jobs:
+  build:
+    name: Docs UniTool project
+    runs-on: windows-latest
+    steps:
+      # Checkout
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          lfs: true
+      
+      # Install Node
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+          
+      # Install DocFx
+      - name: Install
+        run: |
+          choco install -y docfx
+      
+      # Build
+      - name: Build
+        run: |
+          cd .docs
+          mkdir src
+          copy ..\UniTool.csproj src\UniTool.csproj
+          xcopy /e /i /y ..\Assets src\Assets\ 
+          docfx metadata
+          docfx build
+      
+      # Upload
+      - name: Upload site artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: docs
+          path: .docs/_site
+      
+      # Deploy Netlify
+      - name: Deploy to netlify
+        run: |
+          npm install netlify-cli
+          npx netlify-cli deploy --dir=.docs/_site --message="update UniTool."　1> deploy.log
+          type deploy.log
+          findstr /C:"Website Draft URL" deploy.log 1> url.log          
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          
+      # Comment
+      - uses: actions/github-script@0.8.0
+        with:
+          script: |
+            const fs = require('fs').promises
+            const content = await fs.readFile('url.log', 'utf-8')
+            const regex = /[\u001b\u009b][[()#;?]*(?:[0-9]{1,4}(?:;[0-9]{0,4})*)?[0-9A-ORZcf-nqry=><]/g
+            const url = content.replace(regex, "")
+            console.log(url)
+            
+            const issueNumber = context.issue.number
+            const owner = context.repo.owner
+            const repo = context.repo.repo
+            const text = `Deploy Completed.\n${url}`
+            github.issues.createComment({ issue_number: issueNumber, owner: owner, repo: repo, body: text })
+            
+      # Deploy gh-pages
+      - uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/master'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .docs/_site
