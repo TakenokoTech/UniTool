@@ -1,0 +1,460 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: UniTool.Scripts.Runtime.ColorEx
+  name: UniTool.Scripts.Runtime.ColorEx
+  href: api/UniTool.Scripts.Runtime.ColorEx.html
+  commentId: N:UniTool.Scripts.Runtime.ColorEx
+  fullName: UniTool.Scripts.Runtime.ColorEx
+  nameWithType: UniTool.Scripts.Runtime.ColorEx
+- uid: UniTool.Scripts.Runtime.ColorEx.ColorExtension
+  name: ColorExtension
+  href: api/UniTool.Scripts.Runtime.ColorEx.ColorExtension.html
+  commentId: T:UniTool.Scripts.Runtime.ColorEx.ColorExtension
+  fullName: UniTool.Scripts.Runtime.ColorEx.ColorExtension
+  nameWithType: ColorExtension
+- uid: UniTool.Scripts.Runtime.ColorEx.ColorExtension.ToColor(System.String)
+  name: ToColor(String)
+  href: api/UniTool.Scripts.Runtime.ColorEx.ColorExtension.html#UniTool_Scripts_Runtime_ColorEx_ColorExtension_ToColor_System_String_
+  commentId: M:UniTool.Scripts.Runtime.ColorEx.ColorExtension.ToColor(System.String)
+  fullName: UniTool.Scripts.Runtime.ColorEx.ColorExtension.ToColor(System.String)
+  nameWithType: ColorExtension.ToColor(String)
+- uid: UniTool.Scripts.Runtime.ColorEx.ColorExtension.ToColor*
+  name: ToColor
+  href: api/UniTool.Scripts.Runtime.ColorEx.ColorExtension.html#UniTool_Scripts_Runtime_ColorEx_ColorExtension_ToColor_
+  commentId: Overload:UniTool.Scripts.Runtime.ColorEx.ColorExtension.ToColor
+  isSpec: "True"
+  fullName: UniTool.Scripts.Runtime.ColorEx.ColorExtension.ToColor
+  nameWithType: ColorExtension.ToColor
+- uid: UniTool.Scripts.Runtime.EngineEx
+  name: UniTool.Scripts.Runtime.EngineEx
+  href: api/UniTool.Scripts.Runtime.EngineEx.html
+  commentId: N:UniTool.Scripts.Runtime.EngineEx
+  fullName: UniTool.Scripts.Runtime.EngineEx
+  nameWithType: UniTool.Scripts.Runtime.EngineEx
+- uid: UniTool.Scripts.Runtime.EngineEx.ColliderExtension
+  name: ColliderExtension
+  href: api/UniTool.Scripts.Runtime.EngineEx.ColliderExtension.html
+  commentId: T:UniTool.Scripts.Runtime.EngineEx.ColliderExtension
+  fullName: UniTool.Scripts.Runtime.EngineEx.ColliderExtension
+  nameWithType: ColliderExtension
+- uid: UniTool.Scripts.Runtime.EngineEx.ColliderExtension.GetCollider(GameObject)
+  name: GetCollider(GameObject)
+  href: api/UniTool.Scripts.Runtime.EngineEx.ColliderExtension.html#UniTool_Scripts_Runtime_EngineEx_ColliderExtension_GetCollider_GameObject_
+  commentId: M:UniTool.Scripts.Runtime.EngineEx.ColliderExtension.GetCollider(GameObject)
+  fullName: UniTool.Scripts.Runtime.EngineEx.ColliderExtension.GetCollider(GameObject)
+  nameWithType: ColliderExtension.GetCollider(GameObject)
+- uid: UniTool.Scripts.Runtime.EngineEx.ColliderExtension.GetCollider*
+  name: GetCollider
+  href: api/UniTool.Scripts.Runtime.EngineEx.ColliderExtension.html#UniTool_Scripts_Runtime_EngineEx_ColliderExtension_GetCollider_
+  commentId: Overload:UniTool.Scripts.Runtime.EngineEx.ColliderExtension.GetCollider
+  isSpec: "True"
+  fullName: UniTool.Scripts.Runtime.EngineEx.ColliderExtension.GetCollider
+  nameWithType: ColliderExtension.GetCollider
+- uid: UniTool.Scripts.Runtime.EngineEx.GameObjectExtension
+  name: GameObjectExtension
+  href: api/UniTool.Scripts.Runtime.EngineEx.GameObjectExtension.html
+  commentId: T:UniTool.Scripts.Runtime.EngineEx.GameObjectExtension
+  fullName: UniTool.Scripts.Runtime.EngineEx.GameObjectExtension
+  nameWithType: GameObjectExtension
+- uid: UniTool.Scripts.Runtime.EngineEx.GameObjectExtension.Destroy(GameObject)
+  name: Destroy(GameObject)
+  href: api/UniTool.Scripts.Runtime.EngineEx.GameObjectExtension.html#UniTool_Scripts_Runtime_EngineEx_GameObjectExtension_Destroy_GameObject_
+  commentId: M:UniTool.Scripts.Runtime.EngineEx.GameObjectExtension.Destroy(GameObject)
+  fullName: UniTool.Scripts.Runtime.EngineEx.GameObjectExtension.Destroy(GameObject)
+  nameWithType: GameObjectExtension.Destroy(GameObject)
+- uid: UniTool.Scripts.Runtime.EngineEx.GameObjectExtension.Destroy*
+  name: Destroy
+  href: api/UniTool.Scripts.Runtime.EngineEx.GameObjectExtension.html#UniTool_Scripts_Runtime_EngineEx_GameObjectExtension_Destroy_
+  commentId: Overload:UniTool.Scripts.Runtime.EngineEx.GameObjectExtension.Destroy
+  isSpec: "True"
+  fullName: UniTool.Scripts.Runtime.EngineEx.GameObjectExtension.Destroy
+  nameWithType: GameObjectExtension.Destroy
+- uid: UniTool.Scripts.Runtime.EngineEx.GameObjectExtension.RemoveComponent*
+  name: RemoveComponent
+  href: api/UniTool.Scripts.Runtime.EngineEx.GameObjectExtension.html#UniTool_Scripts_Runtime_EngineEx_GameObjectExtension_RemoveComponent_
+  commentId: Overload:UniTool.Scripts.Runtime.EngineEx.GameObjectExtension.RemoveComponent
+  isSpec: "True"
+  fullName: UniTool.Scripts.Runtime.EngineEx.GameObjectExtension.RemoveComponent
+  nameWithType: GameObjectExtension.RemoveComponent
+- uid: UniTool.Scripts.Runtime.EngineEx.GameObjectExtension.RemoveComponent``1(GameObject)
+  name: RemoveComponent<T>(GameObject)
+  href: api/UniTool.Scripts.Runtime.EngineEx.GameObjectExtension.html#UniTool_Scripts_Runtime_EngineEx_GameObjectExtension_RemoveComponent__1_GameObject_
+  commentId: M:UniTool.Scripts.Runtime.EngineEx.GameObjectExtension.RemoveComponent``1(GameObject)
+  name.vb: RemoveComponent(Of T)(GameObject)
+  fullName: UniTool.Scripts.Runtime.EngineEx.GameObjectExtension.RemoveComponent<T>(GameObject)
+  fullName.vb: UniTool.Scripts.Runtime.EngineEx.GameObjectExtension.RemoveComponent(Of T)(GameObject)
+  nameWithType: GameObjectExtension.RemoveComponent<T>(GameObject)
+  nameWithType.vb: GameObjectExtension.RemoveComponent(Of T)(GameObject)
+- uid: UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension
+  name: RigidBodyExtension
+  href: api/UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.html
+  commentId: T:UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension
+  fullName: UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension
+  nameWithType: RigidBodyExtension
+- uid: UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.AddRigidBody(GameObject)
+  name: AddRigidBody(GameObject)
+  href: api/UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.html#UniTool_Scripts_Runtime_EngineEx_RigidBodyExtension_AddRigidBody_GameObject_
+  commentId: M:UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.AddRigidBody(GameObject)
+  fullName: UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.AddRigidBody(GameObject)
+  nameWithType: RigidBodyExtension.AddRigidBody(GameObject)
+- uid: UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.AddRigidBody*
+  name: AddRigidBody
+  href: api/UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.html#UniTool_Scripts_Runtime_EngineEx_RigidBodyExtension_AddRigidBody_
+  commentId: Overload:UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.AddRigidBody
+  isSpec: "True"
+  fullName: UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.AddRigidBody
+  nameWithType: RigidBodyExtension.AddRigidBody
+- uid: UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.DisableGravity(Rigidbody)
+  name: DisableGravity(Rigidbody)
+  href: api/UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.html#UniTool_Scripts_Runtime_EngineEx_RigidBodyExtension_DisableGravity_Rigidbody_
+  commentId: M:UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.DisableGravity(Rigidbody)
+  fullName: UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.DisableGravity(Rigidbody)
+  nameWithType: RigidBodyExtension.DisableGravity(Rigidbody)
+- uid: UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.DisableGravity*
+  name: DisableGravity
+  href: api/UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.html#UniTool_Scripts_Runtime_EngineEx_RigidBodyExtension_DisableGravity_
+  commentId: Overload:UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.DisableGravity
+  isSpec: "True"
+  fullName: UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.DisableGravity
+  nameWithType: RigidBodyExtension.DisableGravity
+- uid: UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.EnableGravity(Rigidbody)
+  name: EnableGravity(Rigidbody)
+  href: api/UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.html#UniTool_Scripts_Runtime_EngineEx_RigidBodyExtension_EnableGravity_Rigidbody_
+  commentId: M:UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.EnableGravity(Rigidbody)
+  fullName: UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.EnableGravity(Rigidbody)
+  nameWithType: RigidBodyExtension.EnableGravity(Rigidbody)
+- uid: UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.EnableGravity*
+  name: EnableGravity
+  href: api/UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.html#UniTool_Scripts_Runtime_EngineEx_RigidBodyExtension_EnableGravity_
+  commentId: Overload:UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.EnableGravity
+  isSpec: "True"
+  fullName: UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.EnableGravity
+  nameWithType: RigidBodyExtension.EnableGravity
+- uid: UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.GetRigidBody(GameObject)
+  name: GetRigidBody(GameObject)
+  href: api/UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.html#UniTool_Scripts_Runtime_EngineEx_RigidBodyExtension_GetRigidBody_GameObject_
+  commentId: M:UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.GetRigidBody(GameObject)
+  fullName: UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.GetRigidBody(GameObject)
+  nameWithType: RigidBodyExtension.GetRigidBody(GameObject)
+- uid: UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.GetRigidBody*
+  name: GetRigidBody
+  href: api/UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.html#UniTool_Scripts_Runtime_EngineEx_RigidBodyExtension_GetRigidBody_
+  commentId: Overload:UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.GetRigidBody
+  isSpec: "True"
+  fullName: UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.GetRigidBody
+  nameWithType: RigidBodyExtension.GetRigidBody
+- uid: UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.SetDrag(Rigidbody,System.Single)
+  name: SetDrag(Rigidbody, Single)
+  href: api/UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.html#UniTool_Scripts_Runtime_EngineEx_RigidBodyExtension_SetDrag_Rigidbody_System_Single_
+  commentId: M:UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.SetDrag(Rigidbody,System.Single)
+  fullName: UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.SetDrag(Rigidbody, System.Single)
+  nameWithType: RigidBodyExtension.SetDrag(Rigidbody, Single)
+- uid: UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.SetDrag*
+  name: SetDrag
+  href: api/UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.html#UniTool_Scripts_Runtime_EngineEx_RigidBodyExtension_SetDrag_
+  commentId: Overload:UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.SetDrag
+  isSpec: "True"
+  fullName: UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.SetDrag
+  nameWithType: RigidBodyExtension.SetDrag
+- uid: UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.SetMass(Rigidbody,System.Single)
+  name: SetMass(Rigidbody, Single)
+  href: api/UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.html#UniTool_Scripts_Runtime_EngineEx_RigidBodyExtension_SetMass_Rigidbody_System_Single_
+  commentId: M:UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.SetMass(Rigidbody,System.Single)
+  fullName: UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.SetMass(Rigidbody, System.Single)
+  nameWithType: RigidBodyExtension.SetMass(Rigidbody, Single)
+- uid: UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.SetMass*
+  name: SetMass
+  href: api/UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.html#UniTool_Scripts_Runtime_EngineEx_RigidBodyExtension_SetMass_
+  commentId: Overload:UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.SetMass
+  isSpec: "True"
+  fullName: UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.SetMass
+  nameWithType: RigidBodyExtension.SetMass
+- uid: UniTool.Scripts.Runtime.EngineEx.TransformExtension
+  name: TransformExtension
+  href: api/UniTool.Scripts.Runtime.EngineEx.TransformExtension.html
+  commentId: T:UniTool.Scripts.Runtime.EngineEx.TransformExtension
+  fullName: UniTool.Scripts.Runtime.EngineEx.TransformExtension
+  nameWithType: TransformExtension
+- uid: UniTool.Scripts.Runtime.EngineEx.TransformExtension.LookAtCamera(Transform)
+  name: LookAtCamera(Transform)
+  href: api/UniTool.Scripts.Runtime.EngineEx.TransformExtension.html#UniTool_Scripts_Runtime_EngineEx_TransformExtension_LookAtCamera_Transform_
+  commentId: M:UniTool.Scripts.Runtime.EngineEx.TransformExtension.LookAtCamera(Transform)
+  fullName: UniTool.Scripts.Runtime.EngineEx.TransformExtension.LookAtCamera(Transform)
+  nameWithType: TransformExtension.LookAtCamera(Transform)
+- uid: UniTool.Scripts.Runtime.EngineEx.TransformExtension.LookAtCamera*
+  name: LookAtCamera
+  href: api/UniTool.Scripts.Runtime.EngineEx.TransformExtension.html#UniTool_Scripts_Runtime_EngineEx_TransformExtension_LookAtCamera_
+  commentId: Overload:UniTool.Scripts.Runtime.EngineEx.TransformExtension.LookAtCamera
+  isSpec: "True"
+  fullName: UniTool.Scripts.Runtime.EngineEx.TransformExtension.LookAtCamera
+  nameWithType: TransformExtension.LookAtCamera
+- uid: UniTool.Scripts.Runtime.EnumerableEx
+  name: UniTool.Scripts.Runtime.EnumerableEx
+  href: api/UniTool.Scripts.Runtime.EnumerableEx.html
+  commentId: N:UniTool.Scripts.Runtime.EnumerableEx
+  fullName: UniTool.Scripts.Runtime.EnumerableEx
+  nameWithType: UniTool.Scripts.Runtime.EnumerableEx
+- uid: UniTool.Scripts.Runtime.EnumerableEx.EnumerableExtension
+  name: EnumerableExtension
+  href: api/UniTool.Scripts.Runtime.EnumerableEx.EnumerableExtension.html
+  commentId: T:UniTool.Scripts.Runtime.EnumerableEx.EnumerableExtension
+  fullName: UniTool.Scripts.Runtime.EnumerableEx.EnumerableExtension
+  nameWithType: EnumerableExtension
+- uid: UniTool.Scripts.Runtime.EnumerableEx.EnumerableExtension.WithIndex*
+  name: WithIndex
+  href: api/UniTool.Scripts.Runtime.EnumerableEx.EnumerableExtension.html#UniTool_Scripts_Runtime_EnumerableEx_EnumerableExtension_WithIndex_
+  commentId: Overload:UniTool.Scripts.Runtime.EnumerableEx.EnumerableExtension.WithIndex
+  isSpec: "True"
+  fullName: UniTool.Scripts.Runtime.EnumerableEx.EnumerableExtension.WithIndex
+  nameWithType: EnumerableExtension.WithIndex
+- uid: UniTool.Scripts.Runtime.EnumerableEx.EnumerableExtension.WithIndex``1(System.Collections.Generic.IEnumerable{``0})
+  name: WithIndex<T>(IEnumerable<T>)
+  href: api/UniTool.Scripts.Runtime.EnumerableEx.EnumerableExtension.html#UniTool_Scripts_Runtime_EnumerableEx_EnumerableExtension_WithIndex__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:UniTool.Scripts.Runtime.EnumerableEx.EnumerableExtension.WithIndex``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: WithIndex(Of T)(IEnumerable(Of T))
+  fullName: UniTool.Scripts.Runtime.EnumerableEx.EnumerableExtension.WithIndex<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: UniTool.Scripts.Runtime.EnumerableEx.EnumerableExtension.WithIndex(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: EnumerableExtension.WithIndex<T>(IEnumerable<T>)
+  nameWithType.vb: EnumerableExtension.WithIndex(Of T)(IEnumerable(Of T))
+- uid: UniTool.Scripts.Runtime.ObjectEx
+  name: UniTool.Scripts.Runtime.ObjectEx
+  href: api/UniTool.Scripts.Runtime.ObjectEx.html
+  commentId: N:UniTool.Scripts.Runtime.ObjectEx
+  fullName: UniTool.Scripts.Runtime.ObjectEx
+  nameWithType: UniTool.Scripts.Runtime.ObjectEx
+- uid: UniTool.Scripts.Runtime.ObjectEx.ApplyClassBlock`1
+  name: ApplyClassBlock<T>
+  href: api/UniTool.Scripts.Runtime.ObjectEx.ApplyClassBlock-1.html
+  commentId: T:UniTool.Scripts.Runtime.ObjectEx.ApplyClassBlock`1
+  name.vb: ApplyClassBlock(Of T)
+  fullName: UniTool.Scripts.Runtime.ObjectEx.ApplyClassBlock<T>
+  fullName.vb: UniTool.Scripts.Runtime.ObjectEx.ApplyClassBlock(Of T)
+  nameWithType: ApplyClassBlock<T>
+  nameWithType.vb: ApplyClassBlock(Of T)
+- uid: UniTool.Scripts.Runtime.ObjectEx.ApplyExtension
+  name: ApplyExtension
+  href: api/UniTool.Scripts.Runtime.ObjectEx.ApplyExtension.html
+  commentId: T:UniTool.Scripts.Runtime.ObjectEx.ApplyExtension
+  fullName: UniTool.Scripts.Runtime.ObjectEx.ApplyExtension
+  nameWithType: ApplyExtension
+- uid: UniTool.Scripts.Runtime.ObjectEx.ApplyExtension.Apply*
+  name: Apply
+  href: api/UniTool.Scripts.Runtime.ObjectEx.ApplyExtension.html#UniTool_Scripts_Runtime_ObjectEx_ApplyExtension_Apply_
+  commentId: Overload:UniTool.Scripts.Runtime.ObjectEx.ApplyExtension.Apply
+  isSpec: "True"
+  fullName: UniTool.Scripts.Runtime.ObjectEx.ApplyExtension.Apply
+  nameWithType: ApplyExtension.Apply
+- uid: UniTool.Scripts.Runtime.ObjectEx.ApplyExtension.Apply``1(``0,UniTool.Scripts.Runtime.ObjectEx.ApplyClassBlock{``0})
+  name: Apply<T>(T, ApplyClassBlock<T>)
+  href: api/UniTool.Scripts.Runtime.ObjectEx.ApplyExtension.html#UniTool_Scripts_Runtime_ObjectEx_ApplyExtension_Apply__1___0_UniTool_Scripts_Runtime_ObjectEx_ApplyClassBlock___0__
+  commentId: M:UniTool.Scripts.Runtime.ObjectEx.ApplyExtension.Apply``1(``0,UniTool.Scripts.Runtime.ObjectEx.ApplyClassBlock{``0})
+  name.vb: Apply(Of T)(T, ApplyClassBlock(Of T))
+  fullName: UniTool.Scripts.Runtime.ObjectEx.ApplyExtension.Apply<T>(T, UniTool.Scripts.Runtime.ObjectEx.ApplyClassBlock<T>)
+  fullName.vb: UniTool.Scripts.Runtime.ObjectEx.ApplyExtension.Apply(Of T)(T, UniTool.Scripts.Runtime.ObjectEx.ApplyClassBlock(Of T))
+  nameWithType: ApplyExtension.Apply<T>(T, ApplyClassBlock<T>)
+  nameWithType.vb: ApplyExtension.Apply(Of T)(T, ApplyClassBlock(Of T))
+- uid: UniTool.Scripts.Runtime.ObjectEx.ApplyExtension.Apply``1(``0,UniTool.Scripts.Runtime.ObjectEx.ApplyStructBlock{``0})
+  name: Apply<T>(T, ApplyStructBlock<T>)
+  href: api/UniTool.Scripts.Runtime.ObjectEx.ApplyExtension.html#UniTool_Scripts_Runtime_ObjectEx_ApplyExtension_Apply__1___0_UniTool_Scripts_Runtime_ObjectEx_ApplyStructBlock___0__
+  commentId: M:UniTool.Scripts.Runtime.ObjectEx.ApplyExtension.Apply``1(``0,UniTool.Scripts.Runtime.ObjectEx.ApplyStructBlock{``0})
+  name.vb: Apply(Of T)(T, ApplyStructBlock(Of T))
+  fullName: UniTool.Scripts.Runtime.ObjectEx.ApplyExtension.Apply<T>(T, UniTool.Scripts.Runtime.ObjectEx.ApplyStructBlock<T>)
+  fullName.vb: UniTool.Scripts.Runtime.ObjectEx.ApplyExtension.Apply(Of T)(T, UniTool.Scripts.Runtime.ObjectEx.ApplyStructBlock(Of T))
+  nameWithType: ApplyExtension.Apply<T>(T, ApplyStructBlock<T>)
+  nameWithType.vb: ApplyExtension.Apply(Of T)(T, ApplyStructBlock(Of T))
+- uid: UniTool.Scripts.Runtime.ObjectEx.ApplyStructBlock`1
+  name: ApplyStructBlock<T>
+  href: api/UniTool.Scripts.Runtime.ObjectEx.ApplyStructBlock-1.html
+  commentId: T:UniTool.Scripts.Runtime.ObjectEx.ApplyStructBlock`1
+  name.vb: ApplyStructBlock(Of T)
+  fullName: UniTool.Scripts.Runtime.ObjectEx.ApplyStructBlock<T>
+  fullName.vb: UniTool.Scripts.Runtime.ObjectEx.ApplyStructBlock(Of T)
+  nameWithType: ApplyStructBlock<T>
+  nameWithType.vb: ApplyStructBlock(Of T)
+- uid: UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension
+  name: ClassNameExtension
+  href: api/UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension.html
+  commentId: T:UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension
+  fullName: UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension
+  nameWithType: ClassNameExtension
+- uid: UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension.GetClassName*
+  name: GetClassName
+  href: api/UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension.html#UniTool_Scripts_Runtime_ObjectEx_ClassNameExtension_GetClassName_
+  commentId: Overload:UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension.GetClassName
+  isSpec: "True"
+  fullName: UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension.GetClassName
+  nameWithType: ClassNameExtension.GetClassName
+- uid: UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension.GetClassName``1(``0)
+  name: GetClassName<T>(T)
+  href: api/UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension.html#UniTool_Scripts_Runtime_ObjectEx_ClassNameExtension_GetClassName__1___0_
+  commentId: M:UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension.GetClassName``1(``0)
+  name.vb: GetClassName(Of T)(T)
+  fullName: UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension.GetClassName<T>(T)
+  fullName.vb: UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension.GetClassName(Of T)(T)
+  nameWithType: ClassNameExtension.GetClassName<T>(T)
+  nameWithType.vb: ClassNameExtension.GetClassName(Of T)(T)
+- uid: UniTool.Scripts.Runtime.ObjectEx.DumpExtension
+  name: DumpExtension
+  href: api/UniTool.Scripts.Runtime.ObjectEx.DumpExtension.html
+  commentId: T:UniTool.Scripts.Runtime.ObjectEx.DumpExtension
+  fullName: UniTool.Scripts.Runtime.ObjectEx.DumpExtension
+  nameWithType: DumpExtension
+- uid: UniTool.Scripts.Runtime.ObjectEx.DumpExtension.Dump*
+  name: Dump
+  href: api/UniTool.Scripts.Runtime.ObjectEx.DumpExtension.html#UniTool_Scripts_Runtime_ObjectEx_DumpExtension_Dump_
+  commentId: Overload:UniTool.Scripts.Runtime.ObjectEx.DumpExtension.Dump
+  isSpec: "True"
+  fullName: UniTool.Scripts.Runtime.ObjectEx.DumpExtension.Dump
+  nameWithType: DumpExtension.Dump
+- uid: UniTool.Scripts.Runtime.ObjectEx.DumpExtension.Dump``1(``0)
+  name: Dump<T>(T)
+  href: api/UniTool.Scripts.Runtime.ObjectEx.DumpExtension.html#UniTool_Scripts_Runtime_ObjectEx_DumpExtension_Dump__1___0_
+  commentId: M:UniTool.Scripts.Runtime.ObjectEx.DumpExtension.Dump``1(``0)
+  name.vb: Dump(Of T)(T)
+  fullName: UniTool.Scripts.Runtime.ObjectEx.DumpExtension.Dump<T>(T)
+  fullName.vb: UniTool.Scripts.Runtime.ObjectEx.DumpExtension.Dump(Of T)(T)
+  nameWithType: DumpExtension.Dump<T>(T)
+  nameWithType.vb: DumpExtension.Dump(Of T)(T)
+- uid: UniTool.Scripts.Runtime.ObjectEx.Promise`1
+  name: Promise<T>
+  href: api/UniTool.Scripts.Runtime.ObjectEx.Promise-1.html
+  commentId: T:UniTool.Scripts.Runtime.ObjectEx.Promise`1
+  name.vb: Promise(Of T)
+  fullName: UniTool.Scripts.Runtime.ObjectEx.Promise<T>
+  fullName.vb: UniTool.Scripts.Runtime.ObjectEx.Promise(Of T)
+  nameWithType: Promise<T>
+  nameWithType.vb: Promise(Of T)
+- uid: UniTool.Scripts.Runtime.ObjectEx.Promise`1.#ctor(`0)
+  name: Promise(T)
+  href: api/UniTool.Scripts.Runtime.ObjectEx.Promise-1.html#UniTool_Scripts_Runtime_ObjectEx_Promise_1__ctor__0_
+  commentId: M:UniTool.Scripts.Runtime.ObjectEx.Promise`1.#ctor(`0)
+  fullName: UniTool.Scripts.Runtime.ObjectEx.Promise<T>.Promise(T)
+  fullName.vb: UniTool.Scripts.Runtime.ObjectEx.Promise(Of T).Promise(T)
+  nameWithType: Promise<T>.Promise(T)
+  nameWithType.vb: Promise(Of T).Promise(T)
+- uid: UniTool.Scripts.Runtime.ObjectEx.Promise`1.#ctor(System.Exception)
+  name: Promise(Exception)
+  href: api/UniTool.Scripts.Runtime.ObjectEx.Promise-1.html#UniTool_Scripts_Runtime_ObjectEx_Promise_1__ctor_System_Exception_
+  commentId: M:UniTool.Scripts.Runtime.ObjectEx.Promise`1.#ctor(System.Exception)
+  fullName: UniTool.Scripts.Runtime.ObjectEx.Promise<T>.Promise(System.Exception)
+  fullName.vb: UniTool.Scripts.Runtime.ObjectEx.Promise(Of T).Promise(System.Exception)
+  nameWithType: Promise<T>.Promise(Exception)
+  nameWithType.vb: Promise(Of T).Promise(Exception)
+- uid: UniTool.Scripts.Runtime.ObjectEx.Promise`1.#ctor*
+  name: Promise
+  href: api/UniTool.Scripts.Runtime.ObjectEx.Promise-1.html#UniTool_Scripts_Runtime_ObjectEx_Promise_1__ctor_
+  commentId: Overload:UniTool.Scripts.Runtime.ObjectEx.Promise`1.#ctor
+  isSpec: "True"
+  fullName: UniTool.Scripts.Runtime.ObjectEx.Promise<T>.Promise
+  fullName.vb: UniTool.Scripts.Runtime.ObjectEx.Promise(Of T).Promise
+  nameWithType: Promise<T>.Promise
+  nameWithType.vb: Promise(Of T).Promise
+- uid: UniTool.Scripts.Runtime.ObjectEx.Promise`1.Err
+  name: Err
+  href: api/UniTool.Scripts.Runtime.ObjectEx.Promise-1.html#UniTool_Scripts_Runtime_ObjectEx_Promise_1_Err
+  commentId: F:UniTool.Scripts.Runtime.ObjectEx.Promise`1.Err
+  fullName: UniTool.Scripts.Runtime.ObjectEx.Promise<T>.Err
+  fullName.vb: UniTool.Scripts.Runtime.ObjectEx.Promise(Of T).Err
+  nameWithType: Promise<T>.Err
+  nameWithType.vb: Promise(Of T).Err
+- uid: UniTool.Scripts.Runtime.ObjectEx.Promise`1.GetOrDefault(`0)
+  name: GetOrDefault(T)
+  href: api/UniTool.Scripts.Runtime.ObjectEx.Promise-1.html#UniTool_Scripts_Runtime_ObjectEx_Promise_1_GetOrDefault__0_
+  commentId: M:UniTool.Scripts.Runtime.ObjectEx.Promise`1.GetOrDefault(`0)
+  fullName: UniTool.Scripts.Runtime.ObjectEx.Promise<T>.GetOrDefault(T)
+  fullName.vb: UniTool.Scripts.Runtime.ObjectEx.Promise(Of T).GetOrDefault(T)
+  nameWithType: Promise<T>.GetOrDefault(T)
+  nameWithType.vb: Promise(Of T).GetOrDefault(T)
+- uid: UniTool.Scripts.Runtime.ObjectEx.Promise`1.GetOrDefault*
+  name: GetOrDefault
+  href: api/UniTool.Scripts.Runtime.ObjectEx.Promise-1.html#UniTool_Scripts_Runtime_ObjectEx_Promise_1_GetOrDefault_
+  commentId: Overload:UniTool.Scripts.Runtime.ObjectEx.Promise`1.GetOrDefault
+  isSpec: "True"
+  fullName: UniTool.Scripts.Runtime.ObjectEx.Promise<T>.GetOrDefault
+  fullName.vb: UniTool.Scripts.Runtime.ObjectEx.Promise(Of T).GetOrDefault
+  nameWithType: Promise<T>.GetOrDefault
+  nameWithType.vb: Promise(Of T).GetOrDefault
+- uid: UniTool.Scripts.Runtime.ObjectEx.Promise`1.IsSuccess
+  name: IsSuccess
+  href: api/UniTool.Scripts.Runtime.ObjectEx.Promise-1.html#UniTool_Scripts_Runtime_ObjectEx_Promise_1_IsSuccess
+  commentId: F:UniTool.Scripts.Runtime.ObjectEx.Promise`1.IsSuccess
+  fullName: UniTool.Scripts.Runtime.ObjectEx.Promise<T>.IsSuccess
+  fullName.vb: UniTool.Scripts.Runtime.ObjectEx.Promise(Of T).IsSuccess
+  nameWithType: Promise<T>.IsSuccess
+  nameWithType.vb: Promise(Of T).IsSuccess
+- uid: UniTool.Scripts.Runtime.ObjectEx.Promise`1.Value
+  name: Value
+  href: api/UniTool.Scripts.Runtime.ObjectEx.Promise-1.html#UniTool_Scripts_Runtime_ObjectEx_Promise_1_Value
+  commentId: F:UniTool.Scripts.Runtime.ObjectEx.Promise`1.Value
+  fullName: UniTool.Scripts.Runtime.ObjectEx.Promise<T>.Value
+  fullName.vb: UniTool.Scripts.Runtime.ObjectEx.Promise(Of T).Value
+  nameWithType: Promise<T>.Value
+  nameWithType.vb: Promise(Of T).Value
+- uid: UniTool.Scripts.Runtime.ObjectEx.TryBlock`2
+  name: TryBlock<T, TR>
+  href: api/UniTool.Scripts.Runtime.ObjectEx.TryBlock-2.html
+  commentId: T:UniTool.Scripts.Runtime.ObjectEx.TryBlock`2
+  name.vb: TryBlock(Of T, TR)
+  fullName: UniTool.Scripts.Runtime.ObjectEx.TryBlock<T, TR>
+  fullName.vb: UniTool.Scripts.Runtime.ObjectEx.TryBlock(Of T, TR)
+  nameWithType: TryBlock<T, TR>
+  nameWithType.vb: TryBlock(Of T, TR)
+- uid: UniTool.Scripts.Runtime.ObjectEx.TryExtension
+  name: TryExtension
+  href: api/UniTool.Scripts.Runtime.ObjectEx.TryExtension.html
+  commentId: T:UniTool.Scripts.Runtime.ObjectEx.TryExtension
+  fullName: UniTool.Scripts.Runtime.ObjectEx.TryExtension
+  nameWithType: TryExtension
+- uid: UniTool.Scripts.Runtime.ObjectEx.TryExtension.RunCatching*
+  name: RunCatching
+  href: api/UniTool.Scripts.Runtime.ObjectEx.TryExtension.html#UniTool_Scripts_Runtime_ObjectEx_TryExtension_RunCatching_
+  commentId: Overload:UniTool.Scripts.Runtime.ObjectEx.TryExtension.RunCatching
+  isSpec: "True"
+  fullName: UniTool.Scripts.Runtime.ObjectEx.TryExtension.RunCatching
+  nameWithType: TryExtension.RunCatching
+- uid: UniTool.Scripts.Runtime.ObjectEx.TryExtension.RunCatching``2(``0,UniTool.Scripts.Runtime.ObjectEx.TryBlock{``0,``1})
+  name: RunCatching<T, TR>(T, TryBlock<T, TR>)
+  href: api/UniTool.Scripts.Runtime.ObjectEx.TryExtension.html#UniTool_Scripts_Runtime_ObjectEx_TryExtension_RunCatching__2___0_UniTool_Scripts_Runtime_ObjectEx_TryBlock___0___1__
+  commentId: M:UniTool.Scripts.Runtime.ObjectEx.TryExtension.RunCatching``2(``0,UniTool.Scripts.Runtime.ObjectEx.TryBlock{``0,``1})
+  name.vb: RunCatching(Of T, TR)(T, TryBlock(Of T, TR))
+  fullName: UniTool.Scripts.Runtime.ObjectEx.TryExtension.RunCatching<T, TR>(T, UniTool.Scripts.Runtime.ObjectEx.TryBlock<T, TR>)
+  fullName.vb: UniTool.Scripts.Runtime.ObjectEx.TryExtension.RunCatching(Of T, TR)(T, UniTool.Scripts.Runtime.ObjectEx.TryBlock(Of T, TR))
+  nameWithType: TryExtension.RunCatching<T, TR>(T, TryBlock<T, TR>)
+  nameWithType.vb: TryExtension.RunCatching(Of T, TR)(T, TryBlock(Of T, TR))
+- uid: UniTool.Scripts.Runtime.X
+  name: UniTool.Scripts.Runtime.X
+  href: api/UniTool.Scripts.Runtime.X.html
+  commentId: N:UniTool.Scripts.Runtime.X
+  fullName: UniTool.Scripts.Runtime.X
+  nameWithType: UniTool.Scripts.Runtime.X
+- uid: UniTool.Scripts.Runtime.X.CameraStabilizer
+  name: CameraStabilizer
+  href: api/UniTool.Scripts.Runtime.X.CameraStabilizer.html
+  commentId: T:UniTool.Scripts.Runtime.X.CameraStabilizer
+  fullName: UniTool.Scripts.Runtime.X.CameraStabilizer
+  nameWithType: CameraStabilizer
+- uid: UniTool.Scripts.Runtime.X.LookAtTarget
+  name: LookAtTarget
+  href: api/UniTool.Scripts.Runtime.X.LookAtTarget.html
+  commentId: T:UniTool.Scripts.Runtime.X.LookAtTarget
+  fullName: UniTool.Scripts.Runtime.X.LookAtTarget
+  nameWithType: LookAtTarget
+- uid: UniTool.Scripts.Runtime.X.LookAtTarget.target
+  name: target
+  href: api/UniTool.Scripts.Runtime.X.LookAtTarget.html#UniTool_Scripts_Runtime_X_LookAtTarget_target
+  commentId: F:UniTool.Scripts.Runtime.X.LookAtTarget.target
+  fullName: UniTool.Scripts.Runtime.X.LookAtTarget.target
+  nameWithType: LookAtTarget.target
+- uid: UniTool.Scripts.Runtime.X.TrackTarget
+  name: TrackTarget
+  href: api/UniTool.Scripts.Runtime.X.TrackTarget.html
+  commentId: T:UniTool.Scripts.Runtime.X.TrackTarget
+  fullName: UniTool.Scripts.Runtime.X.TrackTarget
+  nameWithType: TrackTarget
+- uid: UniTool.Scripts.Runtime.X.TrackTarget.target
+  name: target
+  href: api/UniTool.Scripts.Runtime.X.TrackTarget.html#UniTool_Scripts_Runtime_X_TrackTarget_target
+  commentId: F:UniTool.Scripts.Runtime.X.TrackTarget.target
+  fullName: UniTool.Scripts.Runtime.X.TrackTarget.target
+  nameWithType: TrackTarget.target

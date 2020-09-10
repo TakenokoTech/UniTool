@@ -1,0 +1,392 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/UniTool/UniTool/.docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Scripts.Runtime.ColorEx.ColorExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Scripts.Runtime.ColorEx.ColorExtension.html",
+          "hash": "qRMLa2496bBq+fzF0Yk43A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Scripts.Runtime.ColorEx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Scripts.Runtime.ColorEx.html",
+          "hash": "n64euQLjKzKu03kusbCwzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Scripts.Runtime.EngineEx.ColliderExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Scripts.Runtime.EngineEx.ColliderExtension.html",
+          "hash": "0kT48oWSL8FPa9zvKkQRxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Scripts.Runtime.EngineEx.GameObjectExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Scripts.Runtime.EngineEx.GameObjectExtension.html",
+          "hash": "MT7csvkFTwwSjwLesNDb9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Scripts.Runtime.EngineEx.RigidBodyExtension.html",
+          "hash": "ge1u2chfWbqD78sQuCohYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Scripts.Runtime.EngineEx.TransformExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Scripts.Runtime.EngineEx.TransformExtension.html",
+          "hash": "xw9B75COsqF46ZCYTYFN9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Scripts.Runtime.EngineEx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Scripts.Runtime.EngineEx.html",
+          "hash": "GmQ65qSMC3wzYprz0Kok/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Scripts.Runtime.EnumerableEx.EnumerableExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Scripts.Runtime.EnumerableEx.EnumerableExtension.html",
+          "hash": "Ti4FaQQdgbXOGVyhcDlGsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Scripts.Runtime.EnumerableEx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Scripts.Runtime.EnumerableEx.html",
+          "hash": "OGEcsVqMXHdc2ft2+UINNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Scripts.Runtime.ObjectEx.ApplyClassBlock-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Scripts.Runtime.ObjectEx.ApplyClassBlock-1.html",
+          "hash": "uEP7XxKL35fe+LgjsA5yQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Scripts.Runtime.ObjectEx.ApplyExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Scripts.Runtime.ObjectEx.ApplyExtension.html",
+          "hash": "B0cdyGn9uri6g08tTPMBQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Scripts.Runtime.ObjectEx.ApplyStructBlock-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Scripts.Runtime.ObjectEx.ApplyStructBlock-1.html",
+          "hash": "g7VZeuCUqukJ4du3GUHFWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension.html",
+          "hash": "GBUD04o4HcNkIdA/soya6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Scripts.Runtime.ObjectEx.DumpExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Scripts.Runtime.ObjectEx.DumpExtension.html",
+          "hash": "f0zfca8IklDe0yZXQjI08w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Scripts.Runtime.ObjectEx.Promise-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Scripts.Runtime.ObjectEx.Promise-1.html",
+          "hash": "0ud9t5VmAsnPNbh/Fn26HQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Scripts.Runtime.ObjectEx.TryBlock-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Scripts.Runtime.ObjectEx.TryBlock-2.html",
+          "hash": "qct2XyDnDV+/Vwdxssq7UQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Scripts.Runtime.ObjectEx.TryExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Scripts.Runtime.ObjectEx.TryExtension.html",
+          "hash": "PSa4kmzu85Zznl5Cgzzp+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Scripts.Runtime.ObjectEx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Scripts.Runtime.ObjectEx.html",
+          "hash": "RxwxbLgwbvCTZLl+pL5cjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Scripts.Runtime.X.CameraStabilizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Scripts.Runtime.X.CameraStabilizer.html",
+          "hash": "Vku5XDVQ0gWuE+l79oIrIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Scripts.Runtime.X.LookAtTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Scripts.Runtime.X.LookAtTarget.html",
+          "hash": "i2Gdx5xuU04riIZa0ivVmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Scripts.Runtime.X.TrackTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Scripts.Runtime.X.TrackTarget.html",
+          "hash": "Ic5mkTlRuNkHlisUufQvcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Scripts.Runtime.X.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Scripts.Runtime.X.html",
+          "hash": "/HJHN6FqEaepj2VXc5aVRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "P947GmmGTk8IICJOONQYmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "l0FVphACKZgi9M+lajO4Bw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "rd5XXSxxngSEGp7hweYqtw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "a+qODncMVE42VT9uZy1BfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "+rHUkRZHZRi5gd1aTU6lJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 22,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
