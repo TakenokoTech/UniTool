@@ -33,7 +33,6 @@ jobs:
       - name: Build
         run: |
           cd .docs
-          mkdir src
           xcopy /e /i /y ..\Assets src\Assets\ 
           docfx metadata
           docfx build
