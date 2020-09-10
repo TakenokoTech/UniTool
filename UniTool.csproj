@@ -2,19 +2,6 @@
 <Project>
   <ItemGroup>
      <None Include="Assets\UniTool\Scripts\Runtime\UniTool.asmdef" />	
-     <Compile Include="Assets\UniTool\Scripts\Runtime\ColorEx\ColorExtension.cs" />
-     <Compile Include="Assets\UniTool\Scripts\Runtime\EngineEx\ColliderExtension.cs" />
-     <Compile Include="Assets\UniTool\Scripts\Runtime\EngineEx\GameObjectExtension.cs" />
-     <Compile Include="Assets\UniTool\Scripts\Runtime\EngineEx\RigidBodyExtension.cs" />
-     <Compile Include="Assets\UniTool\Scripts\Runtime\EngineEx\TransformExtension.cs" />
-     <Compile Include="Assets\UniTool\Scripts\Runtime\EnumerableEx\EnumerableExtension.cs" />
-     <Compile Include="Assets\UniTool\Scripts\Runtime\ObjectEx\ApplyExtension.cs" />
-     <Compile Include="Assets\UniTool\Scripts\Runtime\ObjectEx\ClassNameExtension.cs" />
-     <Compile Include="Assets\UniTool\Scripts\Runtime\ObjectEx\DumpExtension.cs" />
-     <Compile Include="Assets\UniTool\Scripts\Runtime\ObjectEx\Promise.cs" />
-     <Compile Include="Assets\UniTool\Scripts\Runtime\ObjectEx\TryExtension.cs" />
-     <Compile Include="Assets\UniTool\Scripts\Runtime\X\CameraStabilizer.cs" />
-     <Compile Include="Assets\UniTool\Scripts\Runtime\X\LookAtTarget.cs" />
-     <Compile Include="Assets\UniTool\Scripts\Runtime\X\TrackTarget.cs" />
+     <Compile Include="Assets\UniTool\Scripts\Runtime\**\*.cs" />
   </ItemGroup>
 </Project>
