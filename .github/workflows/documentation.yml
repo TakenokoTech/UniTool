@@ -61,7 +61,7 @@ jobs:
       - uses: actions/github-script@0.8.0
         with:
           script: |
-            const reg = /[\u001b\u009b][[()#;?]*(?:[0-9]{1,4}(?:;[0-9]{0,4})*)?[0-9A-ORZcf-nqry=><]/g
+            const regex = /[\u001b\u009b][[()#;?]*(?:[0-9]{1,4}(?:;[0-9]{0,4})*)?[0-9A-ORZcf-nqry=><]/g
             const fs = require('fs').promises;
             const url = await fs.readFile('url.log', 'utf-8').replace(regex, "");
             console.log(url)
