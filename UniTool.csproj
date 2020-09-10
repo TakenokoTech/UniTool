@@ -1,6 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
   <ItemGroup>
+     <None Include="Assets\UniTool\Scripts\Runtime\UniTool.asmdef" />	
      <Compile Include="Assets\UniTool\Scripts\Runtime\ColorEx\ColorExtension.cs" />
      <Compile Include="Assets\UniTool\Scripts\Runtime\EngineEx\ColliderExtension.cs" />
      <Compile Include="Assets\UniTool\Scripts\Runtime\EngineEx\GameObjectExtension.cs" />
@@ -15,6 +16,5 @@
      <Compile Include="Assets\UniTool\Scripts\Runtime\X\CameraStabilizer.cs" />
      <Compile Include="Assets\UniTool\Scripts\Runtime\X\LookAtTarget.cs" />
      <Compile Include="Assets\UniTool\Scripts\Runtime\X\TrackTarget.cs" />
-     <None Include="Assets\UniTool\Scripts\Runtime\UniTool.asmdef" />
   </ItemGroup>
 </Project>
