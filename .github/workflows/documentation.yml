@@ -59,6 +59,7 @@ jobs:
           
       # Comment
       - uses: actions/github-script@0.8.0
+        if: github.event_name == 'pull_request'
         with:
           script: |
             const fs = require('fs').promises
