@@ -51,7 +51,8 @@ jobs:
         run: |
           npm install netlify-cli
           npx netlify-cli deploy --dir=.docs/_site --message="update UniTool."　1> deploy.log
-          findstr /C:"Website Draft URL" deploy.log          
+          type deploy.log
+          findstr /C:"Website Draft URL" deploy.log 1> url.log          
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
@@ -60,9 +61,12 @@ jobs:
       - uses: actions/github-script@0.8.0
         with:
           script: |
+            const fs = require('fs').promises;
+            const url = await fs.readFile('url.log', 'utf-8');
+            
             github.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: 'Deploy Completed.\n ${{ env.DEPLOY_URL }}'
+              body: `Deploy Completed.\n${url}`
             })
