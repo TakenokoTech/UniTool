@@ -63,10 +63,10 @@ jobs:
           script: |
             const fs = require('fs').promises;
             const url = await fs.readFile('url.log', 'utf-8');
+            console.log(url)
             
-            github.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: `Deploy Completed.\n${url}`
-            })
+            const issueNumber = context.issue.number;
+            const owner = context.repo.owner;
+            const repo = ccontext.repo.repo;
+            const text = `Deploy Completed.\n${url}`
+            github.issues.createComment({ issue_number: issueNumber, owner: owner, repo: repo, body: text })
