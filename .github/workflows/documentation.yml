@@ -61,13 +61,14 @@ jobs:
       - uses: actions/github-script@0.8.0
         with:
           script: |
+            const fs = require('fs').promises
+            const content = await fs.readFile('url.log', 'utf-8')
             const regex = /[\u001b\u009b][[()#;?]*(?:[0-9]{1,4}(?:;[0-9]{0,4})*)?[0-9A-ORZcf-nqry=><]/g
-            const fs = require('fs').promises;
-            const url = await fs.readFile('url.log', 'utf-8').replace(regex, "");
+            const url = content.replace(regex, "")
             console.log(url)
             
-            const issueNumber = context.issue.number;
-            const owner = context.repo.owner;
-            const repo = context.repo.repo;
+            const issueNumber = context.issue.number
+            const owner = context.repo.owner
+            const repo = context.repo.repo
             const text = `Deploy Completed.\n${url}`
             github.issues.createComment({ issue_number: issueNumber, owner: owner, repo: repo, body: text })
