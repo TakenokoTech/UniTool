@@ -334,5 +334,6 @@ pre {
 .sidefilter { width: 300px; }
 .glyphicon-remove { display: none; }
 .toc { padding: 0 12px; }
-.toc .level1 > li { font-size: 14px; }
+.toc .level1>li { font-size: 14px; }
 .footer { display: none; }
+.toc .level2>li { padding: 4px 0px; }
