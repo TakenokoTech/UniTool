@@ -329,11 +329,12 @@ pre {
 /* =========================== */
 /* Custom 
 /* =========================== */
-.article.grid-right { margin-left: 320px; }
-.sidetoc { width: 300px; }
-.sidefilter { width: 300px; }
 .glyphicon-remove { display: none; }
-.toc { padding: 0 12px; }
-.toc .level1>li { font-size: 14px; }
+.toc { padding: 0 16px; }
+.toc .level1>li { font-size: 12px; }
+.toc .level2>li { padding: 4px 0; }
+.toc .nav>li { text-align: left; }
+.toc .nav>li>.expand-stub { left: -16px; }
+.toc .nav>li>.expand-stub::before { width: 16px !important; height: 16px !important; }
+.toc .nav>li>.expand-stub::before { margin-top: 0 !important; border: none !important; }
 .footer { display: none; }
-.toc .level2>li { padding: 4px 0px; }
