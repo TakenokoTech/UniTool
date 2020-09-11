@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+    <ItemGroup>
+        <None Include="Assets\UniTool\Scripts\Runtime\UniTool.asmdef" />
+        <Compile Include="Assets\UniTool\Scripts\Runtime\**\*.cs" />
+    </ItemGroup>
+</Project>

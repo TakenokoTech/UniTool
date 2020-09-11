@@ -33,8 +33,6 @@ jobs:
       - name: Build
         run: |
           cd .docs
-          mkdir src
-          copy ..\UniTool.csproj src\UniTool.csproj
           xcopy /e /i /y ..\Assets src\Assets\ 
           docfx metadata
           docfx build
