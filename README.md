@@ -1,6 +1,6 @@
-![UniTool](.docs/images/mainlogo_wide.png)
-
 # UniTool
+
+![UniTool](.docs/images/mainlogo_wide.png)
 
 ![Build](https://github.com/TakenokoTech/UniTool/workflows/Build/badge.svg)
 ![TestCov](https://github.com/TakenokoTech/UniTool/workflows/TestCov/badge.svg)
@@ -8,8 +8,6 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/TakenokoTech/UniTool/blob/master/LICENSE)
 
 Utility in Unity
-
-# Getting started with UniTool
 
 | [unitypackage](https://github.com/TakenokoTech/UniTool/releases) | [API Reference](https://takenokotech.github.io/UniTool/api/index.html) |
 | :--------------------------------------------------------------- | :--------------------------------------------------------------------- |
