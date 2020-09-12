@@ -329,6 +329,7 @@ pre {
 /* =========================== */
 /* Custom 
 /* =========================== */
+.navbar-brand>img { height: 44px; margin-top: 4px; }
 .glyphicon-remove { display: none; }
 .toc { padding: 0 16px; }
 .toc .level1>li { font-size: 12px; }
