@@ -8,7 +8,7 @@
 Utility in Unity
 
 |<div align="center"><img src=".docs/images/unitylogo.png" width="64"><br>[unitypackage](https://github.com/TakenokoTech/UniTool/releases)</div>|<div align="center"><img src=".docs/images/bookicon.png" width="64"><br>[API Reference](https://takenokotech.github.io/UniTool/api/index.html)</div>|
-|:---| :---|
+|:---|:---|
 
 
 <p align="center">
