@@ -1,5 +1,3 @@
-# UniTool
-
 ![UniTool](.docs/images/mainlogo_wide.png)
 
 ![Build](https://github.com/TakenokoTech/UniTool/workflows/Build/badge.svg)
@@ -9,8 +7,8 @@
 
 Utility in Unity
 
-| [unitypackage](https://github.com/TakenokoTech/UniTool/releases) | [API Reference](https://takenokotech.github.io/UniTool/api/index.html) |
-| :--------------------------------------------------------------- | :--------------------------------------------------------------------- |
+| <img src=".docs/images/unitylogo.png" width="64"><br>[unitypackage](https://github.com/TakenokoTech/UniTool/releases) | <img src=".docs/images/bookicon.png" width="64"><br>[API Reference](https://takenokotech.github.io/UniTool/api/index.html) |
+| :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------- |
 
 
 <p align="center">
