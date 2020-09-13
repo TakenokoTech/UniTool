@@ -11,13 +11,13 @@ namespace UniTool.X
     {
         /// <summary>x軸を固定するか</summary>
         [SerializeField] private bool lockX = false;
-        
+
         /// <summary>y軸を固定するか</summary>
         [SerializeField] private bool lockY = false;
-        
+
         /// <summary>z軸を固定するか</summary>
         [SerializeField] private bool lockZ = false;
-        
+
         /// <summary>遅延の許容値(秒)</summary>
         [SerializeField] private float rotateSpeed = 1f;
 

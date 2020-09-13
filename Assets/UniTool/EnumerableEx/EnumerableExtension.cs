@@ -8,6 +8,7 @@ namespace UniTool.EnumerableEx
     /// </summary>
     public static class EnumerableExtension
     {
-        public static IEnumerable<(int index, T value)> WithIndex<T>(this IEnumerable<T> source) => source.Select((t, i) => (i, t));
+        public static IEnumerable<(int index, T value)> WithIndex<T>(this IEnumerable<T> source) =>
+            source.Select((t, i) => (i, t));
     }
 }
