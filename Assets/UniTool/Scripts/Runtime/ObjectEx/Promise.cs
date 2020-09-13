@@ -2,38 +2,18 @@ using System;
 
 namespace UniTool.Scripts.Runtime.ObjectEx
 {
-    /**
-    public class Promise<T> where T : struct
-    {
-        public T? Value;
-        public Exception Err = null;
-        public readonly bool IsSuccess = false;
-        
-        public Promise(T value)
-        {
-            IsSuccess = true;
-            Value = value;
-            Err = null;
-        }
-
-        public Promise(Exception e)
-        {
-            IsSuccess = false;
-            Value = null;
-            Err = e;
-        }
-        public T? GetOrNull() => IsSuccess ? Value : null;
-        public T? GetOrDefault(T? def) => IsSuccess ? Value : def;
-    }
-    **/
-    
     /// <summary>
-    /// 非同期処理の最終的な完了処理もしくは失敗、およびその結果の値
+    /// 非同期処理の結果
     /// </summary>
     public class Promise<T>
     {
+        /// <summary>成功時の値</summary>
         public readonly T Value;
+        
+        /// <summary>失敗時の値</summary>
         public readonly Exception Err = null;
+        
+        /// <summary>成功したか</summary>
         public readonly bool IsSuccess = false;
         
         public Promise(T value)
@@ -48,7 +28,9 @@ namespace UniTool.Scripts.Runtime.ObjectEx
             IsSuccess = false;
             Err = e;
         }
-
+        
+        /// <summary>結果の取得または、デフォルト値を返却する</summary>
+        /// <param name="def">デフォルト値</param>
         public T GetOrDefault(T def)
         {
             return IsSuccess ? Value : def;
