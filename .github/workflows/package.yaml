@@ -35,7 +35,7 @@ jobs:
         uses: webbertakken/unity-builder@v0.10
         with:
           unityVersion: 2019.3.7f1
-          buildMethod: UniTool.Scripts.Editor.UnityPackageExporter.Export
+          buildMethod: UniTool.Editor.UnityPackageExporter.Export
 
       # Output
       - uses: actions/upload-artifact@v2
