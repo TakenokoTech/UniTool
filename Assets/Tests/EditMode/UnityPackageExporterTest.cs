@@ -1,6 +1,6 @@
 using System.Linq;
-using Editor;
 using NUnit.Framework;
+using UniTool.Editor;
 
 namespace Tests.EditMode
 {
