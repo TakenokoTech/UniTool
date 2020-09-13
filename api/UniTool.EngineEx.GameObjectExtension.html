@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class TryExtension
+    <title>Class GameObjectExtension
    | UniTool </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class TryExtension
+    <meta name="title" content="Class GameObjectExtension
    | UniTool ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -68,18 +68,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="UniTool.Scripts.Runtime.ObjectEx.TryExtension">
+            <article class="content wrap" id="_content" data-uid="UniTool.EngineEx.GameObjectExtension">
   
   
-  <h1 id="UniTool_Scripts_Runtime_ObjectEx_TryExtension" data-uid="UniTool.Scripts.Runtime.ObjectEx.TryExtension" class="text-break">Class TryExtension
+  <h1 id="UniTool_EngineEx_GameObjectExtension" data-uid="UniTool.EngineEx.GameObjectExtension" class="text-break">Class GameObjectExtension
   </h1>
-  <div class="markdown level0 summary"><p>Try系の拡張メソッド</p>
+  <div class="markdown level0 summary"><p>UnityEngine.GameObject の拡張メソッド</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">TryExtension</span></div>
+    <div class="level1"><span class="xref">GameObjectExtension</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -105,29 +105,29 @@
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="UniTool.Scripts.Runtime.ObjectEx.html">UniTool.Scripts.Runtime.ObjectEx</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UniTool.EngineEx.html">UniTool.EngineEx</a></h6>
   <h6><strong>Assembly</strong>: UniTool.dll</h6>
-  <h5 id="UniTool_Scripts_Runtime_ObjectEx_TryExtension_syntax">Syntax</h5>
+  <h5 id="UniTool_EngineEx_GameObjectExtension_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class TryExtension</code></pre>
+    <pre><code class="lang-csharp hljs">public static class GameObjectExtension</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/TakenokoTech/UniTool/new/master/apiSpec/new?filename=UniTool_Scripts_Runtime_ObjectEx_TryExtension_RunCatching__2___0_UniTool_Scripts_Runtime_ObjectEx_TryBlock___0___1__.md&amp;value=---%0Auid%3A%20UniTool.Scripts.Runtime.ObjectEx.TryExtension.RunCatching%60%602(%60%600%2CUniTool.Scripts.Runtime.ObjectEx.TryBlock%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/TakenokoTech/UniTool/new/master/apiSpec/new?filename=UniTool_EngineEx_GameObjectExtension_Destroy_GameObject_.md&amp;value=---%0Auid%3A%20UniTool.EngineEx.GameObjectExtension.Destroy(GameObject)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/TakenokoTech/UniTool/blob/master/.docs/src/Assets/UniTool/Scripts/Runtime/ObjectEx/TryExtension.cs/#L13">View Source</a>
+    <a href="https://github.com/TakenokoTech/UniTool/blob/master/.docs/src/Assets/UniTool/EngineEx/GameObjectExtension.cs/#L18">View Source</a>
   </span>
-  <a id="UniTool_Scripts_Runtime_ObjectEx_TryExtension_RunCatching_" data-uid="UniTool.Scripts.Runtime.ObjectEx.TryExtension.RunCatching*"></a>
-  <h4 id="UniTool_Scripts_Runtime_ObjectEx_TryExtension_RunCatching__2___0_UniTool_Scripts_Runtime_ObjectEx_TryBlock___0___1__" data-uid="UniTool.Scripts.Runtime.ObjectEx.TryExtension.RunCatching``2(``0,UniTool.Scripts.Runtime.ObjectEx.TryBlock{``0,``1})">RunCatching&lt;T, TR&gt;(T, TryBlock&lt;T, TR&gt;)</h4>
-  <div class="markdown level1 summary"><p>エラーハンドリングを行い、<code>Promise&lt;T&gt;</code>を返却する。</p>
+  <a id="UniTool_EngineEx_GameObjectExtension_Destroy_" data-uid="UniTool.EngineEx.GameObjectExtension.Destroy*"></a>
+  <h4 id="UniTool_EngineEx_GameObjectExtension_Destroy_GameObject_" data-uid="UniTool.EngineEx.GameObjectExtension.Destroy(GameObject)">Destroy(GameObject)</h4>
+  <div class="markdown level1 summary"><p>自身を消去する</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Promise&lt;TR&gt; RunCatching&lt;T, TR&gt;(this T self, TryBlock&lt;T, TR&gt; block)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Destroy(this GameObject gameObject)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -140,28 +140,42 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">self</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="UniTool.Scripts.Runtime.ObjectEx.TryBlock-2.html">TryBlock</a>&lt;T, TR&gt;</td>
-        <td><span class="parametername">block</span></td>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/TakenokoTech/UniTool/new/master/apiSpec/new?filename=UniTool_EngineEx_GameObjectExtension_RemoveComponent__1_GameObject_.md&amp;value=---%0Auid%3A%20UniTool.EngineEx.GameObjectExtension.RemoveComponent%60%601(GameObject)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/TakenokoTech/UniTool/blob/master/.docs/src/Assets/UniTool/EngineEx/GameObjectExtension.cs/#L11">View Source</a>
+  </span>
+  <a id="UniTool_EngineEx_GameObjectExtension_RemoveComponent_" data-uid="UniTool.EngineEx.GameObjectExtension.RemoveComponent*"></a>
+  <h4 id="UniTool_EngineEx_GameObjectExtension_RemoveComponent__1_GameObject_" data-uid="UniTool.EngineEx.GameObjectExtension.RemoveComponent``1(GameObject)">RemoveComponent&lt;T&gt;(GameObject)</h4>
+  <div class="markdown level1 summary"><p>コンポーネントを消去する</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveComponent&lt;T&gt;(this GameObject gameObject)
+    where T : Component</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="UniTool.Scripts.Runtime.ObjectEx.Promise-1.html">Promise</a>&lt;TR&gt;</td>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -179,10 +193,6 @@
         <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
-      <tr>
-        <td><span class="parametername">TR</span></td>
-        <td></td>
-      </tr>
     </tbody>
   </table>
 </article>
@@ -193,10 +203,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/TakenokoTech/UniTool/new/master/apiSpec/new?filename=UniTool_Scripts_Runtime_ObjectEx_TryExtension.md&amp;value=---%0Auid%3A%20UniTool.Scripts.Runtime.ObjectEx.TryExtension%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/TakenokoTech/UniTool/new/master/apiSpec/new?filename=UniTool_EngineEx_GameObjectExtension.md&amp;value=---%0Auid%3A%20UniTool.EngineEx.GameObjectExtension%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/TakenokoTech/UniTool/blob/master/.docs/src/Assets/UniTool/Scripts/Runtime/ObjectEx/TryExtension.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/TakenokoTech/UniTool/blob/master/.docs/src/Assets/UniTool/EngineEx/GameObjectExtension.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

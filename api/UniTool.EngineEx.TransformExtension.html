@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class DebugExtension
+    <title>Class TransformExtension
    | UniTool </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class DebugExtension
+    <meta name="title" content="Class TransformExtension
    | UniTool ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -68,18 +68,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="UniTool.Scripts.Runtime.ObjectEx.DebugExtension">
+            <article class="content wrap" id="_content" data-uid="UniTool.EngineEx.TransformExtension">
   
   
-  <h1 id="UniTool_Scripts_Runtime_ObjectEx_DebugExtension" data-uid="UniTool.Scripts.Runtime.ObjectEx.DebugExtension" class="text-break">Class DebugExtension
+  <h1 id="UniTool_EngineEx_TransformExtension" data-uid="UniTool.EngineEx.TransformExtension" class="text-break">Class TransformExtension
   </h1>
-  <div class="markdown level0 summary"><p>デバッグ系の拡張メソッド</p>
+  <div class="markdown level0 summary"><p>UnityEngine.Transform の拡張メソッド</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">DebugExtension</span></div>
+    <div class="level1"><span class="xref">TransformExtension</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -105,29 +105,29 @@
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="UniTool.Scripts.Runtime.ObjectEx.html">UniTool.Scripts.Runtime.ObjectEx</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UniTool.EngineEx.html">UniTool.EngineEx</a></h6>
   <h6><strong>Assembly</strong>: UniTool.dll</h6>
-  <h5 id="UniTool_Scripts_Runtime_ObjectEx_DebugExtension_syntax">Syntax</h5>
+  <h5 id="UniTool_EngineEx_TransformExtension_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class DebugExtension</code></pre>
+    <pre><code class="lang-csharp hljs">public static class TransformExtension</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/TakenokoTech/UniTool/new/master/apiSpec/new?filename=UniTool_Scripts_Runtime_ObjectEx_DebugExtension_Dump__1___0_.md&amp;value=---%0Auid%3A%20UniTool.Scripts.Runtime.ObjectEx.DebugExtension.Dump%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/TakenokoTech/UniTool/new/master/apiSpec/new?filename=UniTool_EngineEx_TransformExtension_LookAtCamera_Transform_.md&amp;value=---%0Auid%3A%20UniTool.EngineEx.TransformExtension.LookAtCamera(Transform)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/TakenokoTech/UniTool/blob/master/.docs/src/Assets/UniTool/Scripts/Runtime/ObjectEx/DumpExtension.cs/#L12">View Source</a>
+    <a href="https://github.com/TakenokoTech/UniTool/blob/master/.docs/src/Assets/UniTool/EngineEx/TransformExtension.cs/#L11">View Source</a>
   </span>
-  <a id="UniTool_Scripts_Runtime_ObjectEx_DebugExtension_Dump_" data-uid="UniTool.Scripts.Runtime.ObjectEx.DebugExtension.Dump*"></a>
-  <h4 id="UniTool_Scripts_Runtime_ObjectEx_DebugExtension_Dump__1___0_" data-uid="UniTool.Scripts.Runtime.ObjectEx.DebugExtension.Dump``1(``0)">Dump&lt;T&gt;(T)</h4>
-  <div class="markdown level1 summary"><p>クラス内のフィールド、プロパティを表示する</p>
+  <a id="UniTool_EngineEx_TransformExtension_LookAtCamera_" data-uid="UniTool.EngineEx.TransformExtension.LookAtCamera*"></a>
+  <h4 id="UniTool_EngineEx_TransformExtension_LookAtCamera_Transform_" data-uid="UniTool.EngineEx.TransformExtension.LookAtCamera(Transform)">LookAtCamera(Transform)</h4>
+  <div class="markdown level1 summary"><p>カメラに向ける</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string Dump&lt;T&gt;(this T obj)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void LookAtCamera(this Transform transform)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -140,38 +140,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">obj</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">transform</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -184,10 +154,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/TakenokoTech/UniTool/new/master/apiSpec/new?filename=UniTool_Scripts_Runtime_ObjectEx_DebugExtension.md&amp;value=---%0Auid%3A%20UniTool.Scripts.Runtime.ObjectEx.DebugExtension%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/TakenokoTech/UniTool/new/master/apiSpec/new?filename=UniTool_EngineEx_TransformExtension.md&amp;value=---%0Auid%3A%20UniTool.EngineEx.TransformExtension%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/TakenokoTech/UniTool/blob/master/.docs/src/Assets/UniTool/Scripts/Runtime/ObjectEx/DumpExtension.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/TakenokoTech/UniTool/blob/master/.docs/src/Assets/UniTool/EngineEx/TransformExtension.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
