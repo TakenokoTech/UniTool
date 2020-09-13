@@ -4,7 +4,7 @@ using UniTool.EngineEx;
 using UnityEngine;
 using UnityEngine.TestTools;
 
-namespace Tests.PlayMode.EngineEx
+namespace UniTool.Tests.PlayMode.EngineEx
 {
     public class GameObjectExtensionTest
     {

@@ -1,4 +1,4 @@
-namespace Tests.PlayMode.ObjectEx
+namespace UniTool.Tests.PlayMode.ObjectEx
 {
     public struct TestStructWithField
     {

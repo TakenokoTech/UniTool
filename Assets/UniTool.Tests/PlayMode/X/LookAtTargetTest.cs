@@ -1,11 +1,11 @@
 using System.Collections;
-using Tests.PlayMode.TestTool;
+using UniTool.Tests.PlayMode.TestTool;
 using UniTool.X;
 using UnityEngine;
 using UnityEngine.TestTools;
 
 // ReSharper disable Unity.InefficientPropertyAccess
-namespace Tests.PlayMode.X
+namespace UniTool.Tests.PlayMode.X
 {
     public class LookAtTargetTest
     {

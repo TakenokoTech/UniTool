@@ -4,7 +4,7 @@ using NUnit.Framework;
 using UniTool.ObjectEx;
 using UnityEngine;
 
-namespace Tests.PlayMode.TestTool
+namespace UniTool.Tests.PlayMode.TestTool
 {
     public static class AssertEx
     {

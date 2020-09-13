@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using UniTool.ObjectEx;
 
-namespace Tests.PlayMode.ObjectEx
+namespace UniTool.Tests.PlayMode.ObjectEx
 {
     public class DumpExtensionTest
     {

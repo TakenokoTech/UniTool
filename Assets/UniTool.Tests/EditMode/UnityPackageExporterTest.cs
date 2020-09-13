@@ -2,7 +2,7 @@ using System.Linq;
 using NUnit.Framework;
 using UniTool.Editor;
 
-namespace Tests.EditMode
+namespace UniTool.Tests.EditMode
 {
     public class UnityPackageExporterTest
     {

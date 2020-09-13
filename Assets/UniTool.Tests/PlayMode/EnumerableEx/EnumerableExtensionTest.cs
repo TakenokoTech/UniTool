@@ -3,7 +3,7 @@ using System.Linq;
 using NUnit.Framework;
 using UniTool.EnumerableEx;
 
-namespace Tests.PlayMode.EnumerableEx
+namespace UniTool.Tests.PlayMode.EnumerableEx
 {
     public class EnumerableExtensionTest
     {
