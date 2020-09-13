@@ -272,50 +272,50 @@ references:
   fullName.vb: UniTool.Scripts.Runtime.ObjectEx.ApplyStructBlock(Of T)
   nameWithType: ApplyStructBlock<T>
   nameWithType.vb: ApplyStructBlock(Of T)
-- uid: UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension
-  name: ClassNameExtension
-  href: api/UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension.html
-  commentId: T:UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension
-  fullName: UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension
-  nameWithType: ClassNameExtension
-- uid: UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension.GetClassName*
-  name: GetClassName
-  href: api/UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension.html#UniTool_Scripts_Runtime_ObjectEx_ClassNameExtension_GetClassName_
-  commentId: Overload:UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension.GetClassName
-  isSpec: "True"
-  fullName: UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension.GetClassName
-  nameWithType: ClassNameExtension.GetClassName
-- uid: UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension.GetClassName``1(``0)
-  name: GetClassName<T>(T)
-  href: api/UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension.html#UniTool_Scripts_Runtime_ObjectEx_ClassNameExtension_GetClassName__1___0_
-  commentId: M:UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension.GetClassName``1(``0)
-  name.vb: GetClassName(Of T)(T)
-  fullName: UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension.GetClassName<T>(T)
-  fullName.vb: UniTool.Scripts.Runtime.ObjectEx.ClassNameExtension.GetClassName(Of T)(T)
-  nameWithType: ClassNameExtension.GetClassName<T>(T)
-  nameWithType.vb: ClassNameExtension.GetClassName(Of T)(T)
-- uid: UniTool.Scripts.Runtime.ObjectEx.DumpExtension
-  name: DumpExtension
-  href: api/UniTool.Scripts.Runtime.ObjectEx.DumpExtension.html
-  commentId: T:UniTool.Scripts.Runtime.ObjectEx.DumpExtension
-  fullName: UniTool.Scripts.Runtime.ObjectEx.DumpExtension
-  nameWithType: DumpExtension
-- uid: UniTool.Scripts.Runtime.ObjectEx.DumpExtension.Dump*
+- uid: UniTool.Scripts.Runtime.ObjectEx.DebugExtension
+  name: DebugExtension
+  href: api/UniTool.Scripts.Runtime.ObjectEx.DebugExtension.html
+  commentId: T:UniTool.Scripts.Runtime.ObjectEx.DebugExtension
+  fullName: UniTool.Scripts.Runtime.ObjectEx.DebugExtension
+  nameWithType: DebugExtension
+- uid: UniTool.Scripts.Runtime.ObjectEx.DebugExtension.Dump*
   name: Dump
-  href: api/UniTool.Scripts.Runtime.ObjectEx.DumpExtension.html#UniTool_Scripts_Runtime_ObjectEx_DumpExtension_Dump_
-  commentId: Overload:UniTool.Scripts.Runtime.ObjectEx.DumpExtension.Dump
+  href: api/UniTool.Scripts.Runtime.ObjectEx.DebugExtension.html#UniTool_Scripts_Runtime_ObjectEx_DebugExtension_Dump_
+  commentId: Overload:UniTool.Scripts.Runtime.ObjectEx.DebugExtension.Dump
   isSpec: "True"
-  fullName: UniTool.Scripts.Runtime.ObjectEx.DumpExtension.Dump
-  nameWithType: DumpExtension.Dump
-- uid: UniTool.Scripts.Runtime.ObjectEx.DumpExtension.Dump``1(``0)
+  fullName: UniTool.Scripts.Runtime.ObjectEx.DebugExtension.Dump
+  nameWithType: DebugExtension.Dump
+- uid: UniTool.Scripts.Runtime.ObjectEx.DebugExtension.Dump``1(``0)
   name: Dump<T>(T)
-  href: api/UniTool.Scripts.Runtime.ObjectEx.DumpExtension.html#UniTool_Scripts_Runtime_ObjectEx_DumpExtension_Dump__1___0_
-  commentId: M:UniTool.Scripts.Runtime.ObjectEx.DumpExtension.Dump``1(``0)
+  href: api/UniTool.Scripts.Runtime.ObjectEx.DebugExtension.html#UniTool_Scripts_Runtime_ObjectEx_DebugExtension_Dump__1___0_
+  commentId: M:UniTool.Scripts.Runtime.ObjectEx.DebugExtension.Dump``1(``0)
   name.vb: Dump(Of T)(T)
-  fullName: UniTool.Scripts.Runtime.ObjectEx.DumpExtension.Dump<T>(T)
-  fullName.vb: UniTool.Scripts.Runtime.ObjectEx.DumpExtension.Dump(Of T)(T)
-  nameWithType: DumpExtension.Dump<T>(T)
-  nameWithType.vb: DumpExtension.Dump(Of T)(T)
+  fullName: UniTool.Scripts.Runtime.ObjectEx.DebugExtension.Dump<T>(T)
+  fullName.vb: UniTool.Scripts.Runtime.ObjectEx.DebugExtension.Dump(Of T)(T)
+  nameWithType: DebugExtension.Dump<T>(T)
+  nameWithType.vb: DebugExtension.Dump(Of T)(T)
+- uid: UniTool.Scripts.Runtime.ObjectEx.NameExtension
+  name: NameExtension
+  href: api/UniTool.Scripts.Runtime.ObjectEx.NameExtension.html
+  commentId: T:UniTool.Scripts.Runtime.ObjectEx.NameExtension
+  fullName: UniTool.Scripts.Runtime.ObjectEx.NameExtension
+  nameWithType: NameExtension
+- uid: UniTool.Scripts.Runtime.ObjectEx.NameExtension.GetClassName*
+  name: GetClassName
+  href: api/UniTool.Scripts.Runtime.ObjectEx.NameExtension.html#UniTool_Scripts_Runtime_ObjectEx_NameExtension_GetClassName_
+  commentId: Overload:UniTool.Scripts.Runtime.ObjectEx.NameExtension.GetClassName
+  isSpec: "True"
+  fullName: UniTool.Scripts.Runtime.ObjectEx.NameExtension.GetClassName
+  nameWithType: NameExtension.GetClassName
+- uid: UniTool.Scripts.Runtime.ObjectEx.NameExtension.GetClassName``1(``0)
+  name: GetClassName<T>(T)
+  href: api/UniTool.Scripts.Runtime.ObjectEx.NameExtension.html#UniTool_Scripts_Runtime_ObjectEx_NameExtension_GetClassName__1___0_
+  commentId: M:UniTool.Scripts.Runtime.ObjectEx.NameExtension.GetClassName``1(``0)
+  name.vb: GetClassName(Of T)(T)
+  fullName: UniTool.Scripts.Runtime.ObjectEx.NameExtension.GetClassName<T>(T)
+  fullName.vb: UniTool.Scripts.Runtime.ObjectEx.NameExtension.GetClassName(Of T)(T)
+  nameWithType: NameExtension.GetClassName<T>(T)
+  nameWithType.vb: NameExtension.GetClassName(Of T)(T)
 - uid: UniTool.Scripts.Runtime.ObjectEx.Promise`1
   name: Promise<T>
   href: api/UniTool.Scripts.Runtime.ObjectEx.Promise-1.html
