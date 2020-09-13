@@ -3,8 +3,12 @@ using System.Reflection;
 
 namespace UniTool.Scripts.Runtime.ObjectEx
 {
-    public static class DumpExtension
+    /// <summary>
+    /// デバッグ系の拡張メソッド
+    /// </summary>
+    public static class DebugExtension
     {
+        /// <summary>クラス内のフィールド、プロパティを表示する</summary>
         public static string Dump<T>(this T obj)
         {
             const string separator = ",";
