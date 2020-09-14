@@ -26,7 +26,7 @@ jobs:
         uses: webbertakken/unity-builder@v0.10
         with:
           unityVersion: 2019.3.7f1
-          buildMethod: UniTool.Scripts.Editor.UnityPackageExporter.Export
+          buildMethod: UniTool.Editor.UnityPackageExporter.Export
       
       # Create Release
       - id: create_release
