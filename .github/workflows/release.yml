@@ -43,7 +43,9 @@ jobs:
       # Get Tag
       - id: get-tag
         uses: olegtarasov/get-tag@v2
-          
+        with:
+          tagRegex: "v(.*)
+
       # Upload Release Asset
       - id: upload-release-asset 
         uses: actions/upload-release-asset@v1
@@ -52,5 +54,5 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }} 
           asset_path: Dist/UniTool.unitypackage
-          asset_name: UniTool.${{ steps.tagName.outputs.tag }}.unitypackage
+          asset_name: UniTool.${{ env.GIT_TAG_NAME }}.unitypackage
           asset_content_type: application/zip
