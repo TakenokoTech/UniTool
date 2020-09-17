@@ -8,12 +8,23 @@ using UnityEngine.SceneManagement;
 
 namespace UniTool.X
 {
+    /// <summary>
+    /// [MonoBehaviour]
+    /// シーンの読み込み
+    /// </summary>
     public class SimpleSceneManager : MonoBehaviour
     {
-        public string nextSceneName;
-        public string rootSceneName;
+        /// <summary>次のシーン</summary>
+        public string nextSceneName = "";
+        
+        /// <summary>リセットするシーン</summary>
+        public string rootSceneName = "";
+        
+        /// <summary>次のシーンにいく時に削除するシーン</summary>
         public List<string> deleteScene = new List<string>();
-        public bool onAwake;
+        
+        /// <summary>onAwakeで次のシーンを呼ぶか</summary>
+        public bool onAwake = false;
 
         private void Awake()
         {
