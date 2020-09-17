@@ -173,6 +173,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.ObjectEx.NumberExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.ObjectEx.NumberExtension.html",
+          "hash": "60rQ14YNhA8UdE2u8FF0Rg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/UniTool.ObjectEx.Promise-1.yml",
       "output": {
         ".html": {
@@ -213,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UniTool.ObjectEx.html",
-          "hash": "fRmSEPnGQRvsxhQJxWmCIA=="
+          "hash": "pzW8oqFf9FOez8/VP8FSqw=="
         }
       },
       "is_incremental": false,
@@ -245,6 +257,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.X.SimpleSceneManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.X.SimpleSceneManager.html",
+          "hash": "uARKtbX1llHCXrmDdOzsug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/UniTool.X.TrackTarget.yml",
       "output": {
         ".html": {
@@ -261,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UniTool.X.html",
-          "hash": "/37llJzisSE9mdLb1opfnw=="
+          "hash": "44BLdtmmvlly+JTSIcxO7w=="
         }
       },
       "is_incremental": false,
@@ -285,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "T4yiRPdLnDTNwpGMBajG2Q=="
+          "hash": "reha8OzmU0S6iQBipgabBw=="
         }
       },
       "is_incremental": false,
@@ -426,7 +450,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 22,
+          "total_file_count": 24,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

@@ -316,6 +316,51 @@ references:
   fullName.vb: UniTool.ObjectEx.NameExtension.GetClassName(Of T)(T)
   nameWithType: NameExtension.GetClassName<T>(T)
   nameWithType.vb: NameExtension.GetClassName(Of T)(T)
+- uid: UniTool.ObjectEx.NumberExtension
+  name: NumberExtension
+  href: api/UniTool.ObjectEx.NumberExtension.html
+  commentId: T:UniTool.ObjectEx.NumberExtension
+  fullName: UniTool.ObjectEx.NumberExtension
+  nameWithType: NumberExtension
+- uid: UniTool.ObjectEx.NumberExtension.DownTo(System.Int32,System.Int32,System.Int32)
+  name: DownTo(Int32, Int32, Int32)
+  href: api/UniTool.ObjectEx.NumberExtension.html#UniTool_ObjectEx_NumberExtension_DownTo_System_Int32_System_Int32_System_Int32_
+  commentId: M:UniTool.ObjectEx.NumberExtension.DownTo(System.Int32,System.Int32,System.Int32)
+  fullName: UniTool.ObjectEx.NumberExtension.DownTo(System.Int32, System.Int32, System.Int32)
+  nameWithType: NumberExtension.DownTo(Int32, Int32, Int32)
+- uid: UniTool.ObjectEx.NumberExtension.DownTo*
+  name: DownTo
+  href: api/UniTool.ObjectEx.NumberExtension.html#UniTool_ObjectEx_NumberExtension_DownTo_
+  commentId: Overload:UniTool.ObjectEx.NumberExtension.DownTo
+  isSpec: "True"
+  fullName: UniTool.ObjectEx.NumberExtension.DownTo
+  nameWithType: NumberExtension.DownTo
+- uid: UniTool.ObjectEx.NumberExtension.Until(System.Int32,System.Int32,System.Int32)
+  name: Until(Int32, Int32, Int32)
+  href: api/UniTool.ObjectEx.NumberExtension.html#UniTool_ObjectEx_NumberExtension_Until_System_Int32_System_Int32_System_Int32_
+  commentId: M:UniTool.ObjectEx.NumberExtension.Until(System.Int32,System.Int32,System.Int32)
+  fullName: UniTool.ObjectEx.NumberExtension.Until(System.Int32, System.Int32, System.Int32)
+  nameWithType: NumberExtension.Until(Int32, Int32, Int32)
+- uid: UniTool.ObjectEx.NumberExtension.Until*
+  name: Until
+  href: api/UniTool.ObjectEx.NumberExtension.html#UniTool_ObjectEx_NumberExtension_Until_
+  commentId: Overload:UniTool.ObjectEx.NumberExtension.Until
+  isSpec: "True"
+  fullName: UniTool.ObjectEx.NumberExtension.Until
+  nameWithType: NumberExtension.Until
+- uid: UniTool.ObjectEx.NumberExtension.UpTo(System.Int32,System.Int32,System.Int32)
+  name: UpTo(Int32, Int32, Int32)
+  href: api/UniTool.ObjectEx.NumberExtension.html#UniTool_ObjectEx_NumberExtension_UpTo_System_Int32_System_Int32_System_Int32_
+  commentId: M:UniTool.ObjectEx.NumberExtension.UpTo(System.Int32,System.Int32,System.Int32)
+  fullName: UniTool.ObjectEx.NumberExtension.UpTo(System.Int32, System.Int32, System.Int32)
+  nameWithType: NumberExtension.UpTo(Int32, Int32, Int32)
+- uid: UniTool.ObjectEx.NumberExtension.UpTo*
+  name: UpTo
+  href: api/UniTool.ObjectEx.NumberExtension.html#UniTool_ObjectEx_NumberExtension_UpTo_
+  commentId: Overload:UniTool.ObjectEx.NumberExtension.UpTo
+  isSpec: "True"
+  fullName: UniTool.ObjectEx.NumberExtension.UpTo
+  nameWithType: NumberExtension.UpTo
 - uid: UniTool.ObjectEx.Promise`1
   name: Promise<T>
   href: api/UniTool.ObjectEx.Promise-1.html
@@ -446,6 +491,62 @@ references:
   commentId: F:UniTool.X.LookAtTarget.target
   fullName: UniTool.X.LookAtTarget.target
   nameWithType: LookAtTarget.target
+- uid: UniTool.X.SimpleSceneManager
+  name: SimpleSceneManager
+  href: api/UniTool.X.SimpleSceneManager.html
+  commentId: T:UniTool.X.SimpleSceneManager
+  fullName: UniTool.X.SimpleSceneManager
+  nameWithType: SimpleSceneManager
+- uid: UniTool.X.SimpleSceneManager.deleteScene
+  name: deleteScene
+  href: api/UniTool.X.SimpleSceneManager.html#UniTool_X_SimpleSceneManager_deleteScene
+  commentId: F:UniTool.X.SimpleSceneManager.deleteScene
+  fullName: UniTool.X.SimpleSceneManager.deleteScene
+  nameWithType: SimpleSceneManager.deleteScene
+- uid: UniTool.X.SimpleSceneManager.Finish
+  name: Finish()
+  href: api/UniTool.X.SimpleSceneManager.html#UniTool_X_SimpleSceneManager_Finish
+  commentId: M:UniTool.X.SimpleSceneManager.Finish
+  fullName: UniTool.X.SimpleSceneManager.Finish()
+  nameWithType: SimpleSceneManager.Finish()
+- uid: UniTool.X.SimpleSceneManager.Finish*
+  name: Finish
+  href: api/UniTool.X.SimpleSceneManager.html#UniTool_X_SimpleSceneManager_Finish_
+  commentId: Overload:UniTool.X.SimpleSceneManager.Finish
+  isSpec: "True"
+  fullName: UniTool.X.SimpleSceneManager.Finish
+  nameWithType: SimpleSceneManager.Finish
+- uid: UniTool.X.SimpleSceneManager.Next
+  name: Next()
+  href: api/UniTool.X.SimpleSceneManager.html#UniTool_X_SimpleSceneManager_Next
+  commentId: M:UniTool.X.SimpleSceneManager.Next
+  fullName: UniTool.X.SimpleSceneManager.Next()
+  nameWithType: SimpleSceneManager.Next()
+- uid: UniTool.X.SimpleSceneManager.Next*
+  name: Next
+  href: api/UniTool.X.SimpleSceneManager.html#UniTool_X_SimpleSceneManager_Next_
+  commentId: Overload:UniTool.X.SimpleSceneManager.Next
+  isSpec: "True"
+  fullName: UniTool.X.SimpleSceneManager.Next
+  nameWithType: SimpleSceneManager.Next
+- uid: UniTool.X.SimpleSceneManager.nextSceneName
+  name: nextSceneName
+  href: api/UniTool.X.SimpleSceneManager.html#UniTool_X_SimpleSceneManager_nextSceneName
+  commentId: F:UniTool.X.SimpleSceneManager.nextSceneName
+  fullName: UniTool.X.SimpleSceneManager.nextSceneName
+  nameWithType: SimpleSceneManager.nextSceneName
+- uid: UniTool.X.SimpleSceneManager.onAwake
+  name: onAwake
+  href: api/UniTool.X.SimpleSceneManager.html#UniTool_X_SimpleSceneManager_onAwake
+  commentId: F:UniTool.X.SimpleSceneManager.onAwake
+  fullName: UniTool.X.SimpleSceneManager.onAwake
+  nameWithType: SimpleSceneManager.onAwake
+- uid: UniTool.X.SimpleSceneManager.rootSceneName
+  name: rootSceneName
+  href: api/UniTool.X.SimpleSceneManager.html#UniTool_X_SimpleSceneManager_rootSceneName
+  commentId: F:UniTool.X.SimpleSceneManager.rootSceneName
+  fullName: UniTool.X.SimpleSceneManager.rootSceneName
+  nameWithType: SimpleSceneManager.rootSceneName
 - uid: UniTool.X.TrackTarget
   name: TrackTarget
   href: api/UniTool.X.TrackTarget.html
