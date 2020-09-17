@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
+using System.Linq;
+using UniTool.ObjectEx;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -20,19 +22,11 @@ namespace UniTool.X
 
         public void Next()
         {
-            var nowSceneList = SceneList();
+            foreach (var scene in deleteScene.Where(scene => SceneList().Contains(scene)))
+                SceneManager.UnloadSceneAsync(scene);
 
-            foreach (var scene in deleteScene)
-                if (nowSceneList.Contains(scene))
-                {
-                    SceneManager.UnloadSceneAsync(scene);
-                }
-
-            if (!string.IsNullOrEmpty(nextSceneName))
-                if (!nowSceneList.Contains(nextSceneName))
-                {
-                    SceneManager.LoadScene(nextSceneName, LoadSceneMode.Additive);
-                }
+            if (!string.IsNullOrEmpty(nextSceneName) && !SceneList().Contains(nextSceneName))
+                SceneManager.LoadScene(nextSceneName, LoadSceneMode.Additive);
         }
 
         public void Finish()
@@ -42,12 +36,7 @@ namespace UniTool.X
 
         private static List<string> SceneList()
         {
-            var list = new List<string>();
-            for (var i = 0; i < SceneManager.sceneCount; i++)
-            {
-                list.Add(SceneManager.GetSceneAt(i).name);
-            }
-            return list;
+            return 0.Until(SceneManager.sceneCount).Select(i => SceneManager.GetSceneAt(i).name).ToList();
         }
     }
 }
