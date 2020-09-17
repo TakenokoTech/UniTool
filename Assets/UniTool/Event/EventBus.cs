@@ -61,24 +61,23 @@ namespace UniTool.Event
         }
     }
 
+    /// <summary>
+    /// レシーバーのベースとなるインタフェース
+    /// </summary>
     public interface IEventReceiverBase
     {
     }
 
+    /// <summary>
+    /// レシーブするデータに実装するインタフェース
+    /// </summary>
     public interface IEvent
     {
     }
 
-    /// <code>
-    /// class SampleClass : IEventReceiver&lt;TestEvent&gt; {
-    ///   void Start() { EventBus.Register(this); }
-    ///   void OnDestroy() { EventBus.UnRegister(this); }
-    ///   public void OnEvent(TestEvent e) { /* implementation */ } // override
-    /// }
-    ///
-    ///   // post value 
-    ///   EventBus.Post(new TestEvent { {value} });
-    /// </code>
+    /// <summary>
+    /// レシーブするクラスに実装するインタフェース
+    /// </summary>
     public interface IEventReceiver<in T> : IEventReceiverBase where T : struct, IEvent
     {
         void OnEvent(T e);
