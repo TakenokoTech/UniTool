@@ -217,6 +217,95 @@ references:
   fullName.vb: UniTool.EnumerableEx.EnumerableExtension.WithIndex(Of T)(System.Collections.Generic.IEnumerable(Of T))
   nameWithType: EnumerableExtension.WithIndex<T>(IEnumerable<T>)
   nameWithType.vb: EnumerableExtension.WithIndex(Of T)(IEnumerable(Of T))
+- uid: UniTool.Event
+  name: UniTool.Event
+  href: api/UniTool.Event.html
+  commentId: N:UniTool.Event
+  fullName: UniTool.Event
+  nameWithType: UniTool.Event
+- uid: UniTool.Event.EventBus
+  name: EventBus
+  href: api/UniTool.Event.EventBus.html
+  commentId: T:UniTool.Event.EventBus
+  fullName: UniTool.Event.EventBus
+  nameWithType: EventBus
+- uid: UniTool.Event.EventBus.Post(UniTool.Event.IEvent)
+  name: Post(IEvent)
+  href: api/UniTool.Event.EventBus.html#UniTool_Event_EventBus_Post_UniTool_Event_IEvent_
+  commentId: M:UniTool.Event.EventBus.Post(UniTool.Event.IEvent)
+  fullName: UniTool.Event.EventBus.Post(UniTool.Event.IEvent)
+  nameWithType: EventBus.Post(IEvent)
+- uid: UniTool.Event.EventBus.Post*
+  name: Post
+  href: api/UniTool.Event.EventBus.html#UniTool_Event_EventBus_Post_
+  commentId: Overload:UniTool.Event.EventBus.Post
+  isSpec: "True"
+  fullName: UniTool.Event.EventBus.Post
+  nameWithType: EventBus.Post
+- uid: UniTool.Event.EventBus.Register(UniTool.Event.IEventReceiverBase)
+  name: Register(IEventReceiverBase)
+  href: api/UniTool.Event.EventBus.html#UniTool_Event_EventBus_Register_UniTool_Event_IEventReceiverBase_
+  commentId: M:UniTool.Event.EventBus.Register(UniTool.Event.IEventReceiverBase)
+  fullName: UniTool.Event.EventBus.Register(UniTool.Event.IEventReceiverBase)
+  nameWithType: EventBus.Register(IEventReceiverBase)
+- uid: UniTool.Event.EventBus.Register*
+  name: Register
+  href: api/UniTool.Event.EventBus.html#UniTool_Event_EventBus_Register_
+  commentId: Overload:UniTool.Event.EventBus.Register
+  isSpec: "True"
+  fullName: UniTool.Event.EventBus.Register
+  nameWithType: EventBus.Register
+- uid: UniTool.Event.EventBus.Unregister(UniTool.Event.IEventReceiverBase)
+  name: Unregister(IEventReceiverBase)
+  href: api/UniTool.Event.EventBus.html#UniTool_Event_EventBus_Unregister_UniTool_Event_IEventReceiverBase_
+  commentId: M:UniTool.Event.EventBus.Unregister(UniTool.Event.IEventReceiverBase)
+  fullName: UniTool.Event.EventBus.Unregister(UniTool.Event.IEventReceiverBase)
+  nameWithType: EventBus.Unregister(IEventReceiverBase)
+- uid: UniTool.Event.EventBus.Unregister*
+  name: Unregister
+  href: api/UniTool.Event.EventBus.html#UniTool_Event_EventBus_Unregister_
+  commentId: Overload:UniTool.Event.EventBus.Unregister
+  isSpec: "True"
+  fullName: UniTool.Event.EventBus.Unregister
+  nameWithType: EventBus.Unregister
+- uid: UniTool.Event.IEvent
+  name: IEvent
+  href: api/UniTool.Event.IEvent.html
+  commentId: T:UniTool.Event.IEvent
+  fullName: UniTool.Event.IEvent
+  nameWithType: IEvent
+- uid: UniTool.Event.IEventReceiver`1
+  name: IEventReceiver<T>
+  href: api/UniTool.Event.IEventReceiver-1.html
+  commentId: T:UniTool.Event.IEventReceiver`1
+  name.vb: IEventReceiver(Of T)
+  fullName: UniTool.Event.IEventReceiver<T>
+  fullName.vb: UniTool.Event.IEventReceiver(Of T)
+  nameWithType: IEventReceiver<T>
+  nameWithType.vb: IEventReceiver(Of T)
+- uid: UniTool.Event.IEventReceiver`1.OnEvent(`0)
+  name: OnEvent(T)
+  href: api/UniTool.Event.IEventReceiver-1.html#UniTool_Event_IEventReceiver_1_OnEvent__0_
+  commentId: M:UniTool.Event.IEventReceiver`1.OnEvent(`0)
+  fullName: UniTool.Event.IEventReceiver<T>.OnEvent(T)
+  fullName.vb: UniTool.Event.IEventReceiver(Of T).OnEvent(T)
+  nameWithType: IEventReceiver<T>.OnEvent(T)
+  nameWithType.vb: IEventReceiver(Of T).OnEvent(T)
+- uid: UniTool.Event.IEventReceiver`1.OnEvent*
+  name: OnEvent
+  href: api/UniTool.Event.IEventReceiver-1.html#UniTool_Event_IEventReceiver_1_OnEvent_
+  commentId: Overload:UniTool.Event.IEventReceiver`1.OnEvent
+  isSpec: "True"
+  fullName: UniTool.Event.IEventReceiver<T>.OnEvent
+  fullName.vb: UniTool.Event.IEventReceiver(Of T).OnEvent
+  nameWithType: IEventReceiver<T>.OnEvent
+  nameWithType.vb: IEventReceiver(Of T).OnEvent
+- uid: UniTool.Event.IEventReceiverBase
+  name: IEventReceiverBase
+  href: api/UniTool.Event.IEventReceiverBase.html
+  commentId: T:UniTool.Event.IEventReceiverBase
+  fullName: UniTool.Event.IEventReceiverBase
+  nameWithType: IEventReceiverBase
 - uid: UniTool.ObjectEx
   name: UniTool.ObjectEx
   href: api/UniTool.ObjectEx.html

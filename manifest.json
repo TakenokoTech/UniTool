@@ -113,6 +113,66 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Event.EventBus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Event.EventBus.html",
+          "hash": "T0cpXhcA8JuuChmcW/FXhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Event.IEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Event.IEvent.html",
+          "hash": "AC0CiLbcXTgVr2tDrUr1iQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Event.IEventReceiver-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Event.IEventReceiver-1.html",
+          "hash": "gUKBj6794RS5M/t24mXJAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Event.IEventReceiverBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Event.IEventReceiverBase.html",
+          "hash": "LezFCk048wmnAs3QLxfqXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Event.html",
+          "hash": "N3zaJP7RpSY9uS6IifE3tQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/UniTool.ObjectEx.ApplyClassBlock-1.yml",
       "output": {
         ".html": {
@@ -309,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "reha8OzmU0S6iQBipgabBw=="
+          "hash": "sT2zqYMDhrYk20Hqh1dujw=="
         }
       },
       "is_incremental": false,
@@ -328,12 +388,24 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "articles/samplecode.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/samplecode.html",
+          "hash": "q15kEe+12xHlOHPFvBnbbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "articles/toc.yml",
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "gB8AESyvNru97tzIZofEEg=="
+          "hash": "D8QyqUNzgYrUH5ye8uUrFQ=="
         }
       },
       "is_incremental": false,
@@ -444,13 +516,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 3,
+          "total_file_count": 4,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 24,
+          "total_file_count": 29,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
