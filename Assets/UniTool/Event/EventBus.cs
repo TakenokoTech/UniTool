@@ -1,8 +1,6 @@
-using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Reflection;
+using UniTool.ObjectEx;
 
 namespace UniTool.Event
 {
@@ -39,25 +37,20 @@ namespace UniTool.Event
         /// </summary>
         public static void Post(IEvent e)
         {
-            Instance._listeners.Where(l => l.EventType == e.GetType()).ToList().ForEach(l => l.PostEvent(e));
+            Instance._listeners.Where(l => l.SameEvent(e)).ToList().ForEach(l => l.PostEvent(e));
         }
 
         private class EventListenerWrapper
         {
             public IEventReceiverBase Listener { get; }
-            public Type EventType { get; }
-            private readonly MethodBase _method;
 
             public EventListenerWrapper(IEventReceiverBase listener)
             {
                 Listener = listener;
-                _method = listener.GetType().GetMethod("OnEvent");
-                if (_method == null) throw new InvalidDataException();
-
-                EventType = _method.GetParameters()[0].ParameterType;
             }
 
-            public void PostEvent(object e) => _method.Invoke(Listener, new[] {e});
+            public bool SameEvent(object e) => Listener.GetParametersType("OnEvent", 0) == e.GetType();
+            public void PostEvent(object e) => Listener.Invoke("OnEvent", e);
         }
     }
 
