@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UniTool.Event.EventBus.html",
-          "hash": "T0cpXhcA8JuuChmcW/FXhg=="
+          "hash": "VZB0Dm2/eyf4TNPb3SgF0A=="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UniTool.Event.IEvent.html",
-          "hash": "AC0CiLbcXTgVr2tDrUr1iQ=="
+          "hash": "8YEWn+K+zYSUfNJ/px6ktg=="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UniTool.Event.IEventReceiver-1.html",
-          "hash": "gUKBj6794RS5M/t24mXJAA=="
+          "hash": "FNsg8Xxjx+IxbcxvcU+Ehw=="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UniTool.Event.IEventReceiverBase.html",
-          "hash": "LezFCk048wmnAs3QLxfqXQ=="
+          "hash": "n2anoO7YzYvCpnf46DnGnw=="
         }
       },
       "is_incremental": false,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UniTool.ObjectEx.ApplyClassBlock-1.html",
-          "hash": "Bpa10AwJUN1LlUlq4A8XaQ=="
+          "hash": "K42H1w300LOmpQ+pzBNxqA=="
         }
       },
       "is_incremental": false,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UniTool.ObjectEx.ApplyStructBlock-1.html",
-          "hash": "ia+W5VALNas64jKfDVR/sA=="
+          "hash": "jeJJX1+lLmFwTEziOmtgFw=="
         }
       },
       "is_incremental": false,
@@ -214,18 +214,6 @@
         ".html": {
           "relative_path": "api/UniTool.ObjectEx.DebugExtension.html",
           "hash": "c01g3HMZmyyO5japyKMDOA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/UniTool.ObjectEx.NameExtension.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/UniTool.ObjectEx.NameExtension.html",
-          "hash": "KFbreehPjMjy1zh4D7F0ZA=="
         }
       },
       "is_incremental": false,
@@ -249,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UniTool.ObjectEx.Promise-1.html",
-          "hash": "pC6xqA59lRWl9ekQsNjhyQ=="
+          "hash": "jSou3vi1IIbMGrBPV43Syw=="
         }
       },
       "is_incremental": false,
@@ -261,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UniTool.ObjectEx.TryBlock-2.html",
-          "hash": "jL0xVYxFVeGJoIxoibfEjw=="
+          "hash": "bHpiEyqoWJle3eJqT7RT+w=="
         }
       },
       "is_incremental": false,
@@ -281,11 +269,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.ObjectEx.TypeExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.ObjectEx.TypeExtension.html",
+          "hash": "EQMXQh4Rmz5RdRmz8QKZxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/UniTool.ObjectEx.yml",
       "output": {
         ".html": {
           "relative_path": "api/UniTool.ObjectEx.html",
-          "hash": "pzW8oqFf9FOez8/VP8FSqw=="
+          "hash": "o6M8Oai0EMFosO8RjY61BQ=="
         }
       },
       "is_incremental": false,
@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UniTool.X.CameraStabilizer.html",
-          "hash": "5m7S9n5n+3pLgJj3ZGyR/Q=="
+          "hash": "kDN2KBbvEBlnYe1f+1+3zg=="
         }
       },
       "is_incremental": false,
@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UniTool.X.LookAtTarget.html",
-          "hash": "x5WZu8RMMEz67aWvBLwV8Q=="
+          "hash": "rYf2ELCBlIDpvUP5vFgRVw=="
         }
       },
       "is_incremental": false,
@@ -321,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UniTool.X.SimpleSceneManager.html",
-          "hash": "uARKtbX1llHCXrmDdOzsug=="
+          "hash": "a8k2cL6zuHc3cun03/Io7g=="
         }
       },
       "is_incremental": false,
@@ -333,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UniTool.X.TrackTarget.html",
-          "hash": "Buvxr8mGvXYxQJ1h3NqmMg=="
+          "hash": "x2m0FZ+iZTXEmiYYisC2Qw=="
         }
       },
       "is_incremental": false,
@@ -369,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "sT2zqYMDhrYk20Hqh1dujw=="
+          "hash": "XDe5r/5jT9a/ZfFNAqug3w=="
         }
       },
       "is_incremental": false,

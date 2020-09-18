@@ -383,28 +383,6 @@ references:
   fullName.vb: UniTool.ObjectEx.DebugExtension.Dump(Of T)(T)
   nameWithType: DebugExtension.Dump<T>(T)
   nameWithType.vb: DebugExtension.Dump(Of T)(T)
-- uid: UniTool.ObjectEx.NameExtension
-  name: NameExtension
-  href: api/UniTool.ObjectEx.NameExtension.html
-  commentId: T:UniTool.ObjectEx.NameExtension
-  fullName: UniTool.ObjectEx.NameExtension
-  nameWithType: NameExtension
-- uid: UniTool.ObjectEx.NameExtension.GetClassName*
-  name: GetClassName
-  href: api/UniTool.ObjectEx.NameExtension.html#UniTool_ObjectEx_NameExtension_GetClassName_
-  commentId: Overload:UniTool.ObjectEx.NameExtension.GetClassName
-  isSpec: "True"
-  fullName: UniTool.ObjectEx.NameExtension.GetClassName
-  nameWithType: NameExtension.GetClassName
-- uid: UniTool.ObjectEx.NameExtension.GetClassName``1(``0)
-  name: GetClassName<T>(T)
-  href: api/UniTool.ObjectEx.NameExtension.html#UniTool_ObjectEx_NameExtension_GetClassName__1___0_
-  commentId: M:UniTool.ObjectEx.NameExtension.GetClassName``1(``0)
-  name.vb: GetClassName(Of T)(T)
-  fullName: UniTool.ObjectEx.NameExtension.GetClassName<T>(T)
-  fullName.vb: UniTool.ObjectEx.NameExtension.GetClassName(Of T)(T)
-  nameWithType: NameExtension.GetClassName<T>(T)
-  nameWithType.vb: NameExtension.GetClassName(Of T)(T)
 - uid: UniTool.ObjectEx.NumberExtension
   name: NumberExtension
   href: api/UniTool.ObjectEx.NumberExtension.html
@@ -556,6 +534,57 @@ references:
   fullName.vb: UniTool.ObjectEx.TryExtension.RunCatching(Of T, TR)(T, UniTool.ObjectEx.TryBlock(Of T, TR))
   nameWithType: TryExtension.RunCatching<T, TR>(T, TryBlock<T, TR>)
   nameWithType.vb: TryExtension.RunCatching(Of T, TR)(T, TryBlock(Of T, TR))
+- uid: UniTool.ObjectEx.TypeExtension
+  name: TypeExtension
+  href: api/UniTool.ObjectEx.TypeExtension.html
+  commentId: T:UniTool.ObjectEx.TypeExtension
+  fullName: UniTool.ObjectEx.TypeExtension
+  nameWithType: TypeExtension
+- uid: UniTool.ObjectEx.TypeExtension.GetClassName*
+  name: GetClassName
+  href: api/UniTool.ObjectEx.TypeExtension.html#UniTool_ObjectEx_TypeExtension_GetClassName_
+  commentId: Overload:UniTool.ObjectEx.TypeExtension.GetClassName
+  isSpec: "True"
+  fullName: UniTool.ObjectEx.TypeExtension.GetClassName
+  nameWithType: TypeExtension.GetClassName
+- uid: UniTool.ObjectEx.TypeExtension.GetClassName``1(``0)
+  name: GetClassName<T>(T)
+  href: api/UniTool.ObjectEx.TypeExtension.html#UniTool_ObjectEx_TypeExtension_GetClassName__1___0_
+  commentId: M:UniTool.ObjectEx.TypeExtension.GetClassName``1(``0)
+  name.vb: GetClassName(Of T)(T)
+  fullName: UniTool.ObjectEx.TypeExtension.GetClassName<T>(T)
+  fullName.vb: UniTool.ObjectEx.TypeExtension.GetClassName(Of T)(T)
+  nameWithType: TypeExtension.GetClassName<T>(T)
+  nameWithType.vb: TypeExtension.GetClassName(Of T)(T)
+- uid: UniTool.ObjectEx.TypeExtension.GetParametersType(System.Object,System.String,System.Int32)
+  name: GetParametersType(Object, String, Int32)
+  href: api/UniTool.ObjectEx.TypeExtension.html#UniTool_ObjectEx_TypeExtension_GetParametersType_System_Object_System_String_System_Int32_
+  commentId: M:UniTool.ObjectEx.TypeExtension.GetParametersType(System.Object,System.String,System.Int32)
+  fullName: UniTool.ObjectEx.TypeExtension.GetParametersType(System.Object, System.String, System.Int32)
+  nameWithType: TypeExtension.GetParametersType(Object, String, Int32)
+- uid: UniTool.ObjectEx.TypeExtension.GetParametersType*
+  name: GetParametersType
+  href: api/UniTool.ObjectEx.TypeExtension.html#UniTool_ObjectEx_TypeExtension_GetParametersType_
+  commentId: Overload:UniTool.ObjectEx.TypeExtension.GetParametersType
+  isSpec: "True"
+  fullName: UniTool.ObjectEx.TypeExtension.GetParametersType
+  nameWithType: TypeExtension.GetParametersType
+- uid: UniTool.ObjectEx.TypeExtension.Invoke(System.Object,System.String,System.Object[])
+  name: Invoke(Object, String, Object[])
+  href: api/UniTool.ObjectEx.TypeExtension.html#UniTool_ObjectEx_TypeExtension_Invoke_System_Object_System_String_System_Object___
+  commentId: M:UniTool.ObjectEx.TypeExtension.Invoke(System.Object,System.String,System.Object[])
+  name.vb: Invoke(Object, String, Object())
+  fullName: UniTool.ObjectEx.TypeExtension.Invoke(System.Object, System.String, System.Object[])
+  fullName.vb: UniTool.ObjectEx.TypeExtension.Invoke(System.Object, System.String, System.Object())
+  nameWithType: TypeExtension.Invoke(Object, String, Object[])
+  nameWithType.vb: TypeExtension.Invoke(Object, String, Object())
+- uid: UniTool.ObjectEx.TypeExtension.Invoke*
+  name: Invoke
+  href: api/UniTool.ObjectEx.TypeExtension.html#UniTool_ObjectEx_TypeExtension_Invoke_
+  commentId: Overload:UniTool.ObjectEx.TypeExtension.Invoke
+  isSpec: "True"
+  fullName: UniTool.ObjectEx.TypeExtension.Invoke
+  nameWithType: TypeExtension.Invoke
 - uid: UniTool.X
   name: UniTool.X
   href: api/UniTool.X.html
