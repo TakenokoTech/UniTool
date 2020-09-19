@@ -6,19 +6,19 @@ namespace UniTool.Event
 {
     public class SimpleAudio
     {
-        private const string Name = "[UniTool] Simple Audio";
+        private const string BaseName = "[UniTool] Simple Audio";
         private static SimpleAudio _instance = null;
         private readonly Dictionary<string, AudioSource> _audioSourceMap = null;
-
-        public static void Play(AudioClip clip)
+        
+        public static void Play(AudioClip clip, string tag = "")
         {
             if (clip == null) return;
-            GetAudioSource().transform.position = Vector3.zero;
-            GetAudioSource().spatialBlend = 0.0F;
-            GetAudioSource().PlayOneShot(clip);
+            GetAudioSource(tag).transform.position = Vector3.zero;
+            GetAudioSource(tag).spatialBlend = 0.0F;
+            GetAudioSource(tag).PlayOneShot(clip);
         }
 
-        public static void Play3D(AudioClip clip, Vector3 position, string tag)
+        public static void Play3D(AudioClip clip, Vector3 position, string tag = "")
         {
             if (clip == null) return;
             GetAudioSource(tag).transform.position = position;
@@ -29,7 +29,7 @@ namespace UniTool.Event
 
         public static void DropSource(string tag)
         {
-            GameObject.Find(Name + tag).Destroy();
+            GameObject.Find(GetSoundName(tag)).Destroy();
             _instance?._audioSourceMap?.Remove(tag);
         }
 
@@ -37,6 +37,8 @@ namespace UniTool.Event
         {
             _audioSourceMap = new Dictionary<string, AudioSource>();
         }
+        
+        public static string GetSoundName(string tag) => $"{BaseName}({tag})";
         
         private static AudioSource GetAudioSource(string tag = "")
         {
@@ -50,9 +52,9 @@ namespace UniTool.Event
             if(_instance == null) _instance = new SimpleAudio();
             if (GetAudio() != null) return GetAudio();
             if (_instance?._audioSourceMap?.ContainsKey(tag) == false) _instance?._audioSourceMap.Add(tag, null);
-            if (GetAudio() == null) _instance._audioSourceMap[tag] = GameObject.Find(Name + tag)?.GetComponent<AudioSource>();
-            if (GetAudio() == null) _instance._audioSourceMap[tag] = GameObject.Find(Name + tag)?.AddComponent<AudioSource>();
-            if (GetAudio() == null) _instance._audioSourceMap[tag] = new GameObject(Name + tag).AddComponent<AudioSource>();
+            if (GetAudio() == null) _instance._audioSourceMap[tag] = GameObject.Find(GetSoundName(tag))?.GetComponent<AudioSource>();
+            if (GetAudio() == null) _instance._audioSourceMap[tag] = GameObject.Find(GetSoundName(tag))?.AddComponent<AudioSource>();
+            if (GetAudio() == null) _instance._audioSourceMap[tag] = new GameObject(GetSoundName(tag)).AddComponent<AudioSource>();
             return _instance._audioSourceMap[tag];
         }
     }
