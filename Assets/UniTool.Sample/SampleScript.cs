@@ -13,10 +13,5 @@ namespace UniTool.Sample
             SimpleAudio.Play3D(audioClip, audioPosition, audioPosition.ToString());
             // SimpleAudio.Play(audioClip);
         }
-
-        private void OnDisable()
-        {
-            // SimpleAudio.DropSource(audioPosition.ToString());
-        }
     }
 }
