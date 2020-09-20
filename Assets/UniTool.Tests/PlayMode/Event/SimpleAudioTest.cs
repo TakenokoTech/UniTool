@@ -9,15 +9,25 @@ namespace UniTool.Tests.PlayMode.Event
 {
     public class SimpleAudioTest
     {
+        private AudioListener _audioListener;
         private readonly AudioClip _audioClip = AudioClip.Create("testSound", 44100 * 2, 1, 44100, true);
 
+        [SetUp]
+        public void SetUp()
+        {
+            _audioListener = new GameObject("AudioListener").AddComponent<AudioListener>();
+        }
+        
+        [TearDown]
+        public void TearDown()
+        {
+            _audioListener.gameObject.Destroy();
+        }
+        
         [UnityTest]
         public IEnumerator PlayTest()
         {
-            // TODO AutoDestroy<AudioListener>((it) => { /** **/ }) ← こんな書き方にしたい
             const string tag = "test1";
-            var audioListener = GameObject.CreatePrimitive(PrimitiveType.Cube).AddComponent<AudioListener>();
-
             SimpleAudio.Play(_audioClip, tag);
             yield return null;
 
@@ -29,17 +39,12 @@ namespace UniTool.Tests.PlayMode.Event
 
             while (GameObject.Find(soundName) != null) yield return new WaitForSeconds(0.1F);
             Assert.AreEqual(null, GameObject.Find(soundName));
-
-            audioListener.gameObject.Destroy();
         }
 
         [UnityTest]
         public IEnumerator Play3DTest()
         {
-            // TODO AutoDestroy<AudioListener>((it) => { /** **/ }) ← こんな書き方にしたい
             const string tag = "test2";
-            var audioListener = GameObject.CreatePrimitive(PrimitiveType.Cube).AddComponent<AudioListener>();
-
             SimpleAudio.Play3D(_audioClip, Vector3.one, tag);
             yield return null;
 
@@ -51,8 +56,6 @@ namespace UniTool.Tests.PlayMode.Event
 
             while (GameObject.Find(soundName) != null) yield return new WaitForSeconds(0.1F);
             Assert.AreEqual(null, GameObject.Find(soundName));
-
-            audioListener.gameObject.Destroy();
         }
     }
 }
