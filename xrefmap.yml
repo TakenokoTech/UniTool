@@ -32,6 +32,90 @@ references:
   commentId: N:UniTool.EngineEx
   fullName: UniTool.EngineEx
   nameWithType: UniTool.EngineEx
+- uid: UniTool.EngineEx.AudioSourceExtension
+  name: AudioSourceExtension
+  href: api/UniTool.EngineEx.AudioSourceExtension.html
+  commentId: T:UniTool.EngineEx.AudioSourceExtension
+  fullName: UniTool.EngineEx.AudioSourceExtension
+  nameWithType: AudioSourceExtension
+- uid: UniTool.EngineEx.AudioSourceExtension.Mute(AudioSource)
+  name: Mute(AudioSource)
+  href: api/UniTool.EngineEx.AudioSourceExtension.html#UniTool_EngineEx_AudioSourceExtension_Mute_AudioSource_
+  commentId: M:UniTool.EngineEx.AudioSourceExtension.Mute(AudioSource)
+  fullName: UniTool.EngineEx.AudioSourceExtension.Mute(AudioSource)
+  nameWithType: AudioSourceExtension.Mute(AudioSource)
+- uid: UniTool.EngineEx.AudioSourceExtension.Mute*
+  name: Mute
+  href: api/UniTool.EngineEx.AudioSourceExtension.html#UniTool_EngineEx_AudioSourceExtension_Mute_
+  commentId: Overload:UniTool.EngineEx.AudioSourceExtension.Mute
+  isSpec: "True"
+  fullName: UniTool.EngineEx.AudioSourceExtension.Mute
+  nameWithType: AudioSourceExtension.Mute
+- uid: UniTool.EngineEx.AudioSourceExtension.SetClip(AudioSource,AudioClip)
+  name: SetClip(AudioSource, AudioClip)
+  href: api/UniTool.EngineEx.AudioSourceExtension.html#UniTool_EngineEx_AudioSourceExtension_SetClip_AudioSource_AudioClip_
+  commentId: M:UniTool.EngineEx.AudioSourceExtension.SetClip(AudioSource,AudioClip)
+  fullName: UniTool.EngineEx.AudioSourceExtension.SetClip(AudioSource, AudioClip)
+  nameWithType: AudioSourceExtension.SetClip(AudioSource, AudioClip)
+- uid: UniTool.EngineEx.AudioSourceExtension.SetClip*
+  name: SetClip
+  href: api/UniTool.EngineEx.AudioSourceExtension.html#UniTool_EngineEx_AudioSourceExtension_SetClip_
+  commentId: Overload:UniTool.EngineEx.AudioSourceExtension.SetClip
+  isSpec: "True"
+  fullName: UniTool.EngineEx.AudioSourceExtension.SetClip
+  nameWithType: AudioSourceExtension.SetClip
+- uid: UniTool.EngineEx.AudioSourceExtension.SetOutput(AudioSource,AudioMixerGroup)
+  name: SetOutput(AudioSource, AudioMixerGroup)
+  href: api/UniTool.EngineEx.AudioSourceExtension.html#UniTool_EngineEx_AudioSourceExtension_SetOutput_AudioSource_AudioMixerGroup_
+  commentId: M:UniTool.EngineEx.AudioSourceExtension.SetOutput(AudioSource,AudioMixerGroup)
+  fullName: UniTool.EngineEx.AudioSourceExtension.SetOutput(AudioSource, AudioMixerGroup)
+  nameWithType: AudioSourceExtension.SetOutput(AudioSource, AudioMixerGroup)
+- uid: UniTool.EngineEx.AudioSourceExtension.SetOutput*
+  name: SetOutput
+  href: api/UniTool.EngineEx.AudioSourceExtension.html#UniTool_EngineEx_AudioSourceExtension_SetOutput_
+  commentId: Overload:UniTool.EngineEx.AudioSourceExtension.SetOutput
+  isSpec: "True"
+  fullName: UniTool.EngineEx.AudioSourceExtension.SetOutput
+  nameWithType: AudioSourceExtension.SetOutput
+- uid: UniTool.EngineEx.AudioSourceExtension.SetPitch(AudioSource,System.Single)
+  name: SetPitch(AudioSource, Single)
+  href: api/UniTool.EngineEx.AudioSourceExtension.html#UniTool_EngineEx_AudioSourceExtension_SetPitch_AudioSource_System_Single_
+  commentId: M:UniTool.EngineEx.AudioSourceExtension.SetPitch(AudioSource,System.Single)
+  fullName: UniTool.EngineEx.AudioSourceExtension.SetPitch(AudioSource, System.Single)
+  nameWithType: AudioSourceExtension.SetPitch(AudioSource, Single)
+- uid: UniTool.EngineEx.AudioSourceExtension.SetPitch*
+  name: SetPitch
+  href: api/UniTool.EngineEx.AudioSourceExtension.html#UniTool_EngineEx_AudioSourceExtension_SetPitch_
+  commentId: Overload:UniTool.EngineEx.AudioSourceExtension.SetPitch
+  isSpec: "True"
+  fullName: UniTool.EngineEx.AudioSourceExtension.SetPitch
+  nameWithType: AudioSourceExtension.SetPitch
+- uid: UniTool.EngineEx.AudioSourceExtension.SetVolume(AudioSource,System.Single)
+  name: SetVolume(AudioSource, Single)
+  href: api/UniTool.EngineEx.AudioSourceExtension.html#UniTool_EngineEx_AudioSourceExtension_SetVolume_AudioSource_System_Single_
+  commentId: M:UniTool.EngineEx.AudioSourceExtension.SetVolume(AudioSource,System.Single)
+  fullName: UniTool.EngineEx.AudioSourceExtension.SetVolume(AudioSource, System.Single)
+  nameWithType: AudioSourceExtension.SetVolume(AudioSource, Single)
+- uid: UniTool.EngineEx.AudioSourceExtension.SetVolume*
+  name: SetVolume
+  href: api/UniTool.EngineEx.AudioSourceExtension.html#UniTool_EngineEx_AudioSourceExtension_SetVolume_
+  commentId: Overload:UniTool.EngineEx.AudioSourceExtension.SetVolume
+  isSpec: "True"
+  fullName: UniTool.EngineEx.AudioSourceExtension.SetVolume
+  nameWithType: AudioSourceExtension.SetVolume
+- uid: UniTool.EngineEx.AudioSourceExtension.Unmute(AudioSource)
+  name: Unmute(AudioSource)
+  href: api/UniTool.EngineEx.AudioSourceExtension.html#UniTool_EngineEx_AudioSourceExtension_Unmute_AudioSource_
+  commentId: M:UniTool.EngineEx.AudioSourceExtension.Unmute(AudioSource)
+  fullName: UniTool.EngineEx.AudioSourceExtension.Unmute(AudioSource)
+  nameWithType: AudioSourceExtension.Unmute(AudioSource)
+- uid: UniTool.EngineEx.AudioSourceExtension.Unmute*
+  name: Unmute
+  href: api/UniTool.EngineEx.AudioSourceExtension.html#UniTool_EngineEx_AudioSourceExtension_Unmute_
+  commentId: Overload:UniTool.EngineEx.AudioSourceExtension.Unmute
+  isSpec: "True"
+  fullName: UniTool.EngineEx.AudioSourceExtension.Unmute
+  nameWithType: AudioSourceExtension.Unmute
 - uid: UniTool.EngineEx.ColliderExtension
   name: ColliderExtension
   href: api/UniTool.EngineEx.ColliderExtension.html
@@ -306,6 +390,51 @@ references:
   commentId: T:UniTool.Event.IEventReceiverBase
   fullName: UniTool.Event.IEventReceiverBase
   nameWithType: IEventReceiverBase
+- uid: UniTool.Event.SimpleAudio
+  name: SimpleAudio
+  href: api/UniTool.Event.SimpleAudio.html
+  commentId: T:UniTool.Event.SimpleAudio
+  fullName: UniTool.Event.SimpleAudio
+  nameWithType: SimpleAudio
+- uid: UniTool.Event.SimpleAudio.GetSoundName(System.String)
+  name: GetSoundName(String)
+  href: api/UniTool.Event.SimpleAudio.html#UniTool_Event_SimpleAudio_GetSoundName_System_String_
+  commentId: M:UniTool.Event.SimpleAudio.GetSoundName(System.String)
+  fullName: UniTool.Event.SimpleAudio.GetSoundName(System.String)
+  nameWithType: SimpleAudio.GetSoundName(String)
+- uid: UniTool.Event.SimpleAudio.GetSoundName*
+  name: GetSoundName
+  href: api/UniTool.Event.SimpleAudio.html#UniTool_Event_SimpleAudio_GetSoundName_
+  commentId: Overload:UniTool.Event.SimpleAudio.GetSoundName
+  isSpec: "True"
+  fullName: UniTool.Event.SimpleAudio.GetSoundName
+  nameWithType: SimpleAudio.GetSoundName
+- uid: UniTool.Event.SimpleAudio.Play(AudioClip,System.String)
+  name: Play(AudioClip, String)
+  href: api/UniTool.Event.SimpleAudio.html#UniTool_Event_SimpleAudio_Play_AudioClip_System_String_
+  commentId: M:UniTool.Event.SimpleAudio.Play(AudioClip,System.String)
+  fullName: UniTool.Event.SimpleAudio.Play(AudioClip, System.String)
+  nameWithType: SimpleAudio.Play(AudioClip, String)
+- uid: UniTool.Event.SimpleAudio.Play*
+  name: Play
+  href: api/UniTool.Event.SimpleAudio.html#UniTool_Event_SimpleAudio_Play_
+  commentId: Overload:UniTool.Event.SimpleAudio.Play
+  isSpec: "True"
+  fullName: UniTool.Event.SimpleAudio.Play
+  nameWithType: SimpleAudio.Play
+- uid: UniTool.Event.SimpleAudio.Play3D(AudioClip,Vector3,System.String)
+  name: Play3D(AudioClip, Vector3, String)
+  href: api/UniTool.Event.SimpleAudio.html#UniTool_Event_SimpleAudio_Play3D_AudioClip_Vector3_System_String_
+  commentId: M:UniTool.Event.SimpleAudio.Play3D(AudioClip,Vector3,System.String)
+  fullName: UniTool.Event.SimpleAudio.Play3D(AudioClip, Vector3, System.String)
+  nameWithType: SimpleAudio.Play3D(AudioClip, Vector3, String)
+- uid: UniTool.Event.SimpleAudio.Play3D*
+  name: Play3D
+  href: api/UniTool.Event.SimpleAudio.html#UniTool_Event_SimpleAudio_Play3D_
+  commentId: Overload:UniTool.Event.SimpleAudio.Play3D
+  isSpec: "True"
+  fullName: UniTool.Event.SimpleAudio.Play3D
+  nameWithType: SimpleAudio.Play3D
 - uid: UniTool.ObjectEx
   name: UniTool.ObjectEx
   href: api/UniTool.ObjectEx.html

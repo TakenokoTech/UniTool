@@ -29,6 +29,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.EngineEx.AudioSourceExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.EngineEx.AudioSourceExtension.html",
+          "hash": "kHF/ZBX4x+UeugY47EcCDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/UniTool.EngineEx.ColliderExtension.yml",
       "output": {
         ".html": {
@@ -81,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UniTool.EngineEx.html",
-          "hash": "NSEIDfKNPrnJTK9BT4r/qA=="
+          "hash": "JhDxm46OoH2TmFu2/UEljQ=="
         }
       },
       "is_incremental": false,
@@ -161,11 +173,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Event.SimpleAudio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Event.SimpleAudio.html",
+          "hash": "iIUANd2EtFU3k5X3yyQ3Tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/UniTool.Event.yml",
       "output": {
         ".html": {
           "relative_path": "api/UniTool.Event.html",
-          "hash": "N3zaJP7RpSY9uS6IifE3tQ=="
+          "hash": "TkYKQvxEZAt1rh4xzx4oRA=="
         }
       },
       "is_incremental": false,
@@ -369,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "XDe5r/5jT9a/ZfFNAqug3w=="
+          "hash": "VJLGmZXi97DAPMjKiLbUtQ=="
         }
       },
       "is_incremental": false,
@@ -522,7 +546,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 29,
+          "total_file_count": 31,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
