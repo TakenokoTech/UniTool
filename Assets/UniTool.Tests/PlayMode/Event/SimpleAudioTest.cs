@@ -12,13 +12,13 @@ namespace UniTool.Tests.PlayMode.Event
         private AudioListener _audioListener;
         private readonly AudioClip _audioClip = AudioClip.Create("testSound", 44100 * 2, 1, 44100, true);
 
-        [SetUp]
+        [OneTimeSetUp]
         public void SetUp()
         {
             _audioListener = new GameObject("AudioListener").AddComponent<AudioListener>();
         }
         
-        [TearDown]
+        [OneTimeTearDown]
         public void TearDown()
         {
             _audioListener.gameObject.Destroy();
