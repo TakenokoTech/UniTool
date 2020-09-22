@@ -8,7 +8,7 @@ namespace UniTool.Event
     /// </summary>
     public static class SimpleAudio
     {
-        private const string BaseName = "[UniTool] Simple Audio";
+        private const string BaseName = "[UniTool] SimpleAudio";
 
         /// <summary>
         /// サウンド再生
@@ -35,11 +35,9 @@ namespace UniTool.Event
             source.PlayOneShot(clip);
         }
 
-        public static string GetSoundName(string tag) => $"{BaseName}({tag})";
-        
         private static AudioSource GetAudioSource(string tag)
         {
-            var audio = new GameObject(GetSoundName(tag));
+            var audio = new GameObject($"{BaseName} ({tag})");
             audio.AddComponent<SimpleAudioMono>();
             return audio.AddComponent<AudioSource>();
         }

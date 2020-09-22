@@ -31,7 +31,7 @@ namespace UniTool.Tests.PlayMode.Event
             SimpleAudio.Play(_audioClip, tag);
             yield return null;
 
-            var soundName = SimpleAudio.GetSoundName(tag);
+            var soundName = "[UniTool] SimpleAudio (test1)";
             var audio = GameObject.Find(soundName).GetComponent<AudioSource>();
 
             Assert.AreEqual(Vector3.zero, audio.transform.position);
@@ -48,7 +48,7 @@ namespace UniTool.Tests.PlayMode.Event
             SimpleAudio.Play3D(_audioClip, Vector3.one, tag);
             yield return null;
 
-            var soundName = SimpleAudio.GetSoundName(tag);
+            var soundName = "[UniTool] SimpleAudio (test2)";
             var audio = GameObject.Find(soundName).GetComponent<AudioSource>();
 
             Assert.AreEqual(Vector3.one, audio.transform.position);
