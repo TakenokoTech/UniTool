@@ -396,19 +396,6 @@ references:
   commentId: T:UniTool.Event.SimpleAudio
   fullName: UniTool.Event.SimpleAudio
   nameWithType: SimpleAudio
-- uid: UniTool.Event.SimpleAudio.GetSoundName(System.String)
-  name: GetSoundName(String)
-  href: api/UniTool.Event.SimpleAudio.html#UniTool_Event_SimpleAudio_GetSoundName_System_String_
-  commentId: M:UniTool.Event.SimpleAudio.GetSoundName(System.String)
-  fullName: UniTool.Event.SimpleAudio.GetSoundName(System.String)
-  nameWithType: SimpleAudio.GetSoundName(String)
-- uid: UniTool.Event.SimpleAudio.GetSoundName*
-  name: GetSoundName
-  href: api/UniTool.Event.SimpleAudio.html#UniTool_Event_SimpleAudio_GetSoundName_
-  commentId: Overload:UniTool.Event.SimpleAudio.GetSoundName
-  isSpec: "True"
-  fullName: UniTool.Event.SimpleAudio.GetSoundName
-  nameWithType: SimpleAudio.GetSoundName
 - uid: UniTool.Event.SimpleAudio.Play(AudioClip,System.String)
   name: Play(AudioClip, String)
   href: api/UniTool.Event.SimpleAudio.html#UniTool_Event_SimpleAudio_Play_AudioClip_System_String_
