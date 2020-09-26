@@ -2,7 +2,8 @@
     "name": "UniTool.Sample",
     "references": [
         "UnityEngine.TestRunner",
-        "UniTool"
+        "UniTool",
+        "UniTool.Editor"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
