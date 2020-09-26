@@ -7,7 +7,7 @@ namespace UniTool.Tests.EditMode.Event
     public class SimpleAssetBundleTest
     {
         [Test]
-        public void Test()
+        public void BuildTest()
         {
             const string bundleName1 = "scene";
             const string assetPath1 = "Assets/UniTool.Sample/Scene1.unity";

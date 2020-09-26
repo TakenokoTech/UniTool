@@ -10,7 +10,7 @@ namespace UniTool.Editor.Event
     public static class SimpleAssetBundle
     {
         public static AssetBundleManifest Build(string outputPath, IEnumerable<SimpleAssets> assets,
-            BuildAssetBundleOptions options = BuildAssetBundleOptions.None, BuildTarget target = BuildTarget.StandaloneOSX)
+            BuildAssetBundleOptions options = BuildAssetBundleOptions.None, BuildTarget target = BuildTarget.Android)
         {
             // ReSharper disable PossibleMultipleEnumeration
             var buildMap = assets.Select(it => new AssetBundleBuild {assetBundleName = it.BundleName, assetNames = it.Assets}).ToArray();
