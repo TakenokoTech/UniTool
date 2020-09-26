@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using Object = UnityEngine.Object;
@@ -23,6 +24,7 @@ namespace UniTool.Event
 
         public static void Unload(string path)
         {
+            if (!Instance._assetMap.ContainsKey(path)) return;
             if (--Instance._assetMap[path].RefCount > 0) return;
             Instance._assetMap[path].Bundle.Unload(false);
             Instance._assetMap.Remove(path);
@@ -34,8 +36,26 @@ namespace UniTool.Event
             return asset?.RefCount;
         }
 
-        private SimpleAssetBundle() {}
+        public static string[] GetAllAssetNames(string path)
+        {
+            if (!Instance._assetMap.ContainsKey(path))
+                Instance._assetMap.Add(path, new Asset {RefCount = 0, Bundle = AssetBundle.LoadFromFile(path)});
+            var assets = Instance._assetMap[path].Bundle;
+            return assets.GetAllAssetNames();
+        }
         
+        public static string[] GetAllScenePaths(string path)
+        {
+            if (!Instance._assetMap.ContainsKey(path))
+                Instance._assetMap.Add(path, new Asset {RefCount = 0, Bundle = AssetBundle.LoadFromFile(path)});
+            var assets = Instance._assetMap[path].Bundle;
+            return assets.GetAllScenePaths();
+        }
+            
+        private SimpleAssetBundle()
+        {
+        }
+
         private class Asset
         {
             public int RefCount;
