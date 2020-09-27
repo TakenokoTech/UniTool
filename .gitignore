@@ -83,6 +83,8 @@ test-results/
 CodeCoverage/
 /[Aa]ssets/Init*.unity
 /[Aa]ssets/Init*.unity.meta
+/[Aa]ssets/StreamingAssets/Init*
+/[Aa]ssets/StreamingAssets/Init*.meta
 
 # ========================= #
 # Package                   #

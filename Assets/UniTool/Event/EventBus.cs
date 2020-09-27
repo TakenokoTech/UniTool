@@ -9,8 +9,7 @@ namespace UniTool.Event
     /// </summary>
     public class EventBus
     {
-        private static EventBus _instance;
-        private static EventBus Instance => _instance ?? (_instance = new EventBus());
+        private static readonly EventBus Instance = new EventBus();
         private readonly List<EventListenerWrapper> _listeners = new List<EventListenerWrapper>();
 
         /// <summary>
@@ -52,6 +51,8 @@ namespace UniTool.Event
             public bool SameEvent(object e) => Listener.GetParametersType("OnEvent", 0) == e.GetType();
             public void PostEvent(object e) => Listener.Invoke("OnEvent", e);
         }
+        
+        private EventBus() {}
     }
 
     /// <summary>
