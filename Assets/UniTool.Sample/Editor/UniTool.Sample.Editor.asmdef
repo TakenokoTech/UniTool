@@ -1,0 +1,22 @@
+{
+    "name": "UniTool.Sample.Editor",
+    "references": [
+        "GUID:0acc523941302664db1f4e527237feb3",
+        "GUID:989f8f911abe14199ad0d8f0f9b877d0"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

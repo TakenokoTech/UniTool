@@ -12,7 +12,6 @@ namespace UniTool.Editor
         private const string DistDir = "Dist";
         private const string SearchPattern = "*";
 
-        [MenuItem("Tools/Export Unitypackage")]
         public static void Export()
         {
             var exportPath = GetExportPath();
