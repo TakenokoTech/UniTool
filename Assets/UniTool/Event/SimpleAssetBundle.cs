@@ -15,10 +15,7 @@ namespace UniTool.Event
 
         public static T Load<T>(string path, string name) where T : Object
         {
-            if (!Instance._assetMap.ContainsKey(path))
-                Instance._assetMap.Add(path, new Asset {RefCount = 1, Bundle = AssetBundle.LoadFromFile(path)});
-            else
-                Instance._assetMap[path].RefCount++;
+            LoadOrCountUp(path);
             return Instance._assetMap[path].Bundle.LoadAsset<T>(name);
         }
 
@@ -38,20 +35,30 @@ namespace UniTool.Event
 
         public static string[] GetAllAssetNames(string path)
         {
-            if (!Instance._assetMap.ContainsKey(path))
-                Instance._assetMap.Add(path, new Asset {RefCount = 0, Bundle = AssetBundle.LoadFromFile(path)});
+            LoadOrCountUp(path);
             var assets = Instance._assetMap[path].Bundle;
-            return assets.GetAllAssetNames();
+            var allAssetNames = assets.GetAllAssetNames();
+            Unload(path);
+            return allAssetNames;
         }
-        
+
         public static string[] GetAllScenePaths(string path)
         {
-            if (!Instance._assetMap.ContainsKey(path))
-                Instance._assetMap.Add(path, new Asset {RefCount = 0, Bundle = AssetBundle.LoadFromFile(path)});
+            LoadOrCountUp(path);
             var assets = Instance._assetMap[path].Bundle;
-            return assets.GetAllScenePaths();
+            var allScenePaths = assets.GetAllScenePaths();
+            Unload(path);
+            return allScenePaths;
         }
-            
+
+        private static void LoadOrCountUp(string path)
+        {
+            if (!Instance._assetMap.ContainsKey(path))
+                Instance._assetMap.Add(path, new Asset {RefCount = 1, Bundle = AssetBundle.LoadFromFile(path)});
+            else
+                Instance._assetMap[path].RefCount++;
+        }
+
         private SimpleAssetBundle()
         {
         }

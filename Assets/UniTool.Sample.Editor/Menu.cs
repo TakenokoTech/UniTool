@@ -3,7 +3,7 @@ using UniTool.Editor;
 using UniTool.Editor.Event;
 using UnityEditor;
 
-namespace UniTool.Sample
+namespace UniTool.Sample.Editor
 {
     public static class Menu
     {

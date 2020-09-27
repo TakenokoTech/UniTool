@@ -1,6 +1,8 @@
 using System.IO;
 using NUnit.Framework;
 using UniTool.Editor.Event;
+using UnityEditor;
+using UnityEngine;
 
 namespace UniTool.Tests.EditMode.Event
 {
@@ -27,6 +29,25 @@ namespace UniTool.Tests.EditMode.Event
             
             Assert.AreEqual("scene", manifest.GetAllAssetBundles()[0]);
             Assert.AreEqual("sound", manifest.GetAllAssetBundles()[1]);
+        }
+
+        [Test]
+        public void FixTargetTest()
+        {
+            var actual1 = SimpleAssetBundle.FixTarget(RuntimePlatform.OSXEditor, BuildTarget.NoTarget);
+            Assert.AreEqual(BuildTarget.StandaloneOSX, actual1);
+            
+            var actual2 = SimpleAssetBundle.FixTarget(RuntimePlatform.WindowsEditor, BuildTarget.NoTarget);
+            Assert.AreEqual(BuildTarget.StandaloneWindows, actual2);
+            
+            var actual3 = SimpleAssetBundle.FixTarget(RuntimePlatform.LinuxEditor, BuildTarget.NoTarget);
+            Assert.AreEqual(BuildTarget.StandaloneLinux64, actual3);
+            
+            var actual4 = SimpleAssetBundle.FixTarget(RuntimePlatform.OSXPlayer, BuildTarget.NoTarget);
+            Assert.AreEqual(BuildTarget.NoTarget, actual4);
+            
+            var actual5 = SimpleAssetBundle.FixTarget(RuntimePlatform.OSXEditor, BuildTarget.Android);
+            Assert.AreEqual(BuildTarget.Android, actual5);
         }
     }
 }
