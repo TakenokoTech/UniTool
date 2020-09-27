@@ -13,12 +13,18 @@ namespace UniTool.Event
         private static readonly SimpleAssetBundle Instance = new SimpleAssetBundle();
         private readonly Dictionary<string, Asset> _assetMap = new Dictionary<string, Asset>();
 
+        /// <summary>
+        /// AssetBundleを読み込み
+        /// </summary>
         public static T Load<T>(string path, string name) where T : Object
         {
             LoadOrCountUp(path);
             return Instance._assetMap[path].Bundle.LoadAsset<T>(name);
         }
 
+        /// <summary>
+        /// AssetBundleを破棄
+        /// </summary>
         public static void Unload(string path)
         {
             if (!Instance._assetMap.ContainsKey(path)) return;
@@ -27,12 +33,18 @@ namespace UniTool.Event
             Instance._assetMap.Remove(path);
         }
 
+        /// <summary>
+        /// 参照数を取得
+        /// </summary>
         public static int? GetRefCount(string path)
         {
             Instance._assetMap.TryGetValue(path, out var asset);
             return asset?.RefCount;
         }
 
+        /// <summary>
+        /// AssetBundleに含まれるアセット名を取得
+        /// </summary>
         public static string[] GetAllAssetNames(string path)
         {
             LoadOrCountUp(path);
@@ -42,6 +54,9 @@ namespace UniTool.Event
             return allAssetNames;
         }
 
+        /// <summary>
+        /// AssetBundleに含まれるシーン名を取得
+        /// </summary>
         public static string[] GetAllScenePaths(string path)
         {
             LoadOrCountUp(path);
