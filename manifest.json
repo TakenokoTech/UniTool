@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UniTool.Event.EventBus.html",
-          "hash": "VZB0Dm2/eyf4TNPb3SgF0A=="
+          "hash": "gVk1bZ0lCz/J+ykZgqR3aA=="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UniTool.Event.IEvent.html",
-          "hash": "8YEWn+K+zYSUfNJ/px6ktg=="
+          "hash": "erqIJV72JSRzwLi7iqbXNw=="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UniTool.Event.IEventReceiver-1.html",
-          "hash": "FNsg8Xxjx+IxbcxvcU+Ehw=="
+          "hash": "dgnpszjOrB+h9Ggdh1KTYw=="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,19 @@
       "output": {
         ".html": {
           "relative_path": "api/UniTool.Event.IEventReceiverBase.html",
-          "hash": "n2anoO7YzYvCpnf46DnGnw=="
+          "hash": "XKt7Cc8LhWVALLPEJXWKJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Event.SimpleAssetBundle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Event.SimpleAssetBundle.html",
+          "hash": "YbS6znlNk5+j7if8KA0ZoA=="
         }
       },
       "is_incremental": false,
@@ -189,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UniTool.Event.html",
-          "hash": "TkYKQvxEZAt1rh4xzx4oRA=="
+          "hash": "E8OA2/O6dfQOW+cfgrQl0w=="
         }
       },
       "is_incremental": false,
@@ -393,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "VJLGmZXi97DAPMjKiLbUtQ=="
+          "hash": "7WgSBmmpBjentCNh18mmOw=="
         }
       },
       "is_incremental": false,
@@ -546,7 +558,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 31,
+          "total_file_count": 32,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

@@ -390,6 +390,80 @@ references:
   commentId: T:UniTool.Event.IEventReceiverBase
   fullName: UniTool.Event.IEventReceiverBase
   nameWithType: IEventReceiverBase
+- uid: UniTool.Event.SimpleAssetBundle
+  name: SimpleAssetBundle
+  href: api/UniTool.Event.SimpleAssetBundle.html
+  commentId: T:UniTool.Event.SimpleAssetBundle
+  fullName: UniTool.Event.SimpleAssetBundle
+  nameWithType: SimpleAssetBundle
+- uid: UniTool.Event.SimpleAssetBundle.GetAllAssetNames(System.String)
+  name: GetAllAssetNames(String)
+  href: api/UniTool.Event.SimpleAssetBundle.html#UniTool_Event_SimpleAssetBundle_GetAllAssetNames_System_String_
+  commentId: M:UniTool.Event.SimpleAssetBundle.GetAllAssetNames(System.String)
+  fullName: UniTool.Event.SimpleAssetBundle.GetAllAssetNames(System.String)
+  nameWithType: SimpleAssetBundle.GetAllAssetNames(String)
+- uid: UniTool.Event.SimpleAssetBundle.GetAllAssetNames*
+  name: GetAllAssetNames
+  href: api/UniTool.Event.SimpleAssetBundle.html#UniTool_Event_SimpleAssetBundle_GetAllAssetNames_
+  commentId: Overload:UniTool.Event.SimpleAssetBundle.GetAllAssetNames
+  isSpec: "True"
+  fullName: UniTool.Event.SimpleAssetBundle.GetAllAssetNames
+  nameWithType: SimpleAssetBundle.GetAllAssetNames
+- uid: UniTool.Event.SimpleAssetBundle.GetAllScenePaths(System.String)
+  name: GetAllScenePaths(String)
+  href: api/UniTool.Event.SimpleAssetBundle.html#UniTool_Event_SimpleAssetBundle_GetAllScenePaths_System_String_
+  commentId: M:UniTool.Event.SimpleAssetBundle.GetAllScenePaths(System.String)
+  fullName: UniTool.Event.SimpleAssetBundle.GetAllScenePaths(System.String)
+  nameWithType: SimpleAssetBundle.GetAllScenePaths(String)
+- uid: UniTool.Event.SimpleAssetBundle.GetAllScenePaths*
+  name: GetAllScenePaths
+  href: api/UniTool.Event.SimpleAssetBundle.html#UniTool_Event_SimpleAssetBundle_GetAllScenePaths_
+  commentId: Overload:UniTool.Event.SimpleAssetBundle.GetAllScenePaths
+  isSpec: "True"
+  fullName: UniTool.Event.SimpleAssetBundle.GetAllScenePaths
+  nameWithType: SimpleAssetBundle.GetAllScenePaths
+- uid: UniTool.Event.SimpleAssetBundle.GetRefCount(System.String)
+  name: GetRefCount(String)
+  href: api/UniTool.Event.SimpleAssetBundle.html#UniTool_Event_SimpleAssetBundle_GetRefCount_System_String_
+  commentId: M:UniTool.Event.SimpleAssetBundle.GetRefCount(System.String)
+  fullName: UniTool.Event.SimpleAssetBundle.GetRefCount(System.String)
+  nameWithType: SimpleAssetBundle.GetRefCount(String)
+- uid: UniTool.Event.SimpleAssetBundle.GetRefCount*
+  name: GetRefCount
+  href: api/UniTool.Event.SimpleAssetBundle.html#UniTool_Event_SimpleAssetBundle_GetRefCount_
+  commentId: Overload:UniTool.Event.SimpleAssetBundle.GetRefCount
+  isSpec: "True"
+  fullName: UniTool.Event.SimpleAssetBundle.GetRefCount
+  nameWithType: SimpleAssetBundle.GetRefCount
+- uid: UniTool.Event.SimpleAssetBundle.Load*
+  name: Load
+  href: api/UniTool.Event.SimpleAssetBundle.html#UniTool_Event_SimpleAssetBundle_Load_
+  commentId: Overload:UniTool.Event.SimpleAssetBundle.Load
+  isSpec: "True"
+  fullName: UniTool.Event.SimpleAssetBundle.Load
+  nameWithType: SimpleAssetBundle.Load
+- uid: UniTool.Event.SimpleAssetBundle.Load``1(System.String,System.String)
+  name: Load<T>(String, String)
+  href: api/UniTool.Event.SimpleAssetBundle.html#UniTool_Event_SimpleAssetBundle_Load__1_System_String_System_String_
+  commentId: M:UniTool.Event.SimpleAssetBundle.Load``1(System.String,System.String)
+  name.vb: Load(Of T)(String, String)
+  fullName: UniTool.Event.SimpleAssetBundle.Load<T>(System.String, System.String)
+  fullName.vb: UniTool.Event.SimpleAssetBundle.Load(Of T)(System.String, System.String)
+  nameWithType: SimpleAssetBundle.Load<T>(String, String)
+  nameWithType.vb: SimpleAssetBundle.Load(Of T)(String, String)
+- uid: UniTool.Event.SimpleAssetBundle.Unload(System.String)
+  name: Unload(String)
+  href: api/UniTool.Event.SimpleAssetBundle.html#UniTool_Event_SimpleAssetBundle_Unload_System_String_
+  commentId: M:UniTool.Event.SimpleAssetBundle.Unload(System.String)
+  fullName: UniTool.Event.SimpleAssetBundle.Unload(System.String)
+  nameWithType: SimpleAssetBundle.Unload(String)
+- uid: UniTool.Event.SimpleAssetBundle.Unload*
+  name: Unload
+  href: api/UniTool.Event.SimpleAssetBundle.html#UniTool_Event_SimpleAssetBundle_Unload_
+  commentId: Overload:UniTool.Event.SimpleAssetBundle.Unload
+  isSpec: "True"
+  fullName: UniTool.Event.SimpleAssetBundle.Unload
+  nameWithType: SimpleAssetBundle.Unload
 - uid: UniTool.Event.SimpleAudio
   name: SimpleAudio
   href: api/UniTool.Event.SimpleAudio.html
