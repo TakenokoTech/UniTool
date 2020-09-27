@@ -20,7 +20,7 @@ namespace UniTool.Tests.EditMode.Event
             const string assetPath4 = "Assets/UniTool.Sample/SampleSound1.mp3";
             const string assetPath5 = "Assets/UniTool.Sample/SampleSound2.mp3";
             
-            const string outputPath = "Assets/StreamingAssets/AssetBundleTest";
+            const string outputPath = "Assets/StreamingAssets/InitTestAssetBundle";
 
             if (!Directory.Exists(outputPath)) Directory.CreateDirectory(outputPath);
             var assets1 = new SimpleAssets(bundleName1, new[] { assetPath1, assetPath2, assetPath3 });

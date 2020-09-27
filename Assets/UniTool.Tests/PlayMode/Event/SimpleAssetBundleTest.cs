@@ -12,7 +12,7 @@ namespace UniTool.Tests.PlayMode.Event
         [UnityTest]
         public IEnumerator SoundTest()
         {
-            var outputPathSound = Application.streamingAssetsPath + "/AssetBundleTest/sound";
+            var outputPathSound = Application.streamingAssetsPath + "/InitTestAssetBundle/sound";
             Assert.AreEqual(2, SimpleAssetBundle.GetAllAssetNames(outputPathSound).Length);
             Assert.AreEqual(0, SimpleAssetBundle.GetAllScenePaths(outputPathSound).Length);
             
@@ -46,7 +46,7 @@ namespace UniTool.Tests.PlayMode.Event
         [UnityTest]
         public IEnumerator SceneTest()
         {
-            var outputPathScene = Application.streamingAssetsPath + "/AssetBundleTest/scene";
+            var outputPathScene = Application.streamingAssetsPath + "/InitTestAssetBundle/scene";
             Assert.AreEqual(0, SimpleAssetBundle.GetAllAssetNames(outputPathScene).Length);
             Assert.AreEqual(3, SimpleAssetBundle.GetAllScenePaths(outputPathScene).Length);
             yield return null;
