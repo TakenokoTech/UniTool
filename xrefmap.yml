@@ -285,6 +285,22 @@ references:
   commentId: T:UniTool.EnumerableEx.EnumerableExtension
   fullName: UniTool.EnumerableEx.EnumerableExtension
   nameWithType: EnumerableExtension
+- uid: UniTool.EnumerableEx.EnumerableExtension.Foreach*
+  name: Foreach
+  href: api/UniTool.EnumerableEx.EnumerableExtension.html#UniTool_EnumerableEx_EnumerableExtension_Foreach_
+  commentId: Overload:UniTool.EnumerableEx.EnumerableExtension.Foreach
+  isSpec: "True"
+  fullName: UniTool.EnumerableEx.EnumerableExtension.Foreach
+  nameWithType: EnumerableExtension.Foreach
+- uid: UniTool.EnumerableEx.EnumerableExtension.Foreach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  name: Foreach<T>(IEnumerable<T>, Action<T>)
+  href: api/UniTool.EnumerableEx.EnumerableExtension.html#UniTool_EnumerableEx_EnumerableExtension_Foreach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
+  commentId: M:UniTool.EnumerableEx.EnumerableExtension.Foreach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  name.vb: Foreach(Of T)(IEnumerable(Of T), Action(Of T))
+  fullName: UniTool.EnumerableEx.EnumerableExtension.Foreach<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T>)
+  fullName.vb: UniTool.EnumerableEx.EnumerableExtension.Foreach(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T))
+  nameWithType: EnumerableExtension.Foreach<T>(IEnumerable<T>, Action<T>)
+  nameWithType.vb: EnumerableExtension.Foreach(Of T)(IEnumerable(Of T), Action(Of T))
 - uid: UniTool.EnumerableEx.EnumerableExtension.WithIndex*
   name: WithIndex
   href: api/UniTool.EnumerableEx.EnumerableExtension.html#UniTool_EnumerableEx_EnumerableExtension_WithIndex_
@@ -307,51 +323,6 @@ references:
   commentId: N:UniTool.Event
   fullName: UniTool.Event
   nameWithType: UniTool.Event
-- uid: UniTool.Event.EventBus
-  name: EventBus
-  href: api/UniTool.Event.EventBus.html
-  commentId: T:UniTool.Event.EventBus
-  fullName: UniTool.Event.EventBus
-  nameWithType: EventBus
-- uid: UniTool.Event.EventBus.Post(UniTool.Event.IEvent)
-  name: Post(IEvent)
-  href: api/UniTool.Event.EventBus.html#UniTool_Event_EventBus_Post_UniTool_Event_IEvent_
-  commentId: M:UniTool.Event.EventBus.Post(UniTool.Event.IEvent)
-  fullName: UniTool.Event.EventBus.Post(UniTool.Event.IEvent)
-  nameWithType: EventBus.Post(IEvent)
-- uid: UniTool.Event.EventBus.Post*
-  name: Post
-  href: api/UniTool.Event.EventBus.html#UniTool_Event_EventBus_Post_
-  commentId: Overload:UniTool.Event.EventBus.Post
-  isSpec: "True"
-  fullName: UniTool.Event.EventBus.Post
-  nameWithType: EventBus.Post
-- uid: UniTool.Event.EventBus.Register(UniTool.Event.IEventReceiverBase)
-  name: Register(IEventReceiverBase)
-  href: api/UniTool.Event.EventBus.html#UniTool_Event_EventBus_Register_UniTool_Event_IEventReceiverBase_
-  commentId: M:UniTool.Event.EventBus.Register(UniTool.Event.IEventReceiverBase)
-  fullName: UniTool.Event.EventBus.Register(UniTool.Event.IEventReceiverBase)
-  nameWithType: EventBus.Register(IEventReceiverBase)
-- uid: UniTool.Event.EventBus.Register*
-  name: Register
-  href: api/UniTool.Event.EventBus.html#UniTool_Event_EventBus_Register_
-  commentId: Overload:UniTool.Event.EventBus.Register
-  isSpec: "True"
-  fullName: UniTool.Event.EventBus.Register
-  nameWithType: EventBus.Register
-- uid: UniTool.Event.EventBus.Unregister(UniTool.Event.IEventReceiverBase)
-  name: Unregister(IEventReceiverBase)
-  href: api/UniTool.Event.EventBus.html#UniTool_Event_EventBus_Unregister_UniTool_Event_IEventReceiverBase_
-  commentId: M:UniTool.Event.EventBus.Unregister(UniTool.Event.IEventReceiverBase)
-  fullName: UniTool.Event.EventBus.Unregister(UniTool.Event.IEventReceiverBase)
-  nameWithType: EventBus.Unregister(IEventReceiverBase)
-- uid: UniTool.Event.EventBus.Unregister*
-  name: Unregister
-  href: api/UniTool.Event.EventBus.html#UniTool_Event_EventBus_Unregister_
-  commentId: Overload:UniTool.Event.EventBus.Unregister
-  isSpec: "True"
-  fullName: UniTool.Event.EventBus.Unregister
-  nameWithType: EventBus.Unregister
 - uid: UniTool.Event.IEvent
   name: IEvent
   href: api/UniTool.Event.IEvent.html
@@ -496,6 +467,96 @@ references:
   isSpec: "True"
   fullName: UniTool.Event.SimpleAudio.Play3D
   nameWithType: SimpleAudio.Play3D
+- uid: UniTool.Event.SimpleDirectory
+  name: SimpleDirectory
+  href: api/UniTool.Event.SimpleDirectory.html
+  commentId: T:UniTool.Event.SimpleDirectory
+  fullName: UniTool.Event.SimpleDirectory
+  nameWithType: SimpleDirectory
+- uid: UniTool.Event.SimpleDirectory.CreateDir(System.String)
+  name: CreateDir(String)
+  href: api/UniTool.Event.SimpleDirectory.html#UniTool_Event_SimpleDirectory_CreateDir_System_String_
+  commentId: M:UniTool.Event.SimpleDirectory.CreateDir(System.String)
+  fullName: UniTool.Event.SimpleDirectory.CreateDir(System.String)
+  nameWithType: SimpleDirectory.CreateDir(String)
+- uid: UniTool.Event.SimpleDirectory.CreateDir*
+  name: CreateDir
+  href: api/UniTool.Event.SimpleDirectory.html#UniTool_Event_SimpleDirectory_CreateDir_
+  commentId: Overload:UniTool.Event.SimpleDirectory.CreateDir
+  isSpec: "True"
+  fullName: UniTool.Event.SimpleDirectory.CreateDir
+  nameWithType: SimpleDirectory.CreateDir
+- uid: UniTool.Event.SimpleDirectory.DeleteDir(System.String)
+  name: DeleteDir(String)
+  href: api/UniTool.Event.SimpleDirectory.html#UniTool_Event_SimpleDirectory_DeleteDir_System_String_
+  commentId: M:UniTool.Event.SimpleDirectory.DeleteDir(System.String)
+  fullName: UniTool.Event.SimpleDirectory.DeleteDir(System.String)
+  nameWithType: SimpleDirectory.DeleteDir(String)
+- uid: UniTool.Event.SimpleDirectory.DeleteDir*
+  name: DeleteDir
+  href: api/UniTool.Event.SimpleDirectory.html#UniTool_Event_SimpleDirectory_DeleteDir_
+  commentId: Overload:UniTool.Event.SimpleDirectory.DeleteDir
+  isSpec: "True"
+  fullName: UniTool.Event.SimpleDirectory.DeleteDir
+  nameWithType: SimpleDirectory.DeleteDir
+- uid: UniTool.Event.SimpleDirectory.GetFileName(System.String)
+  name: GetFileName(String)
+  href: api/UniTool.Event.SimpleDirectory.html#UniTool_Event_SimpleDirectory_GetFileName_System_String_
+  commentId: M:UniTool.Event.SimpleDirectory.GetFileName(System.String)
+  fullName: UniTool.Event.SimpleDirectory.GetFileName(System.String)
+  nameWithType: SimpleDirectory.GetFileName(String)
+- uid: UniTool.Event.SimpleDirectory.GetFileName*
+  name: GetFileName
+  href: api/UniTool.Event.SimpleDirectory.html#UniTool_Event_SimpleDirectory_GetFileName_
+  commentId: Overload:UniTool.Event.SimpleDirectory.GetFileName
+  isSpec: "True"
+  fullName: UniTool.Event.SimpleDirectory.GetFileName
+  nameWithType: SimpleDirectory.GetFileName
+- uid: UniTool.Event.SimpleEventBus
+  name: SimpleEventBus
+  href: api/UniTool.Event.SimpleEventBus.html
+  commentId: T:UniTool.Event.SimpleEventBus
+  fullName: UniTool.Event.SimpleEventBus
+  nameWithType: SimpleEventBus
+- uid: UniTool.Event.SimpleEventBus.Post(UniTool.Event.IEvent)
+  name: Post(IEvent)
+  href: api/UniTool.Event.SimpleEventBus.html#UniTool_Event_SimpleEventBus_Post_UniTool_Event_IEvent_
+  commentId: M:UniTool.Event.SimpleEventBus.Post(UniTool.Event.IEvent)
+  fullName: UniTool.Event.SimpleEventBus.Post(UniTool.Event.IEvent)
+  nameWithType: SimpleEventBus.Post(IEvent)
+- uid: UniTool.Event.SimpleEventBus.Post*
+  name: Post
+  href: api/UniTool.Event.SimpleEventBus.html#UniTool_Event_SimpleEventBus_Post_
+  commentId: Overload:UniTool.Event.SimpleEventBus.Post
+  isSpec: "True"
+  fullName: UniTool.Event.SimpleEventBus.Post
+  nameWithType: SimpleEventBus.Post
+- uid: UniTool.Event.SimpleEventBus.Register(UniTool.Event.IEventReceiverBase)
+  name: Register(IEventReceiverBase)
+  href: api/UniTool.Event.SimpleEventBus.html#UniTool_Event_SimpleEventBus_Register_UniTool_Event_IEventReceiverBase_
+  commentId: M:UniTool.Event.SimpleEventBus.Register(UniTool.Event.IEventReceiverBase)
+  fullName: UniTool.Event.SimpleEventBus.Register(UniTool.Event.IEventReceiverBase)
+  nameWithType: SimpleEventBus.Register(IEventReceiverBase)
+- uid: UniTool.Event.SimpleEventBus.Register*
+  name: Register
+  href: api/UniTool.Event.SimpleEventBus.html#UniTool_Event_SimpleEventBus_Register_
+  commentId: Overload:UniTool.Event.SimpleEventBus.Register
+  isSpec: "True"
+  fullName: UniTool.Event.SimpleEventBus.Register
+  nameWithType: SimpleEventBus.Register
+- uid: UniTool.Event.SimpleEventBus.Unregister(UniTool.Event.IEventReceiverBase)
+  name: Unregister(IEventReceiverBase)
+  href: api/UniTool.Event.SimpleEventBus.html#UniTool_Event_SimpleEventBus_Unregister_UniTool_Event_IEventReceiverBase_
+  commentId: M:UniTool.Event.SimpleEventBus.Unregister(UniTool.Event.IEventReceiverBase)
+  fullName: UniTool.Event.SimpleEventBus.Unregister(UniTool.Event.IEventReceiverBase)
+  nameWithType: SimpleEventBus.Unregister(IEventReceiverBase)
+- uid: UniTool.Event.SimpleEventBus.Unregister*
+  name: Unregister
+  href: api/UniTool.Event.SimpleEventBus.html#UniTool_Event_SimpleEventBus_Unregister_
+  commentId: Overload:UniTool.Event.SimpleEventBus.Unregister
+  isSpec: "True"
+  fullName: UniTool.Event.SimpleEventBus.Unregister
+  nameWithType: SimpleEventBus.Unregister
 - uid: UniTool.ObjectEx
   name: UniTool.ObjectEx
   href: api/UniTool.ObjectEx.html
