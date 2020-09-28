@@ -7,9 +7,9 @@ namespace UniTool.Event
     /// <summary>
     /// EventBus の実装
     /// </summary>
-    public class EventBus
+    public class SimpleEventBus
     {
-        private static readonly EventBus Instance = new EventBus();
+        private static readonly SimpleEventBus Instance = new SimpleEventBus();
         private readonly List<EventListenerWrapper> _listeners = new List<EventListenerWrapper>();
 
         /// <summary>
@@ -52,7 +52,7 @@ namespace UniTool.Event
             public void PostEvent(object e) => Listener.Invoke("OnEvent", e);
         }
         
-        private EventBus() {}
+        private SimpleEventBus() {}
     }
 
     /// <summary>

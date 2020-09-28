@@ -3,24 +3,24 @@ using UniTool.Event;
 
 namespace UniTool.Tests.PlayMode.Event
 {
-    public class EventBusTest
+    public class SimpleEventBusTest
     {
         [Test]
         public void PostTest()
         {
             var test1 = new TestClass1();
             var test2 = new TestClass2();
-            EventBus.Register(test1);
-            EventBus.Register(test2);
-            EventBus.Post(new TestEvent {Str = "A", Num = 1000});
+            SimpleEventBus.Register(test1);
+            SimpleEventBus.Register(test2);
+            SimpleEventBus.Post(new TestEvent {Str = "A", Num = 1000});
 
             Assert.AreEqual("A1", test1.Str);
             Assert.AreEqual(1001, test1.Num);
             Assert.AreEqual("A2", test2.Str);
             Assert.AreEqual(1002, test2.Num);
 
-            EventBus.Unregister(test1);
-            EventBus.Post(new TestEvent {Str = "B", Num = 2000});
+            SimpleEventBus.Unregister(test1);
+            SimpleEventBus.Post(new TestEvent {Str = "B", Num = 2000});
 
             Assert.AreEqual("A1", test1.Str);
             Assert.AreEqual(1001, test1.Num);
