@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace UniTool.EnumerableEx
+namespace UniTool.ObjectEx
 {
     /// <summary>
     /// System.Collections.Generic.IEnumerable の拡張メソッド

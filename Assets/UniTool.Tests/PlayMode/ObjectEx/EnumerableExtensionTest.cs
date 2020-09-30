@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using UniTool.EnumerableEx;
+using UniTool.ObjectEx;
 
-namespace UniTool.Tests.PlayMode.EnumerableEx
+namespace UniTool.Tests.PlayMode.ObjectEx
 {
     public class EnumerableExtensionTest
     {
@@ -21,12 +21,12 @@ namespace UniTool.Tests.PlayMode.EnumerableEx
 
             var array = new[] {"A", "B", "C"};
             var indexedArray = array.WithIndex().ToArray();
-            Assert.AreEqual(0, indexedList[0].index);
-            Assert.AreEqual(1, indexedList[1].index);
-            Assert.AreEqual(2, indexedList[2].index);
-            Assert.AreEqual("A", indexedList[0].value);
-            Assert.AreEqual("B", indexedList[1].value);
-            Assert.AreEqual("C", indexedList[2].value);
+            Assert.AreEqual(0, indexedArray[0].index);
+            Assert.AreEqual(1, indexedArray[1].index);
+            Assert.AreEqual(2, indexedArray[2].index);
+            Assert.AreEqual("A", indexedArray[0].value);
+            Assert.AreEqual("B", indexedArray[1].value);
+            Assert.AreEqual("C", indexedArray[2].value);
         }
 
         [Test]
