@@ -17,42 +17,39 @@ namespace UniTool.Event
         /// <summary>
         /// AnimationClipを記録開始
         /// </summary>
-        public static void StartRecording(MonoBehaviour monoBehaviour, AnimationClip animationClip)
+        public static void StartRecording(MonoBehaviour obj, AnimationClip clip)
         {
-            if (animationClip == null) return;
-            if (Instance._dic.ContainsKey(monoBehaviour)) return;
-            Instance._dic[monoBehaviour] = AsyncStartRecording(monoBehaviour.transform, animationClip);
-            monoBehaviour.StartCoroutine(Instance._dic[monoBehaviour]);
+            if (clip == null) return;
+            if (Instance._dic.ContainsKey(obj)) return;
+            Instance._dic[obj] = AsyncStartRecording(obj.transform, clip);
+            obj.StartCoroutine(Instance._dic[obj]);
         }
 
         /// <summary>
         /// AnimationClipを記録終了
         /// </summary>
-        public static void StopRecording(MonoBehaviour monoBehaviour)
+        public static void StopRecording(MonoBehaviour obj)
         {
-            if (!Instance._dic.ContainsKey(monoBehaviour)) return;
-            monoBehaviour.StopCoroutine(Instance._dic[monoBehaviour]);
-            Instance._dic.Remove(monoBehaviour);
+            if (!Instance._dic.ContainsKey(obj)) return;
+            obj.StopCoroutine(Instance._dic[obj]);
+            Instance._dic.Remove(obj);
         }
 
         /// <summary>
         /// AnimationClipを単発再生
         /// </summary>
-        public static void PlayOnce(
-            MonoBehaviour monoBehaviour,
-            AnimationClip animationClip,
-            IAnimationListener listener = null)
+        public static void PlayOnce(MonoBehaviour obj, AnimationClip clip, IAnimationListener listener = null)
         {
-            if (animationClip == null) return;
-            var animation = monoBehaviour.gameObject.AddComponent<Animation>();
-            animation.AddClip(animationClip.EnableLegacy().WrapModeClampForever(), ClipName);
+            if (clip == null) return;
+            var animation = obj.gameObject.AddComponent<Animation>();
+            animation.AddClip(clip.EnableLegacy().WrapModeClampForever(), ClipName);
             animation.Play(ClipName);
-            monoBehaviour.StartCoroutine(AsyncPlay(animation, listener));
+            obj.StartCoroutine(AsyncPlay(animation, listener));
         }
 
-        private static IEnumerator AsyncStartRecording(Transform transform, AnimationClip animationClip)
+        private static IEnumerator AsyncStartRecording(Transform transform, AnimationClip clip)
         {
-            animationClip.ClearCurves();
+            clip.ClearCurves();
             var currentTime = 0f;
             var animationLocalPosition = new AnimationCurve3D();
             var animationLocalRotation = new AnimationCurve3D();
@@ -60,7 +57,7 @@ namespace UniTool.Event
             void UpdateAnimation(AnimationCurve animationCurve, string propertyName, float value)
             {
                 animationCurve.AddKey(currentTime, value);
-                animationClip.SetCurve("", typeof(Transform), propertyName, animationCurve);
+                clip.SetCurve("", typeof(Transform), propertyName, animationCurve);
             }
 
             while (true)
