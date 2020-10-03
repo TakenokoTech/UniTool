@@ -29,6 +29,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.EngineEx.AnimationExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.EngineEx.AnimationExtension.html",
+          "hash": "HBIfyh+K5uJv6U/GVb3NzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/UniTool.EngineEx.AudioSourceExtension.yml",
       "output": {
         ".html": {
@@ -93,7 +105,19 @@
       "output": {
         ".html": {
           "relative_path": "api/UniTool.EngineEx.html",
-          "hash": "JhDxm46OoH2TmFu2/UEljQ=="
+          "hash": "E6fy9WOROlRGNWU9OTk9Lg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Event.IAnimationListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Event.IAnimationListener.html",
+          "hash": "od6nTIKF5PFWbFIZUMRn7w=="
         }
       },
       "is_incremental": false,
@@ -130,6 +154,18 @@
         ".html": {
           "relative_path": "api/UniTool.Event.IEventReceiverBase.html",
           "hash": "N9MsHkdD0NXy41kaQTT8cw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Event.SimpleAnimationRecorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Event.SimpleAnimationRecorder.html",
+          "hash": "rRq0FUcf8KY0UYhRnm/XOQ=="
         }
       },
       "is_incremental": false,
@@ -189,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UniTool.Event.html",
-          "hash": "ebbtbo3Ix4Y7rAVtY7yxCg=="
+          "hash": "S+27zeqNYb03LXu5oh8P7Q=="
         }
       },
       "is_incremental": false,
@@ -405,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "KRJ4uzDZW4t8XCJDUeJehQ=="
+          "hash": "ltRiC7Uqf0uQTrcN+85nyg=="
         }
       },
       "is_incremental": false,
@@ -558,7 +594,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 32,
+          "total_file_count": 35,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

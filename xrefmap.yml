@@ -32,6 +32,77 @@ references:
   commentId: N:UniTool.EngineEx
   fullName: UniTool.EngineEx
   nameWithType: UniTool.EngineEx
+- uid: UniTool.EngineEx.AnimationExtension
+  name: AnimationExtension
+  href: api/UniTool.EngineEx.AnimationExtension.html
+  commentId: T:UniTool.EngineEx.AnimationExtension
+  fullName: UniTool.EngineEx.AnimationExtension
+  nameWithType: AnimationExtension
+- uid: UniTool.EngineEx.AnimationExtension.DisableLegacy(AnimationClip)
+  name: DisableLegacy(AnimationClip)
+  href: api/UniTool.EngineEx.AnimationExtension.html#UniTool_EngineEx_AnimationExtension_DisableLegacy_AnimationClip_
+  commentId: M:UniTool.EngineEx.AnimationExtension.DisableLegacy(AnimationClip)
+  fullName: UniTool.EngineEx.AnimationExtension.DisableLegacy(AnimationClip)
+  nameWithType: AnimationExtension.DisableLegacy(AnimationClip)
+- uid: UniTool.EngineEx.AnimationExtension.DisableLegacy*
+  name: DisableLegacy
+  href: api/UniTool.EngineEx.AnimationExtension.html#UniTool_EngineEx_AnimationExtension_DisableLegacy_
+  commentId: Overload:UniTool.EngineEx.AnimationExtension.DisableLegacy
+  isSpec: "True"
+  fullName: UniTool.EngineEx.AnimationExtension.DisableLegacy
+  nameWithType: AnimationExtension.DisableLegacy
+- uid: UniTool.EngineEx.AnimationExtension.EnableLegacy(AnimationClip)
+  name: EnableLegacy(AnimationClip)
+  href: api/UniTool.EngineEx.AnimationExtension.html#UniTool_EngineEx_AnimationExtension_EnableLegacy_AnimationClip_
+  commentId: M:UniTool.EngineEx.AnimationExtension.EnableLegacy(AnimationClip)
+  fullName: UniTool.EngineEx.AnimationExtension.EnableLegacy(AnimationClip)
+  nameWithType: AnimationExtension.EnableLegacy(AnimationClip)
+- uid: UniTool.EngineEx.AnimationExtension.EnableLegacy*
+  name: EnableLegacy
+  href: api/UniTool.EngineEx.AnimationExtension.html#UniTool_EngineEx_AnimationExtension_EnableLegacy_
+  commentId: Overload:UniTool.EngineEx.AnimationExtension.EnableLegacy
+  isSpec: "True"
+  fullName: UniTool.EngineEx.AnimationExtension.EnableLegacy
+  nameWithType: AnimationExtension.EnableLegacy
+- uid: UniTool.EngineEx.AnimationExtension.GetAnimation(GameObject)
+  name: GetAnimation(GameObject)
+  href: api/UniTool.EngineEx.AnimationExtension.html#UniTool_EngineEx_AnimationExtension_GetAnimation_GameObject_
+  commentId: M:UniTool.EngineEx.AnimationExtension.GetAnimation(GameObject)
+  fullName: UniTool.EngineEx.AnimationExtension.GetAnimation(GameObject)
+  nameWithType: AnimationExtension.GetAnimation(GameObject)
+- uid: UniTool.EngineEx.AnimationExtension.GetAnimation*
+  name: GetAnimation
+  href: api/UniTool.EngineEx.AnimationExtension.html#UniTool_EngineEx_AnimationExtension_GetAnimation_
+  commentId: Overload:UniTool.EngineEx.AnimationExtension.GetAnimation
+  isSpec: "True"
+  fullName: UniTool.EngineEx.AnimationExtension.GetAnimation
+  nameWithType: AnimationExtension.GetAnimation
+- uid: UniTool.EngineEx.AnimationExtension.WrapModeClampForever(AnimationClip)
+  name: WrapModeClampForever(AnimationClip)
+  href: api/UniTool.EngineEx.AnimationExtension.html#UniTool_EngineEx_AnimationExtension_WrapModeClampForever_AnimationClip_
+  commentId: M:UniTool.EngineEx.AnimationExtension.WrapModeClampForever(AnimationClip)
+  fullName: UniTool.EngineEx.AnimationExtension.WrapModeClampForever(AnimationClip)
+  nameWithType: AnimationExtension.WrapModeClampForever(AnimationClip)
+- uid: UniTool.EngineEx.AnimationExtension.WrapModeClampForever*
+  name: WrapModeClampForever
+  href: api/UniTool.EngineEx.AnimationExtension.html#UniTool_EngineEx_AnimationExtension_WrapModeClampForever_
+  commentId: Overload:UniTool.EngineEx.AnimationExtension.WrapModeClampForever
+  isSpec: "True"
+  fullName: UniTool.EngineEx.AnimationExtension.WrapModeClampForever
+  nameWithType: AnimationExtension.WrapModeClampForever
+- uid: UniTool.EngineEx.AnimationExtension.WrapModeLoop(AnimationClip)
+  name: WrapModeLoop(AnimationClip)
+  href: api/UniTool.EngineEx.AnimationExtension.html#UniTool_EngineEx_AnimationExtension_WrapModeLoop_AnimationClip_
+  commentId: M:UniTool.EngineEx.AnimationExtension.WrapModeLoop(AnimationClip)
+  fullName: UniTool.EngineEx.AnimationExtension.WrapModeLoop(AnimationClip)
+  nameWithType: AnimationExtension.WrapModeLoop(AnimationClip)
+- uid: UniTool.EngineEx.AnimationExtension.WrapModeLoop*
+  name: WrapModeLoop
+  href: api/UniTool.EngineEx.AnimationExtension.html#UniTool_EngineEx_AnimationExtension_WrapModeLoop_
+  commentId: Overload:UniTool.EngineEx.AnimationExtension.WrapModeLoop
+  isSpec: "True"
+  fullName: UniTool.EngineEx.AnimationExtension.WrapModeLoop
+  nameWithType: AnimationExtension.WrapModeLoop
 - uid: UniTool.EngineEx.AudioSourceExtension
   name: AudioSourceExtension
   href: api/UniTool.EngineEx.AudioSourceExtension.html
@@ -279,6 +350,25 @@ references:
   commentId: N:UniTool.Event
   fullName: UniTool.Event
   nameWithType: UniTool.Event
+- uid: UniTool.Event.IAnimationListener
+  name: IAnimationListener
+  href: api/UniTool.Event.IAnimationListener.html
+  commentId: T:UniTool.Event.IAnimationListener
+  fullName: UniTool.Event.IAnimationListener
+  nameWithType: IAnimationListener
+- uid: UniTool.Event.IAnimationListener.OnAnimationFinished(AnimationClip)
+  name: OnAnimationFinished(AnimationClip)
+  href: api/UniTool.Event.IAnimationListener.html#UniTool_Event_IAnimationListener_OnAnimationFinished_AnimationClip_
+  commentId: M:UniTool.Event.IAnimationListener.OnAnimationFinished(AnimationClip)
+  fullName: UniTool.Event.IAnimationListener.OnAnimationFinished(AnimationClip)
+  nameWithType: IAnimationListener.OnAnimationFinished(AnimationClip)
+- uid: UniTool.Event.IAnimationListener.OnAnimationFinished*
+  name: OnAnimationFinished
+  href: api/UniTool.Event.IAnimationListener.html#UniTool_Event_IAnimationListener_OnAnimationFinished_
+  commentId: Overload:UniTool.Event.IAnimationListener.OnAnimationFinished
+  isSpec: "True"
+  fullName: UniTool.Event.IAnimationListener.OnAnimationFinished
+  nameWithType: IAnimationListener.OnAnimationFinished
 - uid: UniTool.Event.IEvent
   name: IEvent
   href: api/UniTool.Event.IEvent.html
@@ -317,6 +407,51 @@ references:
   commentId: T:UniTool.Event.IEventReceiverBase
   fullName: UniTool.Event.IEventReceiverBase
   nameWithType: IEventReceiverBase
+- uid: UniTool.Event.SimpleAnimationRecorder
+  name: SimpleAnimationRecorder
+  href: api/UniTool.Event.SimpleAnimationRecorder.html
+  commentId: T:UniTool.Event.SimpleAnimationRecorder
+  fullName: UniTool.Event.SimpleAnimationRecorder
+  nameWithType: SimpleAnimationRecorder
+- uid: UniTool.Event.SimpleAnimationRecorder.PlayOnce(MonoBehaviour,AnimationClip,UniTool.Event.IAnimationListener)
+  name: PlayOnce(MonoBehaviour, AnimationClip, IAnimationListener)
+  href: api/UniTool.Event.SimpleAnimationRecorder.html#UniTool_Event_SimpleAnimationRecorder_PlayOnce_MonoBehaviour_AnimationClip_UniTool_Event_IAnimationListener_
+  commentId: M:UniTool.Event.SimpleAnimationRecorder.PlayOnce(MonoBehaviour,AnimationClip,UniTool.Event.IAnimationListener)
+  fullName: UniTool.Event.SimpleAnimationRecorder.PlayOnce(MonoBehaviour, AnimationClip, UniTool.Event.IAnimationListener)
+  nameWithType: SimpleAnimationRecorder.PlayOnce(MonoBehaviour, AnimationClip, IAnimationListener)
+- uid: UniTool.Event.SimpleAnimationRecorder.PlayOnce*
+  name: PlayOnce
+  href: api/UniTool.Event.SimpleAnimationRecorder.html#UniTool_Event_SimpleAnimationRecorder_PlayOnce_
+  commentId: Overload:UniTool.Event.SimpleAnimationRecorder.PlayOnce
+  isSpec: "True"
+  fullName: UniTool.Event.SimpleAnimationRecorder.PlayOnce
+  nameWithType: SimpleAnimationRecorder.PlayOnce
+- uid: UniTool.Event.SimpleAnimationRecorder.StartRecording(MonoBehaviour,AnimationClip)
+  name: StartRecording(MonoBehaviour, AnimationClip)
+  href: api/UniTool.Event.SimpleAnimationRecorder.html#UniTool_Event_SimpleAnimationRecorder_StartRecording_MonoBehaviour_AnimationClip_
+  commentId: M:UniTool.Event.SimpleAnimationRecorder.StartRecording(MonoBehaviour,AnimationClip)
+  fullName: UniTool.Event.SimpleAnimationRecorder.StartRecording(MonoBehaviour, AnimationClip)
+  nameWithType: SimpleAnimationRecorder.StartRecording(MonoBehaviour, AnimationClip)
+- uid: UniTool.Event.SimpleAnimationRecorder.StartRecording*
+  name: StartRecording
+  href: api/UniTool.Event.SimpleAnimationRecorder.html#UniTool_Event_SimpleAnimationRecorder_StartRecording_
+  commentId: Overload:UniTool.Event.SimpleAnimationRecorder.StartRecording
+  isSpec: "True"
+  fullName: UniTool.Event.SimpleAnimationRecorder.StartRecording
+  nameWithType: SimpleAnimationRecorder.StartRecording
+- uid: UniTool.Event.SimpleAnimationRecorder.StopRecording(MonoBehaviour)
+  name: StopRecording(MonoBehaviour)
+  href: api/UniTool.Event.SimpleAnimationRecorder.html#UniTool_Event_SimpleAnimationRecorder_StopRecording_MonoBehaviour_
+  commentId: M:UniTool.Event.SimpleAnimationRecorder.StopRecording(MonoBehaviour)
+  fullName: UniTool.Event.SimpleAnimationRecorder.StopRecording(MonoBehaviour)
+  nameWithType: SimpleAnimationRecorder.StopRecording(MonoBehaviour)
+- uid: UniTool.Event.SimpleAnimationRecorder.StopRecording*
+  name: StopRecording
+  href: api/UniTool.Event.SimpleAnimationRecorder.html#UniTool_Event_SimpleAnimationRecorder_StopRecording_
+  commentId: Overload:UniTool.Event.SimpleAnimationRecorder.StopRecording
+  isSpec: "True"
+  fullName: UniTool.Event.SimpleAnimationRecorder.StopRecording
+  nameWithType: SimpleAnimationRecorder.StopRecording
 - uid: UniTool.Event.SimpleAssetBundle
   name: SimpleAssetBundle
   href: api/UniTool.Event.SimpleAssetBundle.html
