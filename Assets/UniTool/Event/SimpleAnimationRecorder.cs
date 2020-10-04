@@ -40,7 +40,7 @@ namespace UniTool.Event
         /// </summary>
         public static void PlayOnce(MonoBehaviour obj, AnimationClip clip, IAnimationListener listener = null)
         {
-            if (clip == null) return;
+            if (clip == null || obj.gameObject.TryGetComponent<Animation>(out _)) return;
             var animation = obj.gameObject.AddComponent<Animation>();
             animation.AddClip(clip.EnableLegacy().WrapModeClampForever(), ClipName);
             animation.Play(ClipName);
@@ -85,6 +85,7 @@ namespace UniTool.Event
             }
 
             listener?.OnAnimationFinished(animation[ClipName].clip);
+            animation.gameObject.RemoveComponent<Animation>();
         }
 
         private SimpleAnimationRecorder()
