@@ -10,19 +10,34 @@ namespace UniTool.Event
     public class SimpleCaptureRecorder
     {
         private static readonly SimpleCaptureRecorder Instance = new SimpleCaptureRecorder();
-        private readonly Dictionary<MonoBehaviour, IEnumerator> _dic = new Dictionary<MonoBehaviour, IEnumerator>();
+        private readonly Dictionary<Object, IEnumerator> _dic = new Dictionary<Object, IEnumerator>();
+        
+        /// <summary>
+        /// スナップショット撮影
+        /// </summary>
+        public static void Snapshot(Camera camera)
+        {
+            if (Instance._dic.ContainsKey(camera)) return;
+            Instance._dic[camera] = AsyncSnapshot(camera,1920, 1080, bytes =>
+            {
+                Debug.Log("capture.");
+                File.WriteAllBytes(Application.streamingAssetsPath + "/InitTestCapture/cature.png", bytes);
+                Instance._dic.Remove(camera);
+            });
+            SimpleCoroutine.StartCoroutine(Instance._dic[camera]);
+        }
         
         /// <summary>
         /// 記録開始
         /// </summary>
         public static void StartRecording(MonoBehaviour obj)
         {
-            if (Instance._dic.ContainsKey(obj)) return;
-            Instance._dic[obj] = AsyncStartRecording(Camera.main,1920, 1080, bytes =>
-            {
-                File.WriteAllBytes(Application.streamingAssetsPath + "/InitTestCapture/cature.png", bytes);
-            });
-            obj.StartCoroutine(Instance._dic[obj]);
+            // if (Instance._dic.ContainsKey(obj)) return;
+            // Instance._dic[obj] = AsyncStartRecording(Camera.main,1920, 1080, bytes =>
+            // {
+            //     File.WriteAllBytes(Application.streamingAssetsPath + "/InitTestCapture/cature.png", bytes);
+            // });
+            // obj.StartCoroutine(Instance._dic[obj]);
         }
 
         /// <summary>
@@ -30,12 +45,12 @@ namespace UniTool.Event
         /// </summary>
         public static void StopRecording(MonoBehaviour obj)
         {
-            if (!Instance._dic.ContainsKey(obj)) return;
-            obj.StopCoroutine(Instance._dic[obj]);
-            Instance._dic.Remove(obj);
+            // if (!Instance._dic.ContainsKey(obj)) return;
+            // obj.StopCoroutine(Instance._dic[obj]);
+            // Instance._dic.Remove(obj);
         }
 
-        private static IEnumerator AsyncStartRecording(Camera targetCamera, int width, int height, Action<byte[]> callback)
+        private static IEnumerator AsyncSnapshot(Camera targetCamera, int width, int height, Action<byte[]> callback)
         {
             yield return new WaitForEndOfFrame();
             var renderTexture = new RenderTexture(width, height, 24, RenderTextureFormat.ARGB32);

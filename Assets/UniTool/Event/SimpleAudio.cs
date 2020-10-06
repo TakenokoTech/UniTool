@@ -1,5 +1,6 @@
 using UnityEngine;
 using UniTool.EngineEx;
+using UniTool.ObjectEx;
 
 namespace UniTool.Event
 {
@@ -49,6 +50,7 @@ namespace UniTool.Event
             private void Start()
             {
                 _source = GetComponent<AudioSource>();
+                DontDestroyOnLoad(gameObject);
             }
 
             private void Update()
