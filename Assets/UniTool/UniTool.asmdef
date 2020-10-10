@@ -1,3 +1,18 @@
-﻿{
-	"name": "UniTool"
+{
+    "name": "UniTool",
+    "references": [
+        "Unity.Recorder",
+        "Unity.Recorder.Editor"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        ""
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

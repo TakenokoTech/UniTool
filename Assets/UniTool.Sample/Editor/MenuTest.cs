@@ -5,9 +5,14 @@ namespace UniTool.Sample.Editor
     public class MenuTest
     {
         [Test]
-        public void SuccessTest()
+        public void ExportUnityPackageTest()
         {
             Menu.ExportUnityPackage();
+        }
+        
+        [Test]
+        public void BuildAssetBundleTest()
+        {
             Menu.BuildAssetBundle();
         }
     }
