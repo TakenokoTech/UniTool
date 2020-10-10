@@ -44,6 +44,7 @@ namespace UniTool.Event
         public static void StopRecording(CaptureRecorderSetting setting)
         {
             var outputFile = setting.FilePath;
+            if (!Instance._dic.ContainsKey(outputFile)) return;
             Instance._dic[outputFile].StopRecording();
             Debug.Log("stop recording.");
         }

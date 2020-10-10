@@ -6,7 +6,7 @@ namespace UniTool.Sample
 {
     public class SampleScript2 : MonoBehaviour
     {
-        private readonly CaptureRecorderSetting _recorderSetting = new CaptureRecorderSetting("Build");
+        private readonly CaptureRecorderSetting _recorderSetting = new CaptureRecorderSetting("Build/sample");
 
         private void OnEnable()
         {
