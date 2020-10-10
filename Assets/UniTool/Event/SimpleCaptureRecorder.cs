@@ -1,4 +1,4 @@
-#if UNITOOL_ENABLE_RECORDER
+#if UNITOOL_ENABLE_RECORDER && UNITY_EDITOR
 using System.Collections.Generic;
 using UniTool.ObjectEx;
 using UnityEditor.Recorder;
