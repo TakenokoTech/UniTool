@@ -16,5 +16,15 @@ namespace UniTool.Sample
             yield return null;
             Assert.AreEqual(true, obj.activeSelf);
         }
+        
+        [UnityTest]
+        public IEnumerator LoadTest2()
+        {
+            var obj = GameObject.CreatePrimitive(PrimitiveType.Cube);
+            yield return null;
+            obj.AddComponent<SampleScript2>();
+            yield return null;
+            Assert.AreEqual(true, obj.activeSelf);
+        }
     }
 }
