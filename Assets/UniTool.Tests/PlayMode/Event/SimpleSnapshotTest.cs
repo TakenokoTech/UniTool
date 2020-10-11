@@ -17,9 +17,10 @@ namespace UniTool.Tests.PlayMode.Event
             SimpleDirectory.CreateDir(dir);
             Assert.AreEqual(1, SimpleDirectory.GetFileName(dir).Count);
             
-            var setting = new SnapshotSetting(camera, $"{dir}/cature.png");
+            var setting = new SnapshotSetting(camera, $"{dir}/cature.png") {Timing = null};
             SimpleSnapshot.Take(setting);
-            yield return new WaitForSeconds(1F);
+            yield return null;
+            yield return null;
             
             Assert.AreEqual(2, SimpleDirectory.GetFileName(dir).Count);
         }

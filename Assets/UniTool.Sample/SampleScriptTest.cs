@@ -15,6 +15,9 @@ namespace UniTool.Sample
             obj.AddComponent<SampleScript>();
             yield return null;
             Assert.AreEqual(true, obj.activeSelf);
+            
+            obj.SetActive(false);
+            yield return null;
         }
         
         [UnityTest]
@@ -25,6 +28,9 @@ namespace UniTool.Sample
             obj.AddComponent<SampleScript2>();
             yield return null;
             Assert.AreEqual(true, obj.activeSelf);
+            
+            obj.SetActive(false);
+            yield return null;
         }
     }
 }

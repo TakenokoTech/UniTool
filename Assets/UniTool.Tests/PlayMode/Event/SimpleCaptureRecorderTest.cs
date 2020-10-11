@@ -1,6 +1,7 @@
-#if UNITOOL_ENABLE_RECORDER
+#if UNITOOL_ENABLE_RECORDER && UNITY_EDITOR
 using System.Collections;
 using NUnit.Framework;
+using UniTool.EngineEx;
 using UniTool.Event;
 using UnityEngine;
 using UnityEngine.TestTools;
@@ -9,6 +10,20 @@ namespace UniTool.Tests.PlayMode.Event
 {
     public class SimpleCaptureRecorderTest
     {
+        private AudioListener _audioListener;
+        
+        [OneTimeSetUp]
+        public void SetUp()
+        {
+            _audioListener = new GameObject("AudioListener").AddComponent<AudioListener>();
+        }
+        
+        [OneTimeTearDown]
+        public void TearDown()
+        {
+            _audioListener.gameObject.Destroy();
+        }
+        
         [UnityTest]
         public IEnumerator RecordingTest()
         {
@@ -17,12 +32,12 @@ namespace UniTool.Tests.PlayMode.Event
             SimpleDirectory.CreateDir(dir);
             Assert.AreEqual(1, SimpleDirectory.GetFileName(dir).Count);
 
-            var setting = new CaptureRecorderSetting($"{dir}/record", 480, 320);
+            var setting = new CaptureRecorderSetting($"{dir}/record", Screen.width, Screen.height);
             SimpleCaptureRecorder.StartRecording(setting);
-            yield return new WaitForSeconds(1F);
+            yield return null;
             SimpleCaptureRecorder.StopRecording(setting);
-            
-            Assert.AreEqual(2, SimpleDirectory.GetFileName(dir).Count);
+
+            Assert.AreEqual(3, SimpleDirectory.GetFileName(dir).Count);
         }
     }
 }

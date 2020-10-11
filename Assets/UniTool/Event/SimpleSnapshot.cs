@@ -18,7 +18,7 @@ namespace UniTool.Event
         public static void Take(SnapshotSetting setting)
         {
             if (Instance._dic.ContainsKey(setting.Camera)) return;
-            Instance._dic[setting.Camera] = AsyncTake(setting.Camera, setting.Width, setting.Height, bytes =>
+            Instance._dic[setting.Camera] = AsyncTake(setting, bytes =>
             {
                 Debug.Log("capture.");
                 File.WriteAllBytes(setting.FilePath, bytes);
@@ -27,20 +27,20 @@ namespace UniTool.Event
             SimpleCoroutine.StartCoroutine(Instance._dic[setting.Camera]);
         }
 
-        private static IEnumerator AsyncTake(Camera targetCamera, int width, int height, Action<byte[]> callback)
+        private static IEnumerator AsyncTake(SnapshotSetting setting, Action<byte[]> callback)
         {
-            yield return new WaitForEndOfFrame();
-            var renderTexture = new RenderTexture(width, height, 24, RenderTextureFormat.ARGB32);
-            var texture2D = new Texture2D(width, height, TextureFormat.ARGB32, false);
-            var tempSetting = new TempCameraSetting(targetCamera);
+            yield return setting.Timing;
+            var renderTexture = new RenderTexture(setting.Width, setting.Height, 24, RenderTextureFormat.ARGB32);
+            var texture2D = new Texture2D(setting.Width, setting.Height, TextureFormat.ARGB32, false);
+            var tempSetting = new TempCameraSetting(setting.Camera);
 
-            targetCamera.targetTexture = renderTexture;
-            targetCamera.Render();
+            setting.Camera.targetTexture = renderTexture;
+            setting.Camera.Render();
             RenderTexture.active = renderTexture;
-            texture2D.ReadPixels(new Rect(0, 0, width, height), 0, 0);
+            texture2D.ReadPixels(new Rect(0, 0, setting.Width, setting.Height), 0, 0);
 
             Object.Destroy(renderTexture);
-            tempSetting.RevertSetting(targetCamera);
+            tempSetting.RevertSetting(setting.Camera);
             callback(texture2D.EncodeToPNG());
         }
 
@@ -69,6 +69,7 @@ namespace UniTool.Event
         public readonly string FilePath;
         public readonly int Width;
         public readonly int Height;
+        public YieldInstruction Timing;
 
         public SnapshotSetting(Camera camera, string filePath = "Temp/UniToolPicture.png", int width = 1920, int height = 1080)
         {
@@ -76,6 +77,7 @@ namespace UniTool.Event
             FilePath = filePath;
             Width = width;
             Height = height;
+            Timing = new WaitForEndOfFrame();
         }
     }
 }

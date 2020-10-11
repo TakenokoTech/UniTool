@@ -1,4 +1,5 @@
 #if UNITOOL_ENABLE_RECORDER && UNITY_EDITOR
+using System;
 using System.Collections.Generic;
 using UniTool.ObjectEx;
 using UnityEditor.Recorder;
@@ -17,11 +18,13 @@ namespace UniTool.Event
         /// </summary>
         public static void StartRecording(CaptureRecorderSetting setting)
         {
+            if (!Application.isPlaying) return;
+            RecorderOptions.VerboseMode = true;
+
             var outputFile = setting.FilePath;
             var movieRecorderSettings = ScriptableObject.CreateInstance<MovieRecorderSettings>().Apply(self =>
             {
-                self.ImageInputSettings = new GameViewInputSettings
-                    {OutputWidth = setting.Width, OutputHeight = setting.Height};
+                self.ImageInputSettings = new GameViewInputSettings {OutputWidth = setting.Width, OutputHeight = setting.Height};
                 self.AudioInputSettings.PreserveAudio = true;
                 self.OutputFile = outputFile;
                 self.OutputFormat = MovieRecorderSettings.VideoRecorderOutputFormat.MP4;
@@ -29,13 +32,13 @@ namespace UniTool.Event
             });
             var recorderControllerSettings = ScriptableObject.CreateInstance<RecorderControllerSettings>().Apply(self =>
             {
-                self.FrameRate = 30f;
+                self.FrameRate = 30.0f;
                 self.AddRecorderSettings(movieRecorderSettings);
             });
             Instance._dic[outputFile] = new RecorderController(recorderControllerSettings);
             Instance._dic[outputFile].PrepareRecording();
-            Instance._dic[outputFile].StartRecording();
-            Debug.Log("start recording.");
+            var success = Instance._dic[outputFile].StartRecording();
+            Debug.Log($"start recording. success={success}");
         }
 
         /// <summary>

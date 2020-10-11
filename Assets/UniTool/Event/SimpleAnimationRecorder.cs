@@ -49,7 +49,7 @@ namespace UniTool.Event
 
         private static IEnumerator AsyncStartRecording(Transform transform, AnimationClip clip)
         {
-            clip.ClearCurves();
+            clip.EnableLegacy().ClearCurves();
             var currentTime = 0f;
             var animationLocalPosition = new AnimationCurve3D();
             var animationLocalRotation = new AnimationCurve3D();

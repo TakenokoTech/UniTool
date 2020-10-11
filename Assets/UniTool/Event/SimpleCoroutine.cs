@@ -17,7 +17,7 @@ namespace UniTool.Event
             private static CoroutineWrapper _instance = null;
             private static CoroutineWrapper Create()
             {
-                _instance = new GameObject("[UniTool] SimpleCoroutine").Apply(DontDestroyOnLoad).AddComponent<CoroutineWrapper>();
+                _instance = new GameObject("[UniTool] SimpleCoroutine")/**.Apply(DontDestroyOnLoad)*/.AddComponent<CoroutineWrapper>();
                 return _instance;
             }
         }
