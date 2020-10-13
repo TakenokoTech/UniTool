@@ -4,6 +4,9 @@ using UnityEngine;
 
 namespace UniTool.Event
 {
+    /// <summary>
+    /// 簡易Coroutine
+    /// </summary>
     public static class SimpleCoroutine
     {
         public static Coroutine StartCoroutine(IEnumerator coroutine)
@@ -17,7 +20,7 @@ namespace UniTool.Event
             private static CoroutineWrapper _instance = null;
             private static CoroutineWrapper Create()
             {
-                _instance = new GameObject("[UniTool] SimpleCoroutine")/**.Apply(DontDestroyOnLoad)*/.AddComponent<CoroutineWrapper>();
+                _instance = new GameObject("[UniTool] SimpleCoroutine").Apply(DontDestroyOnLoad).AddComponent<CoroutineWrapper>();
                 return _instance;
             }
         }

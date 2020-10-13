@@ -7,6 +7,9 @@ using UnityEngine;
 
 namespace UniTool.Event
 {
+    /// <summary>
+    /// 簡易動画撮影
+    /// </summary>
     public class SimpleCaptureRecorder
     {
         private static readonly SimpleCaptureRecorder Instance = new SimpleCaptureRecorder();

@@ -1,21 +1,22 @@
 #if UNITOOL_ENABLE_RECORDER
+using UniTool.Event;
 using UnityEngine;
 
 namespace UniTool.Sample
 {
     public class SampleScript2 : MonoBehaviour
     {
-        // private readonly CaptureRecorderSetting _recorderSetting = new CaptureRecorderSetting("Build/sample");
+        private readonly CaptureRecorderSetting _recorderSetting = new CaptureRecorderSetting("Build/sample");
 
         private void OnEnable()
         {
             // SimpleCaptureRecorder.StartRecording(_recorderSetting);
-            // SimpleSnapshot.Take(new SnapshotSetting(Camera.main));
+            SimpleSnapshot.Take(new SnapshotSetting(Camera.current));
         }
 
         private void OnDisable()
         {
-            // SimpleCaptureRecorder.StopRecording(_recorderSetting);
+            SimpleCaptureRecorder.StopRecording(_recorderSetting);
         }
     }
 }

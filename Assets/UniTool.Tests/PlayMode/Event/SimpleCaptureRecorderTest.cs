@@ -1,4 +1,5 @@
 #if UNITOOL_ENABLE_RECORDER && UNITY_EDITOR
+using System;
 using System.Collections;
 using NUnit.Framework;
 using UniTool.EngineEx;
@@ -33,11 +34,9 @@ namespace UniTool.Tests.PlayMode.Event
             SimpleDirectory.DeleteDir(dir);
             SimpleDirectory.CreateDir(dir);
             Assert.AreEqual(1, SimpleDirectory.GetFileName(dir).Count);
-
-            // TODO 録画テスト
+            
             // var setting = new CaptureRecorderSetting( $"{dir}/record", Screen.width, Screen.height);
             var setting = new CaptureRecorderSetting($"{dir}/record", 0, 0);
-
             SimpleCaptureRecorder.StartRecording(setting);
             yield return null;
             SimpleCaptureRecorder.StopRecording(setting);

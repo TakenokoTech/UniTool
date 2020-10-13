@@ -17,22 +17,22 @@ namespace UniTool.Event
         /// <summary>
         /// AnimationClipを記録開始
         /// </summary>
-        public static void StartRecording(MonoBehaviour obj, AnimationClip clip)
+        public static void StartRecording(MonoBehaviour target, AnimationClip clip)
         {
             if (clip == null) return;
-            if (Instance._dic.ContainsKey(obj)) return;
-            Instance._dic[obj] = AsyncStartRecording(obj.transform, clip);
-            obj.StartCoroutine(Instance._dic[obj]);
+            if (Instance._dic.ContainsKey(target)) return;
+            Instance._dic[target] = AsyncStartRecording(target.transform, clip);
+            target.StartCoroutine(Instance._dic[target]);
         }
 
         /// <summary>
         /// AnimationClipを記録終了
         /// </summary>
-        public static void StopRecording(MonoBehaviour obj)
+        public static void StopRecording(MonoBehaviour target)
         {
-            if (!Instance._dic.ContainsKey(obj)) return;
-            obj.StopCoroutine(Instance._dic[obj]);
-            Instance._dic.Remove(obj);
+            if (!Instance._dic.ContainsKey(target)) return;
+            target.StopCoroutine(Instance._dic[target]);
+            Instance._dic.Remove(target);
         }
 
         /// <summary>

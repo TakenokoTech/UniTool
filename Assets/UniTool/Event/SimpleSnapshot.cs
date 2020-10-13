@@ -17,7 +17,7 @@ namespace UniTool.Event
         /// </summary>
         public static void Take(SnapshotSetting setting)
         {
-            if (Instance._dic.ContainsKey(setting.Camera)) return;
+            if (setting.Camera == null || Instance._dic.ContainsKey(setting.Camera)) return;
             Instance._dic[setting.Camera] = AsyncTake(setting, bytes =>
             {
                 Debug.Log("capture.");
