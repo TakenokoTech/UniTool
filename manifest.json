@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UniTool.Event.IAnimationListener.html",
-          "hash": "od6nTIKF5PFWbFIZUMRn7w=="
+          "hash": "Vxr8Zuj6KZJUlQIvOkd4CA=="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UniTool.Event.SimpleAnimationRecorder.html",
-          "hash": "rRq0FUcf8KY0UYhRnm/XOQ=="
+          "hash": "MgT0QIYucdRq5No7dScXSQ=="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,19 @@
       "output": {
         ".html": {
           "relative_path": "api/UniTool.Event.SimpleAudio.html",
-          "hash": "TXkoa4PwqR2AllH+NRJjaQ=="
+          "hash": "Pym0qtuFMVSCinFy/5vWQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Event.SimpleCoroutine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Event.SimpleCoroutine.html",
+          "hash": "MqKSyubmeoMILSwn7m1Eog=="
         }
       },
       "is_incremental": false,
@@ -201,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UniTool.Event.SimpleDirectory.html",
-          "hash": "THWbJKwuNH4NoL1B/wURzA=="
+          "hash": "y+GClvjErRs3DPdT/Ow3IA=="
         }
       },
       "is_incremental": false,
@@ -221,11 +233,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Event.SimpleSnapshot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Event.SimpleSnapshot.html",
+          "hash": "h/VEvnHr2phxfAuPihQaSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Event.SnapshotSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Event.SnapshotSetting.html",
+          "hash": "PU1WetN8fuNfefSOYC6pxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/UniTool.Event.yml",
       "output": {
         ".html": {
           "relative_path": "api/UniTool.Event.html",
-          "hash": "S+27zeqNYb03LXu5oh8P7Q=="
+          "hash": "ZEbUBVPqUIpFNj16Fkn0Zw=="
         }
       },
       "is_incremental": false,
@@ -441,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "ltRiC7Uqf0uQTrcN+85nyg=="
+          "hash": "6HMRD5Bi6lFmyT6zFjYMDA=="
         }
       },
       "is_incremental": false,
@@ -594,7 +630,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 35,
+          "total_file_count": 38,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

@@ -558,6 +558,25 @@ references:
   isSpec: "True"
   fullName: UniTool.Event.SimpleAudio.Play3D
   nameWithType: SimpleAudio.Play3D
+- uid: UniTool.Event.SimpleCoroutine
+  name: SimpleCoroutine
+  href: api/UniTool.Event.SimpleCoroutine.html
+  commentId: T:UniTool.Event.SimpleCoroutine
+  fullName: UniTool.Event.SimpleCoroutine
+  nameWithType: SimpleCoroutine
+- uid: UniTool.Event.SimpleCoroutine.StartCoroutine(System.Collections.IEnumerator)
+  name: StartCoroutine(IEnumerator)
+  href: api/UniTool.Event.SimpleCoroutine.html#UniTool_Event_SimpleCoroutine_StartCoroutine_System_Collections_IEnumerator_
+  commentId: M:UniTool.Event.SimpleCoroutine.StartCoroutine(System.Collections.IEnumerator)
+  fullName: UniTool.Event.SimpleCoroutine.StartCoroutine(System.Collections.IEnumerator)
+  nameWithType: SimpleCoroutine.StartCoroutine(IEnumerator)
+- uid: UniTool.Event.SimpleCoroutine.StartCoroutine*
+  name: StartCoroutine
+  href: api/UniTool.Event.SimpleCoroutine.html#UniTool_Event_SimpleCoroutine_StartCoroutine_
+  commentId: Overload:UniTool.Event.SimpleCoroutine.StartCoroutine
+  isSpec: "True"
+  fullName: UniTool.Event.SimpleCoroutine.StartCoroutine
+  nameWithType: SimpleCoroutine.StartCoroutine
 - uid: UniTool.Event.SimpleDirectory
   name: SimpleDirectory
   href: api/UniTool.Event.SimpleDirectory.html
@@ -648,6 +667,74 @@ references:
   isSpec: "True"
   fullName: UniTool.Event.SimpleEventBus.Unregister
   nameWithType: SimpleEventBus.Unregister
+- uid: UniTool.Event.SimpleSnapshot
+  name: SimpleSnapshot
+  href: api/UniTool.Event.SimpleSnapshot.html
+  commentId: T:UniTool.Event.SimpleSnapshot
+  fullName: UniTool.Event.SimpleSnapshot
+  nameWithType: SimpleSnapshot
+- uid: UniTool.Event.SimpleSnapshot.Take(UniTool.Event.SnapshotSetting)
+  name: Take(SnapshotSetting)
+  href: api/UniTool.Event.SimpleSnapshot.html#UniTool_Event_SimpleSnapshot_Take_UniTool_Event_SnapshotSetting_
+  commentId: M:UniTool.Event.SimpleSnapshot.Take(UniTool.Event.SnapshotSetting)
+  fullName: UniTool.Event.SimpleSnapshot.Take(UniTool.Event.SnapshotSetting)
+  nameWithType: SimpleSnapshot.Take(SnapshotSetting)
+- uid: UniTool.Event.SimpleSnapshot.Take*
+  name: Take
+  href: api/UniTool.Event.SimpleSnapshot.html#UniTool_Event_SimpleSnapshot_Take_
+  commentId: Overload:UniTool.Event.SimpleSnapshot.Take
+  isSpec: "True"
+  fullName: UniTool.Event.SimpleSnapshot.Take
+  nameWithType: SimpleSnapshot.Take
+- uid: UniTool.Event.SnapshotSetting
+  name: SnapshotSetting
+  href: api/UniTool.Event.SnapshotSetting.html
+  commentId: T:UniTool.Event.SnapshotSetting
+  fullName: UniTool.Event.SnapshotSetting
+  nameWithType: SnapshotSetting
+- uid: UniTool.Event.SnapshotSetting.#ctor(Camera,System.String,System.Int32,System.Int32)
+  name: SnapshotSetting(Camera, String, Int32, Int32)
+  href: api/UniTool.Event.SnapshotSetting.html#UniTool_Event_SnapshotSetting__ctor_Camera_System_String_System_Int32_System_Int32_
+  commentId: M:UniTool.Event.SnapshotSetting.#ctor(Camera,System.String,System.Int32,System.Int32)
+  fullName: UniTool.Event.SnapshotSetting.SnapshotSetting(Camera, System.String, System.Int32, System.Int32)
+  nameWithType: SnapshotSetting.SnapshotSetting(Camera, String, Int32, Int32)
+- uid: UniTool.Event.SnapshotSetting.#ctor*
+  name: SnapshotSetting
+  href: api/UniTool.Event.SnapshotSetting.html#UniTool_Event_SnapshotSetting__ctor_
+  commentId: Overload:UniTool.Event.SnapshotSetting.#ctor
+  isSpec: "True"
+  fullName: UniTool.Event.SnapshotSetting.SnapshotSetting
+  nameWithType: SnapshotSetting.SnapshotSetting
+- uid: UniTool.Event.SnapshotSetting.Camera
+  name: Camera
+  href: api/UniTool.Event.SnapshotSetting.html#UniTool_Event_SnapshotSetting_Camera
+  commentId: F:UniTool.Event.SnapshotSetting.Camera
+  fullName: UniTool.Event.SnapshotSetting.Camera
+  nameWithType: SnapshotSetting.Camera
+- uid: UniTool.Event.SnapshotSetting.FilePath
+  name: FilePath
+  href: api/UniTool.Event.SnapshotSetting.html#UniTool_Event_SnapshotSetting_FilePath
+  commentId: F:UniTool.Event.SnapshotSetting.FilePath
+  fullName: UniTool.Event.SnapshotSetting.FilePath
+  nameWithType: SnapshotSetting.FilePath
+- uid: UniTool.Event.SnapshotSetting.Height
+  name: Height
+  href: api/UniTool.Event.SnapshotSetting.html#UniTool_Event_SnapshotSetting_Height
+  commentId: F:UniTool.Event.SnapshotSetting.Height
+  fullName: UniTool.Event.SnapshotSetting.Height
+  nameWithType: SnapshotSetting.Height
+- uid: UniTool.Event.SnapshotSetting.Timing
+  name: Timing
+  href: api/UniTool.Event.SnapshotSetting.html#UniTool_Event_SnapshotSetting_Timing
+  commentId: F:UniTool.Event.SnapshotSetting.Timing
+  fullName: UniTool.Event.SnapshotSetting.Timing
+  nameWithType: SnapshotSetting.Timing
+- uid: UniTool.Event.SnapshotSetting.Width
+  name: Width
+  href: api/UniTool.Event.SnapshotSetting.html#UniTool_Event_SnapshotSetting_Width
+  commentId: F:UniTool.Event.SnapshotSetting.Width
+  fullName: UniTool.Event.SnapshotSetting.Width
+  nameWithType: SnapshotSetting.Width
 - uid: UniTool.ObjectEx
   name: UniTool.ObjectEx
   href: api/UniTool.ObjectEx.html
