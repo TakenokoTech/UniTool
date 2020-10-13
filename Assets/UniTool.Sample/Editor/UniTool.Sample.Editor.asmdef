@@ -1,8 +1,9 @@
 {
     "name": "UniTool.Sample.Editor",
     "references": [
-        "GUID:0acc523941302664db1f4e527237feb3",
-        "GUID:989f8f911abe14199ad0d8f0f9b877d0"
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "UniTool.Editor"
     ],
     "includePlatforms": [
         "Editor"

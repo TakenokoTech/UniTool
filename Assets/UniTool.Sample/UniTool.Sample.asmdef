@@ -13,7 +13,8 @@
     ],
     "autoReferenced": false,
     "defineConstraints": [
-        "UNITY_INCLUDE_TESTS"
+        "UNITY_INCLUDE_TESTS",
+        "UNITOOL_ENABLE_RECORDER"
     ],
     "versionDefines": [],
     "noEngineReferences": false

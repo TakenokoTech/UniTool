@@ -17,22 +17,22 @@ namespace UniTool.Event
         /// <summary>
         /// AnimationClipを記録開始
         /// </summary>
-        public static void StartRecording(MonoBehaviour obj, AnimationClip clip)
+        public static void StartRecording(MonoBehaviour target, AnimationClip clip)
         {
             if (clip == null) return;
-            if (Instance._dic.ContainsKey(obj)) return;
-            Instance._dic[obj] = AsyncStartRecording(obj.transform, clip);
-            obj.StartCoroutine(Instance._dic[obj]);
+            if (Instance._dic.ContainsKey(target)) return;
+            Instance._dic[target] = AsyncStartRecording(target.transform, clip);
+            target.StartCoroutine(Instance._dic[target]);
         }
 
         /// <summary>
         /// AnimationClipを記録終了
         /// </summary>
-        public static void StopRecording(MonoBehaviour obj)
+        public static void StopRecording(MonoBehaviour target)
         {
-            if (!Instance._dic.ContainsKey(obj)) return;
-            obj.StopCoroutine(Instance._dic[obj]);
-            Instance._dic.Remove(obj);
+            if (!Instance._dic.ContainsKey(target)) return;
+            target.StopCoroutine(Instance._dic[target]);
+            Instance._dic.Remove(target);
         }
 
         /// <summary>
@@ -40,7 +40,7 @@ namespace UniTool.Event
         /// </summary>
         public static void PlayOnce(MonoBehaviour obj, AnimationClip clip, IAnimationListener listener = null)
         {
-            if (clip == null) return;
+            if (clip == null || obj.gameObject.TryGetComponent<Animation>(out _)) return;
             var animation = obj.gameObject.AddComponent<Animation>();
             animation.AddClip(clip.EnableLegacy().WrapModeClampForever(), ClipName);
             animation.Play(ClipName);
@@ -49,7 +49,7 @@ namespace UniTool.Event
 
         private static IEnumerator AsyncStartRecording(Transform transform, AnimationClip clip)
         {
-            clip.ClearCurves();
+            clip.EnableLegacy().ClearCurves();
             var currentTime = 0f;
             var animationLocalPosition = new AnimationCurve3D();
             var animationLocalRotation = new AnimationCurve3D();
@@ -85,6 +85,7 @@ namespace UniTool.Event
             }
 
             listener?.OnAnimationFinished(animation[ClipName].clip);
+            animation.gameObject.RemoveComponent<Animation>();
         }
 
         private SimpleAnimationRecorder()

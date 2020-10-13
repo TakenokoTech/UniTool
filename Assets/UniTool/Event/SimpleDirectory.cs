@@ -4,6 +4,9 @@ using UniTool.ObjectEx;
 
 namespace UniTool.Event
 {
+    /// <summary>
+    /// 簡易ディレクトリ操作
+    /// </summary>
     public static class SimpleDirectory
     {
         /// <summary>

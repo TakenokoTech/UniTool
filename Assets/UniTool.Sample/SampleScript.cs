@@ -10,7 +10,7 @@ namespace UniTool.Sample
         [SerializeField] private Vector3 audioPosition = Vector3.zero;
         
         [SerializeField] private AnimationClip animationClip = null;
-        [SerializeField] private bool isRecoding = false;
+        // [SerializeField] private bool isRecoding = false;
 
         private void OnEnable()
         {
