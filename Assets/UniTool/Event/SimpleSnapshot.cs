@@ -7,6 +7,9 @@ using Object = UnityEngine.Object;
 
 namespace UniTool.Event
 {
+    /// <summary>
+    /// 簡易スナップショット
+    /// </summary>
     public class SimpleSnapshot
     {
         private static readonly SimpleSnapshot Instance = new SimpleSnapshot();
@@ -63,6 +66,9 @@ namespace UniTool.Event
         }
     }
     
+    /// <summary>
+    /// スナップショットの設定
+    /// </summary>
     public struct SnapshotSetting
     {
         public readonly Camera Camera;

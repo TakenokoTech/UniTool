@@ -55,6 +55,9 @@ namespace UniTool.Event
         }
     }
 
+    /// <summary>
+    /// 動画撮影の設定
+    /// </summary>
     public struct CaptureRecorderSetting
     {
         public readonly string FilePath;
