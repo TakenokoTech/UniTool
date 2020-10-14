@@ -5,7 +5,7 @@ using UniTool.ObjectEx;
 namespace UniTool.Event
 {
     /// <summary>
-    /// EventBus の実装
+    /// 簡易EventBus
     /// </summary>
     public class SimpleEventBus
     {

@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace UniTool.ColorEx
+namespace UniTool.EngineEx
 {
     /// <summary>
     /// UnityEngine.Color の拡張メソッド
