@@ -1,31 +1,6 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: UniTool.ColorEx
-  name: UniTool.ColorEx
-  href: api/UniTool.ColorEx.html
-  commentId: N:UniTool.ColorEx
-  fullName: UniTool.ColorEx
-  nameWithType: UniTool.ColorEx
-- uid: UniTool.ColorEx.ColorExtension
-  name: ColorExtension
-  href: api/UniTool.ColorEx.ColorExtension.html
-  commentId: T:UniTool.ColorEx.ColorExtension
-  fullName: UniTool.ColorEx.ColorExtension
-  nameWithType: ColorExtension
-- uid: UniTool.ColorEx.ColorExtension.ToColor(System.String)
-  name: ToColor(String)
-  href: api/UniTool.ColorEx.ColorExtension.html#UniTool_ColorEx_ColorExtension_ToColor_System_String_
-  commentId: M:UniTool.ColorEx.ColorExtension.ToColor(System.String)
-  fullName: UniTool.ColorEx.ColorExtension.ToColor(System.String)
-  nameWithType: ColorExtension.ToColor(String)
-- uid: UniTool.ColorEx.ColorExtension.ToColor*
-  name: ToColor
-  href: api/UniTool.ColorEx.ColorExtension.html#UniTool_ColorEx_ColorExtension_ToColor_
-  commentId: Overload:UniTool.ColorEx.ColorExtension.ToColor
-  isSpec: "True"
-  fullName: UniTool.ColorEx.ColorExtension.ToColor
-  nameWithType: ColorExtension.ToColor
 - uid: UniTool.EngineEx
   name: UniTool.EngineEx
   href: api/UniTool.EngineEx.html
@@ -206,6 +181,25 @@ references:
   isSpec: "True"
   fullName: UniTool.EngineEx.ColliderExtension.GetCollider
   nameWithType: ColliderExtension.GetCollider
+- uid: UniTool.EngineEx.ColorExtension
+  name: ColorExtension
+  href: api/UniTool.EngineEx.ColorExtension.html
+  commentId: T:UniTool.EngineEx.ColorExtension
+  fullName: UniTool.EngineEx.ColorExtension
+  nameWithType: ColorExtension
+- uid: UniTool.EngineEx.ColorExtension.ToColor(System.String)
+  name: ToColor(String)
+  href: api/UniTool.EngineEx.ColorExtension.html#UniTool_EngineEx_ColorExtension_ToColor_System_String_
+  commentId: M:UniTool.EngineEx.ColorExtension.ToColor(System.String)
+  fullName: UniTool.EngineEx.ColorExtension.ToColor(System.String)
+  nameWithType: ColorExtension.ToColor(String)
+- uid: UniTool.EngineEx.ColorExtension.ToColor*
+  name: ToColor
+  href: api/UniTool.EngineEx.ColorExtension.html#UniTool_EngineEx_ColorExtension_ToColor_
+  commentId: Overload:UniTool.EngineEx.ColorExtension.ToColor
+  isSpec: "True"
+  fullName: UniTool.EngineEx.ColorExtension.ToColor
+  nameWithType: ColorExtension.ToColor
 - uid: UniTool.EngineEx.GameObjectExtension
   name: GameObjectExtension
   href: api/UniTool.EngineEx.GameObjectExtension.html
