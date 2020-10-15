@@ -24,7 +24,7 @@ namespace UniTool.Tests.EditMode
         {
             var assets = UnityPackageExporter.GetAssets();
             Assert.True(assets.Any(it => it.Equals("Assets/UniTool/EngineEx.meta")));
-            Assert.True(assets.Any(it => it.Equals("Assets/UniTool/ColorEx.meta")));
+            Assert.True(assets.Any(it => it.Equals("Assets/UniTool/Event.meta")));
             Assert.True(assets.Any(it => it.Equals("Assets/UniTool/ObjectEx.meta")));
             Assert.True(assets.Any(it => it.Equals("Assets/UniTool/X.meta")));
         }
