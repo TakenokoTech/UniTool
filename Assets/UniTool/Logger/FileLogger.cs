@@ -12,7 +12,7 @@ namespace UniTool.Logger
         public static void Start()
         {
             Debug.Log("Start FileLogger.");
-            Debug.Log($"outputPath = {LogSaverUtils.LogPath}");
+            Debug.Log($"outputPath = {LogPath}");
             Application.logMessageReceived += LogMessageReceived;
         }
 
@@ -20,7 +20,7 @@ namespace UniTool.Logger
         {
             Debug.Log("Stop FileLogger.");
             Application.logMessageReceived -= LogMessageReceived;
-            LogSaverUtils.Close();
+            LogSaverUtils.Close(LogPath);
         }
 
         public static void SetLoggingListener(LoggingListener listener)
@@ -28,6 +28,7 @@ namespace UniTool.Logger
             Listener += listener;
         }
 
+        // ReSharper disable once SwitchStatementHandlesSomeKnownEnumValuesWithDefault
         private static void LogMessageReceived(string condition, string stackTrace, LogType type)
         {
             Listener?.Invoke(type, condition);
@@ -35,58 +36,26 @@ namespace UniTool.Logger
             switch (type)
             {
                 case LogType.Assert:
-                    LogSaverUtils.Add(condition, "Assert");
+                    LogSaverUtils.Add(LogPath, condition, "Assert");
                     break;
                 case LogType.Log:
-                    LogSaverUtils.Add(condition, "Log");
+                    LogSaverUtils.Add(LogPath, condition, "Log");
                     break;
                 case LogType.Warning:
-                    LogSaverUtils.Add(condition, "Warning");
+                    LogSaverUtils.Add(LogPath, condition, "Warning");
                     break;
                 case LogType.Error:
-                    LogSaverUtils.Add(condition, "Error");
-                    LogSaverUtils.Add(stackTrace, "Error");
+                    LogSaverUtils.Add(LogPath, condition, "Error");
+                    // LogSaverUtils.Add(LogPath, stackTrace, "Error");
                     break;
                 case LogType.Exception:
-                    LogSaverUtils.Add(condition, "Exception");
-                    LogSaverUtils.Add(stackTrace, "Exception");
-                    break;
-                default:
-                    LogSaverUtils.Add(condition, "Other");
+                    LogSaverUtils.Add(LogPath, condition, "Exception");
+                    // LogSaverUtils.Add(LogPath, stackTrace, "Exception");
                     break;
             }
         }
-    }
 
-    internal static class LogSaverUtils
-    {
-        private static readonly object FileLock = new object();
-
-        public static void Add(string text, string level)
-        {
-            lock (FileLock)
-            {
-                var now = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
-                using (var streamWriter = GetStreamWriter(LogPath))
-                {
-                    streamWriter.WriteLine($"{now} [{level}] {text}");
-                }
-            }
-        }
-
-        public static void Close()
-        {
-            lock (FileLock)
-            {
-                using (var streamWriter = GetStreamWriter(LogPath))
-                {
-                    streamWriter?.WriteLine(">>>>> Destroy");
-                    streamWriter?.WriteLine("");
-                }
-            }
-        }
-
-        internal static string LogPath
+        public static string LogPath
         {
             get
             {
@@ -96,7 +65,36 @@ namespace UniTool.Logger
                 return Path.Combine(Path.GetTempPath(), fileName);
             }
         }
-        
+    }
+
+    internal static class LogSaverUtils
+    {
+        private static readonly object FileLock = new object();
+
+        public static void Add(string filePath, string text, string level)
+        {
+            lock (FileLock)
+            {
+                var now = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+                using (var streamWriter = GetStreamWriter(filePath))
+                {
+                    streamWriter.WriteLine($"{now} [{level}] {text}");
+                }
+            }
+        }
+
+        public static void Close(string filePath)
+        {
+            lock (FileLock)
+            {
+                using (var streamWriter = GetStreamWriter(filePath))
+                {
+                    streamWriter?.WriteLine(">>>>> Destroy");
+                    streamWriter?.WriteLine("");
+                }
+            }
+        }
+
         private static StreamWriter GetStreamWriter(string filePath)
         {
             return new StreamWriter(filePath, true, Encoding.GetEncoding("Shift_JIS"));
