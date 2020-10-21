@@ -1,10 +1,10 @@
 using System;
 using NUnit.Framework;
-using UniTool.ColorEx;
+using UniTool.EngineEx;
 using UniTool.Tests.PlayMode.TestTool;
 using UnityEngine;
 
-namespace UniTool.Tests.PlayMode.ColorEx
+namespace UniTool.Tests.PlayMode.EngineEx
 {
     public class ColorExtensionTest
     {
