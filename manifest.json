@@ -257,6 +257,42 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Logger.FileLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Logger.FileLogger.html",
+          "hash": "912tRYILzs5xx7FKTQLMYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Logger.LoggingListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Logger.LoggingListener.html",
+          "hash": "igf53u9CZegBbtacPMblHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.Logger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.Logger.html",
+          "hash": "2gI4FZ4JVLDVtWWu89XaNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/UniTool.ObjectEx.ApplyClassBlock-1.yml",
       "output": {
         ".html": {
@@ -465,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "4Yk0GyQtHiVwhh597nWgXg=="
+          "hash": "y2bIJT9JXgQ7LqKkLJq6Ag=="
         }
       },
       "is_incremental": false,
@@ -618,7 +654,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 37,
+          "total_file_count": 40,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
