@@ -5,10 +5,16 @@ using UnityEngine;
 
 namespace UniTool.Logger
 {
+    /// <summary>
+    /// ログのファイル出力
+    /// </summary>
     public static class FileLogger
     {
         private static event LoggingListener Listener;
 
+        /// <summary>
+        /// ログ出力開始
+        /// </summary>
         public static void Start()
         {
             Debug.Log("Start FileLogger.");
@@ -16,6 +22,9 @@ namespace UniTool.Logger
             Application.logMessageReceived += LogMessageReceived;
         }
 
+        /// <summary>
+        /// ログ出力終了
+        /// </summary>
         public static void Stop()
         {
             Debug.Log("Stop FileLogger.");
@@ -23,6 +32,9 @@ namespace UniTool.Logger
             LogSaverUtils.Close(LogPath);
         }
 
+        /// <summary>
+        /// ログのリスナーを登録
+        /// </summary>
         public static void SetLoggingListener(LoggingListener listener)
         {
             Listener += listener;
@@ -55,6 +67,9 @@ namespace UniTool.Logger
             }
         }
 
+        /// <summary>
+        /// ログの出力先
+        /// </summary>
         public static string LogPath
         {
             get
@@ -101,5 +116,6 @@ namespace UniTool.Logger
         }
     }
 
+    /// <summary>ログを受け取り用のデリゲート</summary>
     public delegate void LoggingListener(LogType type, string condition);
 }
