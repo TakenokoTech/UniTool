@@ -77,6 +77,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/UniTool.EngineEx.TextureExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UniTool.EngineEx.TextureExtension.html",
+          "hash": "j5sfsfROGBFtqhdVEroulQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/UniTool.EngineEx.TransformExtension.yml",
       "output": {
         ".html": {
@@ -93,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/UniTool.EngineEx.html",
-          "hash": "1lPqntiD1bWh9ZSBenEn4g=="
+          "hash": "YCjmajw2ZJ1pyEM7EQYCnw=="
         }
       },
       "is_incremental": false,
@@ -501,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "y2bIJT9JXgQ7LqKkLJq6Ag=="
+          "hash": "b9oH80u/3QD+egkpmJKgQA=="
         }
       },
       "is_incremental": false,
@@ -654,7 +666,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 40,
+          "total_file_count": 41,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

@@ -319,6 +319,129 @@ references:
   isSpec: "True"
   fullName: UniTool.EngineEx.RigidBodyExtension.SetMass
   nameWithType: RigidBodyExtension.SetMass
+- uid: UniTool.EngineEx.TextureExtension
+  name: TextureExtension
+  href: api/UniTool.EngineEx.TextureExtension.html
+  commentId: T:UniTool.EngineEx.TextureExtension
+  fullName: UniTool.EngineEx.TextureExtension
+  nameWithType: TextureExtension
+- uid: UniTool.EngineEx.TextureExtension.AddMeshFilter(GameObject)
+  name: AddMeshFilter(GameObject)
+  href: api/UniTool.EngineEx.TextureExtension.html#UniTool_EngineEx_TextureExtension_AddMeshFilter_GameObject_
+  commentId: M:UniTool.EngineEx.TextureExtension.AddMeshFilter(GameObject)
+  fullName: UniTool.EngineEx.TextureExtension.AddMeshFilter(GameObject)
+  nameWithType: TextureExtension.AddMeshFilter(GameObject)
+- uid: UniTool.EngineEx.TextureExtension.AddMeshFilter*
+  name: AddMeshFilter
+  href: api/UniTool.EngineEx.TextureExtension.html#UniTool_EngineEx_TextureExtension_AddMeshFilter_
+  commentId: Overload:UniTool.EngineEx.TextureExtension.AddMeshFilter
+  isSpec: "True"
+  fullName: UniTool.EngineEx.TextureExtension.AddMeshFilter
+  nameWithType: TextureExtension.AddMeshFilter
+- uid: UniTool.EngineEx.TextureExtension.AddMeshRenderer(GameObject)
+  name: AddMeshRenderer(GameObject)
+  href: api/UniTool.EngineEx.TextureExtension.html#UniTool_EngineEx_TextureExtension_AddMeshRenderer_GameObject_
+  commentId: M:UniTool.EngineEx.TextureExtension.AddMeshRenderer(GameObject)
+  fullName: UniTool.EngineEx.TextureExtension.AddMeshRenderer(GameObject)
+  nameWithType: TextureExtension.AddMeshRenderer(GameObject)
+- uid: UniTool.EngineEx.TextureExtension.AddMeshRenderer*
+  name: AddMeshRenderer
+  href: api/UniTool.EngineEx.TextureExtension.html#UniTool_EngineEx_TextureExtension_AddMeshRenderer_
+  commentId: Overload:UniTool.EngineEx.TextureExtension.AddMeshRenderer
+  isSpec: "True"
+  fullName: UniTool.EngineEx.TextureExtension.AddMeshRenderer
+  nameWithType: TextureExtension.AddMeshRenderer
+- uid: UniTool.EngineEx.TextureExtension.GetColor(MeshRenderer)
+  name: GetColor(MeshRenderer)
+  href: api/UniTool.EngineEx.TextureExtension.html#UniTool_EngineEx_TextureExtension_GetColor_MeshRenderer_
+  commentId: M:UniTool.EngineEx.TextureExtension.GetColor(MeshRenderer)
+  fullName: UniTool.EngineEx.TextureExtension.GetColor(MeshRenderer)
+  nameWithType: TextureExtension.GetColor(MeshRenderer)
+- uid: UniTool.EngineEx.TextureExtension.GetColor*
+  name: GetColor
+  href: api/UniTool.EngineEx.TextureExtension.html#UniTool_EngineEx_TextureExtension_GetColor_
+  commentId: Overload:UniTool.EngineEx.TextureExtension.GetColor
+  isSpec: "True"
+  fullName: UniTool.EngineEx.TextureExtension.GetColor
+  nameWithType: TextureExtension.GetColor
+- uid: UniTool.EngineEx.TextureExtension.GetMeshFilter(GameObject)
+  name: GetMeshFilter(GameObject)
+  href: api/UniTool.EngineEx.TextureExtension.html#UniTool_EngineEx_TextureExtension_GetMeshFilter_GameObject_
+  commentId: M:UniTool.EngineEx.TextureExtension.GetMeshFilter(GameObject)
+  fullName: UniTool.EngineEx.TextureExtension.GetMeshFilter(GameObject)
+  nameWithType: TextureExtension.GetMeshFilter(GameObject)
+- uid: UniTool.EngineEx.TextureExtension.GetMeshFilter*
+  name: GetMeshFilter
+  href: api/UniTool.EngineEx.TextureExtension.html#UniTool_EngineEx_TextureExtension_GetMeshFilter_
+  commentId: Overload:UniTool.EngineEx.TextureExtension.GetMeshFilter
+  isSpec: "True"
+  fullName: UniTool.EngineEx.TextureExtension.GetMeshFilter
+  nameWithType: TextureExtension.GetMeshFilter
+- uid: UniTool.EngineEx.TextureExtension.GetMeshRenderer(GameObject)
+  name: GetMeshRenderer(GameObject)
+  href: api/UniTool.EngineEx.TextureExtension.html#UniTool_EngineEx_TextureExtension_GetMeshRenderer_GameObject_
+  commentId: M:UniTool.EngineEx.TextureExtension.GetMeshRenderer(GameObject)
+  fullName: UniTool.EngineEx.TextureExtension.GetMeshRenderer(GameObject)
+  nameWithType: TextureExtension.GetMeshRenderer(GameObject)
+- uid: UniTool.EngineEx.TextureExtension.GetMeshRenderer*
+  name: GetMeshRenderer
+  href: api/UniTool.EngineEx.TextureExtension.html#UniTool_EngineEx_TextureExtension_GetMeshRenderer_
+  commentId: Overload:UniTool.EngineEx.TextureExtension.GetMeshRenderer
+  isSpec: "True"
+  fullName: UniTool.EngineEx.TextureExtension.GetMeshRenderer
+  nameWithType: TextureExtension.GetMeshRenderer
+- uid: UniTool.EngineEx.TextureExtension.GetTexture(MeshRenderer)
+  name: GetTexture(MeshRenderer)
+  href: api/UniTool.EngineEx.TextureExtension.html#UniTool_EngineEx_TextureExtension_GetTexture_MeshRenderer_
+  commentId: M:UniTool.EngineEx.TextureExtension.GetTexture(MeshRenderer)
+  fullName: UniTool.EngineEx.TextureExtension.GetTexture(MeshRenderer)
+  nameWithType: TextureExtension.GetTexture(MeshRenderer)
+- uid: UniTool.EngineEx.TextureExtension.GetTexture*
+  name: GetTexture
+  href: api/UniTool.EngineEx.TextureExtension.html#UniTool_EngineEx_TextureExtension_GetTexture_
+  commentId: Overload:UniTool.EngineEx.TextureExtension.GetTexture
+  isSpec: "True"
+  fullName: UniTool.EngineEx.TextureExtension.GetTexture
+  nameWithType: TextureExtension.GetTexture
+- uid: UniTool.EngineEx.TextureExtension.SetColor(MeshRenderer,Color)
+  name: SetColor(MeshRenderer, Color)
+  href: api/UniTool.EngineEx.TextureExtension.html#UniTool_EngineEx_TextureExtension_SetColor_MeshRenderer_Color_
+  commentId: M:UniTool.EngineEx.TextureExtension.SetColor(MeshRenderer,Color)
+  fullName: UniTool.EngineEx.TextureExtension.SetColor(MeshRenderer, Color)
+  nameWithType: TextureExtension.SetColor(MeshRenderer, Color)
+- uid: UniTool.EngineEx.TextureExtension.SetColor*
+  name: SetColor
+  href: api/UniTool.EngineEx.TextureExtension.html#UniTool_EngineEx_TextureExtension_SetColor_
+  commentId: Overload:UniTool.EngineEx.TextureExtension.SetColor
+  isSpec: "True"
+  fullName: UniTool.EngineEx.TextureExtension.SetColor
+  nameWithType: TextureExtension.SetColor
+- uid: UniTool.EngineEx.TextureExtension.SetMesh(MeshFilter,Mesh)
+  name: SetMesh(MeshFilter, Mesh)
+  href: api/UniTool.EngineEx.TextureExtension.html#UniTool_EngineEx_TextureExtension_SetMesh_MeshFilter_Mesh_
+  commentId: M:UniTool.EngineEx.TextureExtension.SetMesh(MeshFilter,Mesh)
+  fullName: UniTool.EngineEx.TextureExtension.SetMesh(MeshFilter, Mesh)
+  nameWithType: TextureExtension.SetMesh(MeshFilter, Mesh)
+- uid: UniTool.EngineEx.TextureExtension.SetMesh*
+  name: SetMesh
+  href: api/UniTool.EngineEx.TextureExtension.html#UniTool_EngineEx_TextureExtension_SetMesh_
+  commentId: Overload:UniTool.EngineEx.TextureExtension.SetMesh
+  isSpec: "True"
+  fullName: UniTool.EngineEx.TextureExtension.SetMesh
+  nameWithType: TextureExtension.SetMesh
+- uid: UniTool.EngineEx.TextureExtension.SetTexture(MeshRenderer,Texture)
+  name: SetTexture(MeshRenderer, Texture)
+  href: api/UniTool.EngineEx.TextureExtension.html#UniTool_EngineEx_TextureExtension_SetTexture_MeshRenderer_Texture_
+  commentId: M:UniTool.EngineEx.TextureExtension.SetTexture(MeshRenderer,Texture)
+  fullName: UniTool.EngineEx.TextureExtension.SetTexture(MeshRenderer, Texture)
+  nameWithType: TextureExtension.SetTexture(MeshRenderer, Texture)
+- uid: UniTool.EngineEx.TextureExtension.SetTexture*
+  name: SetTexture
+  href: api/UniTool.EngineEx.TextureExtension.html#UniTool_EngineEx_TextureExtension_SetTexture_
+  commentId: Overload:UniTool.EngineEx.TextureExtension.SetTexture
+  isSpec: "True"
+  fullName: UniTool.EngineEx.TextureExtension.SetTexture
+  nameWithType: TextureExtension.SetTexture
 - uid: UniTool.EngineEx.TransformExtension
   name: TransformExtension
   href: api/UniTool.EngineEx.TransformExtension.html
