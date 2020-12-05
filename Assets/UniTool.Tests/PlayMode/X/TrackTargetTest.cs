@@ -23,7 +23,7 @@ namespace UniTool.Tests.PlayMode.X
             gameObject.transform.eulerAngles = Vector3.one;
             yield return null;
             
-            AssertEx.AssertLessForVector3(gameObject.transform.eulerAngles, 1);
+            AssertEx.AssertLessForVector3(gameObject.transform.eulerAngles, );
         }
     }
 }
