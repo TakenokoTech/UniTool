@@ -8,7 +8,7 @@
     <title>UniTool | UniTool </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="UniTool | UniTool ">
-    <meta name="generator" content="docfx 2.56.2.0">
+    <meta name="generator" content="docfx 2.57.1.0">
     
     <link rel="shortcut icon" href="./images/favicon.png">
     <link rel="stylesheet" href="styles/docfx.vendor.css">
@@ -68,6 +68,17 @@
 <li>GitHubのリポジトリで最新の<a href="https://github.com/TakenokoTech/UniTool/releases">unitypackage</a>をダウンロード</li>
 <li>Unityプロジェクトに取り込み</li>
 </ol>
+<h2 id="unity-packagemanager">Unity PackageManager</h2>
+<ol>
+<li>Packages/manifest.jsonに以下を追加。</li>
+</ol>
+<pre><code>{
+  &quot;dependencies&quot;: {
+    ...
++   &quot;tech.takenoko.unitool&quot;: &quot;https://github.com/TakenokoTech/UniTool.git?path=/Assets&quot;
+  }
+}
+</code></pre>
 <h2 id="repository">Repository</h2>
 <p><a href="https://github.com/TakenokoTech/UniTool"><img src="https://gh-card.dev/repos/TakenokoTech/UniTool.svg" alt="TakenokoTech/UniTool - GitHub"></a></p>
 </article>
@@ -83,7 +94,8 @@
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>
