@@ -5,7 +5,7 @@ using UnityEditor;
 
 namespace UniTool.Sample.Editor
 {
-    public static class Menu
+    public static class UnitoolMenu
     {
         [MenuItem("UniTool/Export UnityPackage")]
         public static void ExportUnityPackage()

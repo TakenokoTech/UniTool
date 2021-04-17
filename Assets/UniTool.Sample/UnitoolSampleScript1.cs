@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace UniTool.Sample
 {
-    public class SampleScript : MonoBehaviour
+    public class UnitoolSampleScript1 : MonoBehaviour
     {
         [SerializeField] private AudioClip audioClip = null;
         [SerializeField] private Vector3 audioPosition = Vector3.zero;

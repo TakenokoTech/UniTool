@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/UniTool.Sample/Scene1.unity
+    path: Assets/UniTool.Sample/UnitoolScene1.unity
     guid: bce17fefbb86d4dd4bfeed1d51f63779
   - enabled: 1
-    path: Assets/UniTool.Sample/Scene2.unity
+    path: Assets/UniTool.Sample/UnitoolScene2.unity
     guid: 760ed40226ea04f08a4a0f000a293ff5
   - enabled: 1
-    path: Assets/UniTool.Sample/Scene3.unity
+    path: Assets/UniTool.Sample/UnitoolScene3.unity
     guid: 2453b7c05dd7f423b9da5e2037282495
   m_configObjects: {}

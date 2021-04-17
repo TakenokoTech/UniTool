@@ -1,0 +1,13 @@
+{
+  "name": "tech.takenoko.unitool",
+  "version": "1.0.0",
+  "displayName": "UniTool",
+  "description": "Utility in Unity",
+  "dependencies": {},
+  "keywords": [],
+  "author": {
+    "name": "takenoko",
+    "email": "takenoko.tech@gmail.com",
+    "url": "https://github.com/TakenokoTech/UniTool"
+  }
+}

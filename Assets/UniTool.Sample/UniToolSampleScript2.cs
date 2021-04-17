@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace UniTool.Sample
 {
-    public class SampleScript2 : MonoBehaviour
+    public class UnitoolSampleScript2 : MonoBehaviour
     {
         private readonly CaptureRecorderSetting _recorderSetting = new CaptureRecorderSetting("Build/sample");
 

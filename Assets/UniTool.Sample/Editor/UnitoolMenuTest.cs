@@ -7,13 +7,13 @@ namespace UniTool.Sample.Editor
         [Test]
         public void ExportUnityPackageTest()
         {
-            Menu.ExportUnityPackage();
+            UnitoolMenu.ExportUnityPackage();
         }
         
         [Test]
         public void BuildAssetBundleTest()
         {
-            Menu.BuildAssetBundle();
+            UnitoolMenu.BuildAssetBundle();
         }
     }
 }
