@@ -12,13 +12,13 @@ namespace UniTool.Tests.EditMode.Event
         public void BuildTest()
         {
             const string bundleName1 = "scene";
-            const string assetPath1 = "Assets/UniTool.Sample/Scene1.unity";
-            const string assetPath2 = "Assets/UniTool.Sample/Scene2.unity";
-            const string assetPath3 = "Assets/UniTool.Sample/Scene3.unity";
+            const string assetPath1 = "Assets/UniTool.Sample/UnitoolScene1.unity";
+            const string assetPath2 = "Assets/UniTool.Sample/UnitoolScene2.unity";
+            const string assetPath3 = "Assets/UniTool.Sample/UnitoolScene3.unity";
             
             const string bundleName2 = "sound";
-            const string assetPath4 = "Assets/UniTool.Sample/SampleSound1.mp3";
-            const string assetPath5 = "Assets/UniTool.Sample/SampleSound2.mp3";
+            const string assetPath4 = "Assets/UniTool.Sample/UnitoolSampleSound1.mp3";
+            const string assetPath5 = "Assets/UniTool.Sample/UnitoolSampleSound2.mp3";
             
             const string outputPath = "Assets/StreamingAssets/InitTestAssetBundle";
 

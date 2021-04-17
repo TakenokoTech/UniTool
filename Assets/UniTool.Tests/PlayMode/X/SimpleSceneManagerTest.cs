@@ -15,24 +15,24 @@ namespace UniTool.Tests.PlayMode.X
         {
             var gameObject = GameObject.CreatePrimitive(PrimitiveType.Cube);
             var simpleSceneManager = gameObject.AddComponent<SimpleSceneManager>();
-            simpleSceneManager.nextSceneName = "Scene1";
-            simpleSceneManager.rootSceneName = "Scene1";
-            simpleSceneManager.deleteScene = new List<string> { "Scene1" };
+            simpleSceneManager.nextSceneName = "UnitoolScene1";
+            simpleSceneManager.rootSceneName = "UnitoolScene1";
+            simpleSceneManager.deleteScene = new List<string> { "UnitoolScene1" };
             simpleSceneManager.Next();
             
             yield return null;
-            Assert.AreEqual("Scene1", SceneManager.GetSceneAt(1).name);
+            Assert.AreEqual("UnitoolScene1", SceneManager.GetSceneAt(1).name);
             
-            simpleSceneManager.nextSceneName = "Scene2";
+            simpleSceneManager.nextSceneName = "UnitoolScene2";
             simpleSceneManager.Next();
             
             yield return null;
-            Assert.AreEqual("Scene2", SceneManager.GetSceneAt(1).name);
+            Assert.AreEqual("UnitoolScene2", SceneManager.GetSceneAt(1).name);
             
             simpleSceneManager.Finish();
             
             yield return null;
-            Assert.AreEqual("Scene1", SceneManager.GetSceneAt(0).name);
+            Assert.AreEqual("UnitoolScene1", SceneManager.GetSceneAt(0).name);
         }
     }
 }

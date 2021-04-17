@@ -12,7 +12,7 @@ namespace UniTool.Sample
         {
             var obj = GameObject.CreatePrimitive(PrimitiveType.Cube);
             yield return null;
-            obj.AddComponent<SampleScript>();
+            obj.AddComponent<UnitoolSampleScript1>();
             yield return null;
             Assert.AreEqual(true, obj.activeSelf);
             
@@ -25,7 +25,7 @@ namespace UniTool.Sample
         {
             var obj = GameObject.CreatePrimitive(PrimitiveType.Cube);
             yield return null;
-            obj.AddComponent<SampleScript2>();
+            obj.AddComponent<UnitoolSampleScript2>();
             yield return null;
             Assert.AreEqual(true, obj.activeSelf);
             
